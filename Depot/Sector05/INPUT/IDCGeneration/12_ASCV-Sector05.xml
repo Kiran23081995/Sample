@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="Interlocking" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="ASCV05" rules="update_or_create" traces="error">
+<Properties>
+<Property name="EnabledOPCCLient" dt:dt="i4">0</Property>
+<Property name="OPCClientID" dt:dt="string">RDD_ASCV_05</Property>
+<Property name="ServerNodeName1" dt:dt="string">localhost</Property>
+<Property name="ServerNodeName2" dt:dt="string">localhost</Property>
+<Property name="ServerProgID1" dt:dt="string">RDD.1.ASCV05</Property>
+<Property name="ServerProgID2" dt:dt="string">RDD.1.ASCV05</Property>
+<Property name="OpcServerIsRedundant" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="ASCV06" rules="update_or_create" traces="error">
+<Properties>
+<Property name="EnabledOPCCLient" dt:dt="i4">0</Property>
+<Property name="OPCClientID" dt:dt="string">RDD_ASCV_06</Property>
+<Property name="ServerNodeName1" dt:dt="string">localhost</Property>
+<Property name="ServerNodeName2" dt:dt="string">localhost</Property>
+<Property name="ServerProgID1" dt:dt="string">RDD.1.ASCV06</Property>
+<Property name="ServerProgID2" dt:dt="string">RDD.1.ASCV06</Property>
+<Property name="OpcServerIsRedundant" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="ASCV04" rules="update_or_create" traces="error">
+<Properties>
+<Property name="EnabledOPCCLient" dt:dt="i4">0</Property>
+<Property name="OPCClientID" dt:dt="string">RDD_ASCV_04</Property>
+<Property name="ServerNodeName1" dt:dt="string">localhost</Property>
+<Property name="ServerNodeName2" dt:dt="string">localhost</Property>
+<Property name="ServerProgID1" dt:dt="string">RDD.1.ASCV04</Property>
+<Property name="ServerProgID2" dt:dt="string">RDD.1.ASCV04</Property>
+<Property name="OpcServerIsRedundant" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="ASCV07" rules="update_or_create" traces="error">
+<Properties>
+<Property name="EnabledOPCCLient" dt:dt="i4">0</Property>
+<Property name="OPCClientID" dt:dt="string">RDD_ASCV_07</Property>
+<Property name="ServerNodeName1" dt:dt="string">localhost</Property>
+<Property name="ServerNodeName2" dt:dt="string">localhost</Property>
+<Property name="ServerProgID1" dt:dt="string">RDD.1.ASCV07</Property>
+<Property name="ServerProgID2" dt:dt="string">RDD.1.ASCV07</Property>
+<Property name="OpcServerIsRedundant" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

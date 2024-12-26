@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<ObjectPropertyModule name="Interlocking_ASCVStatus.xml" version="R3.3" date="2009-02-10" comment ="" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="Variable">
+<Objects>
+<Object name="S06_Controls_ASCV_Change_Over" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RS</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV06</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">Controls.ASCV Change Over</Property>
+</Properties>
+</Object>
+<Object name="S06_Controls_Clear_Change_Over" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RS</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV06</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">Controls.Clear Change Over</Property>
+</Properties>
+</Object>
+<Object name="S06_Controls_Refresh_Diagnostic" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RS</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV06</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">Controls.Refresh Diagnostic</Property>
+</Properties>
+</Object>
+<Object name="S06_Controls_Time_mark_Set_up" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RS</Property>
+<Property name="OPCType" dt:dt="string">VT_BSTR</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV06</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">Controls.Time mark Set up</Property>
+</Properties>
+</Object>
+<Object name="S06_Diagnostics_Address" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RS</Property>
+<Property name="OPCType" dt:dt="string">VT_I4</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV06</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">Diagnostics.Address</Property>
+</Properties>
+</Object>
+<Object name="S06_Diagnostics_ChangeOverStatus" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RS</Property>
+<Property name="OPCType" dt:dt="string">VT_I4</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV06</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">Diagnostics.ChangeOverStatus</Property>
+</Properties>
+</Object>
+<Object name="S06_Diagnostics_Normal_Unit_Status" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RS</Property>
+<Property name="OPCType" dt:dt="string">VT_I4</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV06</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">Diagnostics.Normal Unit.Status</Property>
+</Properties>
+</Object>
+<Object name="S06_Diagnostics_Reserve_Unit_Status" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RS</Property>
+<Property name="OPCType" dt:dt="string">VT_I4</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV06</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">Diagnostics.Reserve Unit.Status</Property>
+</Properties>
+</Object>
+<Object name="S06_Diagnotics_Normal_Unit_DescriptorControlField" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RS</Property>
+<Property name="OPCType" dt:dt="string">VT_I4</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV06</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">Diagnostics.Normal Unit.DescriptorControlField</Property>
+</Properties>
+</Object>
+<Object name="S06_Diagnotics_Reserve_Unit_DescriptorControlField" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RS</Property>
+<Property name="OPCType" dt:dt="string">VT_I4</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV06</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">Diagnostics.Reserve Unit.DescriptorControlField</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

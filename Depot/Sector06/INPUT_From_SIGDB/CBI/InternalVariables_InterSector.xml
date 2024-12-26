@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<ObjectPropertyModule name="InternalVariables_InterSector.xml" version="R3.3" date="2009-02-10" comment="" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="Variable">
+<Objects>
+<Object name="S_SET5432" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0526" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0527" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0528" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0529" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

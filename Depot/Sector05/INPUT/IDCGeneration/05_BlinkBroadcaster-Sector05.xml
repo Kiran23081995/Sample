@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="BlinkBroadcaster" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="BlinkBroadcaster" rules="update_or_create" traces="error">
+<Properties>
+<Property name="EnableInstance" dt:dt="i4">-1</Property>
+<Property name="HMITrainName" dt:dt="string">TrainPV</Property>
+<Property name="NumberOfTrain" dt:dt="i4">87</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">BlinkBroadcaster</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SignallingRules name="SigRules.xml" version="B" date="juil 22 2003  2:58PM" comment="">
+<Equipment name="SUPASCV_KCD_OPCSM_IXL_A" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUPASCV_05_Diagnostics1LinkA || SUPASCV_05_Diagnostics2LinkA</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUPASCV5_OPCSM_IXL_A[1]::!((SUPASCV_05_Diagnostics1LinkA &amp;&amp; ??SUPASCV_05_Diagnostics1LinkA) || (SUPASCV_05_Diagnostics2LinkA &amp;&amp; ??SUPASCV_05_Diagnostics2LinkA ))</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUPASCV_KCD_OPCSM_IXL_B" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUPASCV_05_Diagnostics1LinkB || SUPASCV_05_Diagnostics2LinkB </Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUPASCV5_OPCSM_IXL_B[1]::!((SUPASCV_05_Diagnostics1LinkB &amp;&amp; ??SUPASCV_05_Diagnostics1LinkB) || (SUPASCV_05_Diagnostics2LinkB &amp;&amp; ??SUPASCV_05_Diagnostics2LinkB))</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUPASCV2_KCD_OPCSM_IXL_A" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUPASCV2_06_Diagnostics1LinkA || SUPASCV2_06_Diagnostics2LinkA</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUPASCV6_OPCSM_IXL_A[1]::!((SUPASCV2_06_Diagnostics1LinkA &amp;&amp; ??SUPASCV2_06_Diagnostics1LinkA) || (SUPASCV2_06_Diagnostics2LinkA &amp;&amp; ??SUPASCV2_06_Diagnostics2LinkA))</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUPASCV2_KCD_OPCSM_IXL_B" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUPASCV2_06_Diagnostics1LinkB || SUPASCV2_06_Diagnostics2LinkB</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUPASCV6_OPCSM_IXL_B[1]::!((SUPASCV2_06_Diagnostics1LinkB &amp;&amp; ??SUPASCV2_06_Diagnostics1LinkB) || (SUPASCV2_06_Diagnostics2LinkB &amp;&amp; ??SUPASCV2_06_Diagnostics2LinkB))</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUPATC_KCD_OPCSM_ATC_A" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUPATC_05_Diagnostics1LinkA || SUPATC_05_Diagnostics2LinkA </Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUPATC5_OPCSM_ATC_A[1]::!((SUPATC_05_Diagnostics1LinkA &amp;&amp; ??SUPATC_05_Diagnostics1LinkA) || (SUPATC_05_Diagnostics2LinkA &amp;&amp; ??SUPATC_05_Diagnostics2LinkA))</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUPATC_KCD_OPCSM_ATC_B" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUPATC_05_Diagnostics1LinkB || SUPATC_05_Diagnostics2LinkB </Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUPATC5_OPCSM_ATC_B[1]::!((SUPATC_05_Diagnostics1LinkB &amp;&amp; ??SUPATC_05_Diagnostics1LinkB) || (SUPATC_05_Diagnostics2LinkB &amp;&amp; ??SUPATC_05_Diagnostics2LinkB))</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUPATC2_KCD_OPCSM_ATC_A" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUPATC2_06_Diagnostics1LinkA || SUPATC2_06_Diagnostics2LinkA</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUPATC6_OPCSM_ATC_A[1]::!((SUPATC2_06_Diagnostics1LinkA &amp;&amp; ??SUPATC2_06_Diagnostics1LinkA) || (SUPATC2_06_Diagnostics2LinkA &amp;&amp; ??SUPATC2_06_Diagnostics2LinkA))</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUPATC2_KCD_OPCSM_ATC_B" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUPATC2_06_Diagnostics1LinkB || SUPATC2_06_Diagnostics2LinkB</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUPATC6_OPCSM_ATC_B[1]::!((SUPATC2_06_Diagnostics1LinkB &amp;&amp; ??SUPATC2_06_Diagnostics1LinkB) || (SUPATC2_06_Diagnostics2LinkB &amp;&amp; ??SUPATC2_06_Diagnostics2LinkB))</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUPASCV_KCD_OPCSM_IXL" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUPASCV_05_Diagnostics1LinkA || SUPASCV_05_Diagnostics2LinkA || SUPASCV_05_Diagnostics1LinkB || SUPASCV_05_Diagnostics2LinkB</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUPASCV5_OPCSM_IXL[1]::!((SUPASCV_05_Diagnostics1LinkA &amp;&amp; ??SUPASCV_05_Diagnostics1LinkA) || (SUPASCV_05_Diagnostics1LinkB &amp;&amp; ??SUPASCV_05_Diagnostics1LinkB) || (SUPASCV_05_Diagnostics2LinkA &amp;&amp; ??SUPASCV_05_Diagnostics2LinkA) || (SUPASCV_05_Diagnostics2LinkB &amp;&amp; ??SUPASCV_05_Diagnostics2LinkB))</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUPASCV2_KCD_OPCSM_IXL" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUPASCV2_06_Diagnostics1LinkA || SUPASCV2_06_Diagnostics2LinkA || SUPASCV2_06_Diagnostics1LinkB || SUPASCV2_06_Diagnostics2LinkB</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUPASCV6_OPCSM_IXL[1]::!((SUPASCV2_06_Diagnostics1LinkA &amp;&amp; ??SUPASCV2_06_Diagnostics1LinkA) || (SUPASCV2_06_Diagnostics2LinkA &amp;&amp; ??SUPASCV2_06_Diagnostics2LinkA) || (SUPASCV2_06_Diagnostics1LinkB &amp;&amp; ??SUPASCV2_06_Diagnostics1LinkB) || (SUPASCV2_06_Diagnostics2LinkB &amp;&amp; ??SUPASCV2_06_Diagnostics2LinkB))</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUPATC_KCD_OPCSM_ATC" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUPATC_05_Diagnostics1LinkA || SUPATC_05_Diagnostics2LinkA || SUPATC_05_Diagnostics1LinkB || SUPATC_05_Diagnostics2LinkB</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUPATC5_OPCSM_ATC[1]::!((SUPATC_05_Diagnostics1LinkA &amp;&amp; ??SUPATC_05_Diagnostics1LinkA) || (SUPATC_05_Diagnostics2LinkA &amp;&amp; ??SUPATC_05_Diagnostics2LinkA) || (SUPATC_05_Diagnostics1LinkB &amp;&amp; ??SUPATC_05_Diagnostics1LinkB) || (SUPATC_05_Diagnostics2LinkB &amp;&amp; ??SUPATC_05_Diagnostics2LinkB))</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUPATC2_KCD_OPCSM_ATC" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUPATC2_06_Diagnostics1LinkA || SUPATC2_06_Diagnostics2LinkA  || SUPATC2_06_Diagnostics1LinkB || SUPATC2_06_Diagnostics2LinkB</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUPATC6_OPCSM_ATC[1]::!((SUPATC2_06_Diagnostics1LinkA &amp;&amp; ??SUPATC2_06_Diagnostics1LinkA) || (SUPATC2_06_Diagnostics2LinkA &amp;&amp; ??SUPATC2_06_Diagnostics2LinkA) || (SUPATC2_06_Diagnostics1LinkB &amp;&amp; ??SUPATC2_06_Diagnostics1LinkB) || (SUPATC2_06_Diagnostics2LinkB &amp;&amp; ??SUPATC2_06_Diagnostics2LinkB))</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUPSWC_05_LATS_Connected11_VAR" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUPSWC_05_LATS_Connected11</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUP_OPCC1_FEP1[1]::!(SUPSWC_05_LATS_Connected11 &amp;&amp; ??SUPSWC_05_LATS_Connected11)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUPSWC_05_LATS_Connected21_VAR" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUPSWC_05_LATS_Connected21</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUP_OPCC2_FEP1[1]::!(SUPSWC_05_LATS_Connected21 &amp;&amp; ??SUPSWC_05_LATS_Connected21)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUPSWC_05_LATS_Connected12_VAR" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUPSWC_05_LATS_Connected12</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUP_OPCC1_FEP2[1]::!(SUPSWC_05_LATS_Connected12 &amp;&amp; ??SUPSWC_05_LATS_Connected12)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUPSWC_05_LATS_Connected22_VAR" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUPSWC_05_LATS_Connected22</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUP_OPCC2_FEP2[1]::!(SUPSWC_05_LATS_Connected22 &amp;&amp; ??SUPSWC_05_LATS_Connected22)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_KCD_FEP1STATUS" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUPSWC_05_Diagnostics1Activate</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUP_FEP1STATUS[1]::!(SUPSWC_05_Diagnostics1Activate &amp;&amp; ??SUPSWC_05_Diagnostics1Activate)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_KCD_FEP2STATUS" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUPSWC_05_Diagnostics2Activate</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUP_FEP2STATUS[1]::!(SUPSWC_05_Diagnostics2Activate &amp;&amp; ??SUPSWC_05_Diagnostics2Activate)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_KCD_FEPSTATUS" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUPSWC_05_Diagnostics1Activate || SUPSWC_05_Diagnostics2Activate</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUP_FEPSTATUS[1]::!((SUPSWC_05_Diagnostics1Activate &amp;&amp; ??SUPSWC_05_Diagnostics1Activate) || (SUPSWC_05_Diagnostics2Activate &amp;&amp; ??SUPSWC_05_Diagnostics2Activate))</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_CATS_Connected11_alarm" type="SUPVariable" flavor="SUP">
+<StateAlarms>
+<Equation>MSG_DEPOT_CATS_Connected11_alarm[1]::!(SUP_CATS_LATS_05_Connected11 &amp;&amp; ??SUP_CATS_LATS_05_Connected11)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_CATS_Connected12_alarm" type="SUPVariable" flavor="SUP">
+<StateAlarms>
+<Equation>MSG_DEPOT_CATS_Connected12_alarm[1]::!(SUP_CATS_LATS_05_Connected12 &amp;&amp; ??SUP_CATS_LATS_05_Connected12)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_CATS_Connected21_alarm" type="SUPVariable" flavor="SUP">
+<StateAlarms>
+<Equation>MSG_DEPOT_CATS_Connected21_alarm[1]::!(SUP_CATS_LATS_05_Connected21 &amp;&amp; ??SUP_CATS_LATS_05_Connected21)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_CATS_Connected22_alarm" type="SUPVariable" flavor="SUP">
+<StateAlarms>
+<Equation>MSG_DEPOT_CATS_Connected22_alarm[1]::!(SUP_CATS_LATS_05_Connected22 &amp;&amp; ??SUP_CATS_LATS_05_Connected22)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_CATS_LATS_05_Connected_VAR" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUP_CATS_LATS_05_Connected11 &amp;&amp; SUP_CATS_LATS_05_Connected12 &amp;&amp; SUP_CATS_LATS_05_Connected21 &amp;&amp; SUP_CATS_LATS_05_Connected22</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_CATS_Connected_alarm[1]::!((SUP_CATS_LATS_05_Connected11 &amp;&amp; ??SUP_CATS_LATS_05_Connected11) || (SUP_CATS_LATS_05_Connected12 &amp;&amp; ??SUP_CATS_LATS_05_Connected12) || (SUP_CATS_LATS_05_Connected21 &amp;&amp; ??SUP_CATS_LATS_05_Connected21) || (SUP_CATS_LATS_05_Connected22 &amp;&amp; ??SUP_CATS_LATS_05_Connected22 ))</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_KCD_ADJ2_Connected11_alarm" type="SUPVariable" flavor="SUP">
+<StateAlarms>
+<Equation>MSG_DEPOT_SUP_ADJ2_Connected11_alarm[1]::!(SUP_LATS_05_ADJ2_Connected11 &amp;&amp; ??SUP_LATS_05_ADJ2_Connected11)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_KCD_ADJ2_Connected12_alarm" type="SUPVariable" flavor="SUP">
+<StateAlarms>
+<Equation>MSG_DEPOT_SUP_ADJ2_Connected12_alarm[1]::!(SUP_LATS_05_ADJ2_Connected12 &amp;&amp; ??SUP_LATS_05_ADJ2_Connected12)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_KCD_ADJ2_Connected21_alarm" type="SUPVariable" flavor="SUP">
+<StateAlarms>
+<Equation>MSG_DEPOT_SUP_ADJ2_Connected21_alarm[1]::!(SUP_LATS_05_ADJ2_Connected21 &amp;&amp; ??SUP_LATS_05_ADJ2_Connected21)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_KCD_ADJ2_Connected22_alarm" type="SUPVariable" flavor="SUP">
+<StateAlarms>
+<Equation>MSG_DEPOT_SUP_ADJ2_Connected22_alarm[1]::!(SUP_LATS_05_ADJ2_Connected22 &amp;&amp; ??SUP_LATS_05_ADJ2_Connected22)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_KCD_ADJ2_Connected_VAR" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUP_LATS_05_ADJ2_Connected11 &amp;&amp; SUP_LATS_05_ADJ2_Connected12 &amp;&amp; SUP_LATS_05_ADJ2_Connected21  &amp;&amp;  SUP_LATS_05_ADJ2_Connected22</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUP_ADJ2_Connected_alarm[1]::!((SUP_LATS_05_ADJ2_Connected11 &amp;&amp; ??SUP_LATS_05_ADJ2_Connected11) || (SUP_LATS_05_ADJ2_Connected12 &amp;&amp; ??SUP_LATS_05_ADJ2_Connected12) || (SUP_LATS_05_ADJ2_Connected21 &amp;&amp; ??SUP_LATS_05_ADJ2_Connected21) || (SUP_LATS_05_ADJ2_Connected22 &amp;&amp; ??SUP_LATS_05_ADJ2_Connected22))</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_KCD_ADJ1_Connected11_alarm" type="SUPVariable" flavor="SUP">
+<StateAlarms>
+<Equation>MSG_DEPOT_SUP_ADJ1_Connected11_alarm[1]::!(SUP_LATS_05_ADJ1_Connected11 &amp;&amp; ??SUP_LATS_05_ADJ1_Connected11)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_KCD_ADJ1_Connected12_alarm" type="SUPVariable" flavor="SUP">
+<StateAlarms>
+<Equation>MSG_DEPOT_SUP_ADJ1_Connected12_alarm[1]::!(SUP_LATS_05_ADJ1_Connected12 &amp;&amp; ??SUP_LATS_05_ADJ1_Connected12)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_KCD_ADJ1_Connected21_alarm" type="SUPVariable" flavor="SUP">
+<StateAlarms>
+<Equation>MSG_DEPOT_SUP_ADJ1_Connected21_alarm[1]::!(SUP_LATS_05_ADJ1_Connected21 &amp;&amp; ??SUP_LATS_05_ADJ1_Connected21)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_KCD_ADJ1_Connected22_alarm" type="SUPVariable" flavor="SUP">
+<StateAlarms>
+<Equation>MSG_DEPOT_SUP_ADJ1_Connected22_alarm[1]::!(SUP_LATS_05_ADJ1_Connected22 &amp;&amp; ??SUP_LATS_05_ADJ1_Connected22)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_KCD_ADJ1_Connected_VAR" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUP_LATS_05_ADJ1_Connected11 &amp;&amp; SUP_LATS_05_ADJ1_Connected12 &amp;&amp; SUP_LATS_05_ADJ1_Connected21  &amp;&amp; SUP_LATS_05_ADJ1_Connected22</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>MSG_DEPOT_SUP_ADJ1_Connected_alarm[1]::!((SUP_LATS_05_ADJ1_Connected11 &amp;&amp; ??SUP_LATS_05_ADJ1_Connected11) || (SUP_LATS_05_ADJ1_Connected12 &amp;&amp; ??SUP_LATS_05_ADJ1_Connected12) || (SUP_LATS_05_ADJ1_Connected21 &amp;&amp; ??SUP_LATS_05_ADJ1_Connected21) || (SUP_LATS_05_ADJ1_Connected22 &amp;&amp; ??SUP_LATS_05_ADJ1_Connected22))</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_LATS_05_ServerState_Server1Running_alarm" type="SUPVariable" flavor="SUP">
+<StateAlarms>
+<Equation>MSG_DEPOT_ServerState_Server1Running_alarm[1]::!(IconisS2K.Core.ServerState.Core.ServerState.Core.Server1Running &amp;&amp; ??IconisS2K.Core.ServerState.Core.ServerState.Core.Server1Running)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_LATS_05_ServerState_Server2Running_alarm" type="SUPVariable" flavor="SUP">
+<StateAlarms>
+<Equation>MSG_DEPOT_ServerState_Server2Running_alarm[1]::!(IconisS2K.Core.ServerState.Core.ServerState.Core.Server2Running &amp;&amp; ??IconisS2K.Core.ServerState.Core.ServerState.Core.Server2Running)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUPSWC_05_LATS_Connected_VAR" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::(SUPSWC_05_LATS_Connected11  &amp;&amp;  SUPSWC_05_LATS_Connected12  &amp;&amp; SUPSWC_05_LATS_Connected21 &amp;&amp; SUPSWC_05_LATS_Connected22)</Equation>
+<Equation>0:: 1</Equation>
+</States>
+</Equipment>
+<Equipment name="SUPSWC_05_POS_A" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::(SUPSWC_05_Diagnostics1Data1==85)</Equation>
+<Equation>0:: 1</Equation>
+</States>
+</Equipment>
+<Equipment name="SUPSWC_05_POS_B" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::(SUPSWC_05_Diagnostics2Data1==85)</Equation>
+<Equation>0:: 1</Equation>
+</States>
+</Equipment>
+<Equipment name="SUPSWC_05_SWITCH_POSITION" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>MSG_POS_A[1]::(SUPSWC_05_Diagnostics1Data2 == 28) || (SUPSWC_05_Diagnostics2Data2 == 28)</Equation>
+<Equation>MSG_POS_B[2]::(SUPSWC_05_Diagnostics1Data2 == 44) || (SUPSWC_05_Diagnostics2Data2 == 44)</Equation>
+<Equation>MSG_POS_MIDDLE[3]::(SUPSWC_05_Diagnostics1Data2 == 4) || (SUPSWC_05_Diagnostics2Data2 == 4)</Equation>
+<Equation>0:: 1</Equation>
+</States>
+</Equipment>
+<Equipment name="SUP_05_ISCS_connected" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUP_05_ISCSConnection</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>SUP_DATS_ISCSNoConnection[1]::!(SUP_05_ISCSConnection &amp;&amp; ??SUP_05_ISCSConnection)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_05_Printer_Connected1" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUP_05_PrinterStatusServer1</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>SUP_DATS_PrinterStatusServer1[1]::!(SUP_05_PrinterStatusServer1 &amp;&amp; ??SUP_05_PrinterStatusServer1)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_05_Printer_Connected2" type="SUPVariable" flavor="SUP">
+<States Script="">
+<Equation>1::SUP_05_PrinterStatusServer2</Equation>
+<Equation>0:: 1</Equation>
+</States>
+<StateAlarms>
+<Equation>SUP_DATS_PrinterStatusServer2[1]::!(SUP_05_PrinterStatusServer2 &amp;&amp; ??SUP_05_PrinterStatusServer2)</Equation>
+</StateAlarms>
+</Equipment>
+<Equipment name="SUP_TWINMASTER" type="SUPVariable" flavor="SUP">
+<StateAlarms>
+<Equation>SUP_TWINMASTER[1]::IconisS2K.Core.ServerState.Core.ServerState.Core.TwinMaster == 1</Equation>
+</StateAlarms>
+</Equipment>
+</SignallingRules>

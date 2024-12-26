@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+	<Classes>
+		<Class name="HMITrainBlinking" rules="update_or_create" traces="error" >
+			<Objects>
+				<Object name="TrainPV001.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV001.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV002.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV002.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV003.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV003.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV004.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV004.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV005.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV005.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV006.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV006.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV007.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV007.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV008.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV008.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV009.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV009.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV010.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV010.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV011.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV011.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV012.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV012.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV013.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV013.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV014.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV014.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV015.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV015.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV016.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV016.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV017.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV017.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV018.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV018.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV019.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV019.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV020.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV020.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV021.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV021.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV022.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV022.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV023.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV023.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV024.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV024.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV025.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV025.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV026.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV026.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV027.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV027.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV028.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV028.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV029.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV029.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV030.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV030.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV031.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV031.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV032.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV032.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV033.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV033.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV034.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV034.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV035.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV035.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV036.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV036.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV037.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV037.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV038.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV038.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV039.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV039.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV040.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV040.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV041.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV041.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV042.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV042.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV043.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV043.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV044.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV044.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV045.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV045.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV046.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV046.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV047.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV047.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV048.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV048.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV049.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV049.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV050.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV050.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV051.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV051.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV052.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV052.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV053.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV053.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV054.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV054.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV055.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV055.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV056.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV056.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV057.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV057.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV058.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV058.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV059.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV059.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV060.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV060.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV061.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV061.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV062.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV062.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV063.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV063.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV064.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV064.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV065.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV065.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV066.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV066.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV067.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV067.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV068.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV068.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV069.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV069.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV070.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV070.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV071.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV071.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV072.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV072.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV073.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV073.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV074.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV074.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV075.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV075.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV076.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV076.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV077.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV077.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV078.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV078.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV079.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV079.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV080.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV080.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV081.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV081.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV082.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV082.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV083.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV083.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV084.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV084.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV085.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV085.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV086.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV086.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainPV087.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainPV087.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV001.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV001.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV002.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV002.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV003.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV003.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV004.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV004.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV005.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV005.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV006.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV006.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV007.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV007.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV008.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV008.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV009.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV009.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV010.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV010.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV011.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV011.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV012.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV012.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV013.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV013.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV014.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV014.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV015.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV015.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV016.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV016.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV017.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV017.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV018.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV018.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV019.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV019.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV020.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV020.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV021.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV021.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV022.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV022.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV023.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV023.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV024.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV024.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV025.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV025.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV026.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV026.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV027.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV027.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV028.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV028.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV029.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV029.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV030.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV030.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV031.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV031.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV032.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV032.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV033.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV033.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV034.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV034.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV035.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV035.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV036.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV036.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV037.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV037.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV038.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV038.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV039.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV039.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV040.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV040.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV041.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV041.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV042.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV042.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV043.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV043.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV044.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV044.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV045.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV045.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV046.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV046.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV047.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV047.1</Property>
+					</Properties>
+				</Object>
+				<Object name="TrainSV048.Blinking" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="HMITrainAttributesRefName" dt:dt="string">TrainSV048.1</Property>
+					</Properties>
+				</Object>
+			</Objects>
+		</Class>
+	</Classes>
+</ObjectPropertyModule>

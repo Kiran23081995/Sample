@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="RouteSettingObject" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="R0516_0518.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_APP0531_R-KCD_APP0541  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_APP0531_R</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0541</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">30</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_APP0531_R</Property>
+</Properties>
+</Object>
+<Object name="R0514_0500.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_APP0531_L-KCD_RT1_T0502  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0531_L</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">30</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_APP0531_L</Property>
+</Properties>
+</Object>
+<Object name="R0514_0501.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_APP0531_L-KCD_RT2_T0503  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT2_T0503</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0531_L</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">30</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_APP0531_L</Property>
+</Properties>
+</Object>
+<Object name="R0514_0504.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_APP0531_L-KCD_RT3_T0508  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT3_T0508</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0531_L</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">30</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_APP0531_L</Property>
+</Properties>
+</Object>
+<Object name="R0514_0505.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_APP0531_L-KCD_RT4_T0509  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT4_T0509</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0531_L</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">30</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_APP0531_L</Property>
+</Properties>
+</Object>
+<Object name="R0518_5432.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_APP0541-KCD_ETE_T0554  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_APP0541</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">30</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_APP0541</Property>
+</Properties>
+</Object>
+<Object name="R0524_0514.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_ETE_T0554-KCD_APP0531_L  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_APP0531_L</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">30</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_ETE_T0554</Property>
+</Properties>
+</Object>
+<Object name="R0524_0657.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_ETE_T0554-KCD_APP0557  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_APP0557</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">33</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_ETE_T0554</Property>
+</Properties>
+</Object>
+<Object name="R0519_5432.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S8F_T0542-KCD_ETE_T0554  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_S8F_T0542</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">181</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S8F_T0542</Property>
+</Properties>
+</Object>
+<Object name="R0524_0511.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_ETE_T0554-KCD_S8A_T0556  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_S8A_T0556</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">175</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_ETE_T0554</Property>
+</Properties>
+</Object>
+<Object name="R0511_0500.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S8A_T0556-KCD_RT1_T0502  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S8A_T0556</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">109</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S8A_T0556</Property>
+</Properties>
+</Object>
+<Object name="R0511_0501.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S8A_T0556-KCD_RT2_T0503  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT2_T0503</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S8A_T0556</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">92</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S8A_T0556</Property>
+</Properties>
+</Object>
+<Object name="R0511_0504.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S8A_T0556-KCD_RT3_T0508  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT3_T0508</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S8A_T0556</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">103</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S8A_T0556</Property>
+</Properties>
+</Object>
+<Object name="R0511_0505.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S8A_T0556-KCD_RT4_T0509  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT4_T0509</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S8A_T0556</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">109</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S8A_T0556</Property>
+</Properties>
+</Object>
+<Object name="R0502_0519.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT1_T0502-KCD_S8F_T0542  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S8F_T0542</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">219</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT1_T0502</Property>
+</Properties>
+</Object>
+<Object name="R0503_0519.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT2_T0503-KCD_S8F_T0542  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT2_T0503</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S8F_T0542</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">202</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT2_T0503</Property>
+</Properties>
+</Object>
+<Object name="R0503_0521.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT2_T0503-KCD_S9E_T0544  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT2_T0503</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S9E_T0544</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">202</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT2_T0503</Property>
+</Properties>
+</Object>
+<Object name="R0502_0520.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT1_T0502-KCD_S11D_T0543  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S11D_T0543</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">208</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT1_T0502</Property>
+</Properties>
+</Object>
+<Object name="R0503_0520.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT2_T0503-KCD_S11D_T0543  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT2_T0503</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S11D_T0543</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">191</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT2_T0503</Property>
+</Properties>
+</Object>
+<Object name="R0506_0516.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT3_T0508-KCD_APP0531_R  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT3_T0508</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0531_R</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">119</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT3_T0508</Property>
+</Properties>
+</Object>
+<Object name="R0506_0519.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT3_T0508-KCD_S8F_T0542  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT3_T0508</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S8F_T0542</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">213</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT3_T0508</Property>
+</Properties>
+</Object>
+<Object name="R0506_0521.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT3_T0508-KCD_S9E_T0544  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT3_T0508</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S9E_T0544</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">213</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT3_T0508</Property>
+</Properties>
+</Object>
+<Object name="R0506_0520.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT3_T0508-KCD_S11D_T0543  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT3_T0508</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S11D_T0543</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">202</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT3_T0508</Property>
+</Properties>
+</Object>
+<Object name="R0507_0516.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT4_T0509-KCD_APP0531_R  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT4_T0509</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0531_R</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">30</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT4_T0509</Property>
+</Properties>
+</Object>
+<Object name="R0507_0519.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT4_T0509-KCD_S8F_T0542  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT4_T0509</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S8F_T0542</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">219</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT4_T0509</Property>
+</Properties>
+</Object>
+<Object name="R0512_0500.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S9A_T0526-KCD_RT1_T0502  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S9A_T0526</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">129</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S9A_T0526</Property>
+</Properties>
+</Object>
+<Object name="R0512_0501.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S9A_T0526-KCD_RT2_T0503  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT2_T0503</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S9A_T0526</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">112</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S9A_T0526</Property>
+</Properties>
+</Object>
+<Object name="R0512_0504.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S9A_T0526-KCD_RT3_T0508  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT3_T0508</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S9A_T0526</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">123</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S9A_T0526</Property>
+</Properties>
+</Object>
+<Object name="R0512_0505.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S9A_T0526-KCD_RT4_T0509  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT4_T0509</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S9A_T0526</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">129</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S9A_T0526</Property>
+</Properties>
+</Object>
+<Object name="R0502_0521.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT1_T0502-KCD_S9E_T0544  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S9E_T0544</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">219</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT1_T0502</Property>
+</Properties>
+</Object>
+<Object name="R0502_0522.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT1_T0502-KCD_S10E_T0545  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S10E_T0545</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">219</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT1_T0502</Property>
+</Properties>
+</Object>
+<Object name="R0503_0522.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT2_T0503-KCD_S10E_T0545  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT2_T0503</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S10E_T0545</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">202</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT2_T0503</Property>
+</Properties>
+</Object>
+<Object name="R0506_0522.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT3_T0508-KCD_S10E_T0545  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT3_T0508</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S10E_T0545</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">213</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT3_T0508</Property>
+</Properties>
+</Object>
+<Object name="R0507_0522.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT4_T0509-KCD_S10E_T0545  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT4_T0509</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S10E_T0545</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">218</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT4_T0509</Property>
+</Properties>
+</Object>
+<Object name="R0524_0515.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_ETE_T0554-KCD_S11A_T0528  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_S11A_T0528</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">144</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_ETE_T0554</Property>
+</Properties>
+</Object>
+<Object name="R0524_0513.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_ETE_T0554-KCD_S10A_T0527  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_S10A_T0527</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">155</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_ETE_T0554</Property>
+</Properties>
+</Object>
+<Object name="R0502_5499.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT1_T0502-TTA_MT_T0524  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="RightPoint" dt:dt="string">TTA_MT_T0524</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">30</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT1_T0502</Property>
+</Properties>
+</Object>
+<Object name="R0503_0516.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT2_T0503-KCD_APP0531_R  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT2_T0503</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0531_R</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">30</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT2_T0503</Property>
+</Properties>
+</Object>
+<Object name="R0507_0521.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT4_T0509-KCD_S9E_T0544  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT4_T0509</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S9E_T0544</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">218</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT4_T0509</Property>
+</Properties>
+</Object>
+<Object name="R0507_0520.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT4_T0509-KCD_S11D_T0543  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT4_T0509</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S11D_T0543</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">208</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT4_T0509</Property>
+</Properties>
+</Object>
+<Object name="R0515_0500.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S11A_T0528-KCD_RT1_T0502  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S11A_T0528</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">140</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S11A_T0528</Property>
+</Properties>
+</Object>
+<Object name="R0515_0501.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S11A_T0528-KCD_RT2_T0503  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT2_T0503</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S11A_T0528</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">123</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S11A_T0528</Property>
+</Properties>
+</Object>
+<Object name="R0515_0504.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S11A_T0528-KCD_RT3_T0508  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT3_T0508</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S11A_T0528</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">134</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S11A_T0528</Property>
+</Properties>
+</Object>
+<Object name="R0515_0505.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S11A_T0528-KCD_RT4_T0509  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT4_T0509</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S11A_T0528</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">140</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S11A_T0528</Property>
+</Properties>
+</Object>
+<Object name="R0510_0500.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****TTA_MT_T0524-KCD_RT1_T0502  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="RightPoint" dt:dt="string">TTA_MT_T0524</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">30</Property>
+<Property name="PhysicalPoints" dt:dt="string">TTA_MT_T0524</Property>
+</Properties>
+</Object>
+<Object name="R0510_0508.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****TTA_MT_T0524-KCD_IPTT_T0510  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_IPTT_T0510</Property>
+<Property name="RightPoint" dt:dt="string">TTA_MT_T0524</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">30</Property>
+<Property name="PhysicalPoints" dt:dt="string">TTA_MT_T0524</Property>
+</Properties>
+</Object>
+<Object name="R0500_0703.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT1_T0502-BLY_RT1_T0706  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">BLY_RT1_T0706</Property>
+<Property name="RightPoint" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">59</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT1_T0502</Property>
+</Properties>
+</Object>
+<Object name="R0501_0701.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT2_T0503-BLY_RT2_T0707  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">BLY_RT2_T0707</Property>
+<Property name="RightPoint" dt:dt="string">KCD_RT2_T0503</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">103</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT2_T0503</Property>
+</Properties>
+</Object>
+<Object name="R0504_0418.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT3_T0508-TSG_RT3_T0425  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">TSG_RT3_T0425</Property>
+<Property name="RightPoint" dt:dt="string">KCD_RT3_T0508</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">33</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT3_T0508</Property>
+</Properties>
+</Object>
+<Object name="R0505_0416.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT4_T0509-TSG_RT4_T0426  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">TSG_RT4_T0426</Property>
+<Property name="RightPoint" dt:dt="string">KCD_RT4_T0509</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">33</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT4_T0509</Property>
+</Properties>
+</Object>
+<Object name="R0526_0500.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_APP0611-KCD_RT1_T0502  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0611</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">129</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_APP0611</Property>
+</Properties>
+</Object>
+<Object name="R0526_0501.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_APP0611-KCD_RT2_T0503  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT2_T0503</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0611</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">112</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_APP0611</Property>
+</Properties>
+</Object>
+<Object name="R0526_0504.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_APP0611-KCD_RT3_T0508  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT3_T0508</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0611</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">123</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_APP0611</Property>
+</Properties>
+</Object>
+<Object name="R0526_0505.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_APP0611-KCD_RT4_T0509  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT4_T0509</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0611</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">149</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_APP0611</Property>
+</Properties>
+</Object>
+<Object name="R0527_5432.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_EE2B_T0641-KCD_ETE_T0554  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_EE2B_T0641</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">204</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_EE2B_T0641</Property>
+</Properties>
+</Object>
+<Object name="R0524_0621.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_ETE_T0554-KCD_EE2A_T0656  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_EE2A_T0656</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">117</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_ETE_T0554</Property>
+</Properties>
+</Object>
+<Object name="R0502_0527.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT1_T0502-KCD_EE2B_T0641  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE2B_T0641</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">259</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT1_T0502</Property>
+</Properties>
+</Object>
+<Object name="R0503_0527.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT2_T0503-KCD_EE2B_T0641  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT2_T0503</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE2B_T0641</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">242</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT2_T0503</Property>
+</Properties>
+</Object>
+<Object name="R0506_0527.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT3_T0508-KCD_EE2B_T0641  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT3_T0508</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE2B_T0641</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">253</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT3_T0508</Property>
+</Properties>
+</Object>
+<Object name="R0507_0527.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT4_T0509-KCD_EE2B_T0641  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT4_T0509</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE2B_T0641</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">259</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT4_T0509</Property>
+</Properties>
+</Object>
+<Object name="R0621_0526.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_EE2A_T0656-KCD_APP0611  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_APP0611</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE2A_T0656</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">110</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_EE2A_T0656</Property>
+</Properties>
+</Object>
+<Object name="R0622_0526.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_EE3A_T0634-KCD_APP0611  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_APP0611</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE3A_T0634</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">110</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_EE3A_T0634</Property>
+</Properties>
+</Object>
+<Object name="R0502_0528.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT1_T0502-KCD_EE3C_T0648  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE3C_T0648</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">223</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT1_T0502</Property>
+</Properties>
+</Object>
+<Object name="R0503_0528.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT2_T0503-KCD_EE3C_T0648  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT2_T0503</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE3C_T0648</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">206</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT2_T0503</Property>
+</Properties>
+</Object>
+<Object name="R0506_0528.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT3_T0508-KCD_EE3C_T0648  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT3_T0508</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE3C_T0648</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">217</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT3_T0508</Property>
+</Properties>
+</Object>
+<Object name="R0507_0528.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT4_T0509-KCD_EE3C_T0648  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT4_T0509</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE3C_T0648</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">223</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT4_T0509</Property>
+</Properties>
+</Object>
+<Object name="R0502_0529.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT1_T0502-KCD_EE4C_T0649  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE4C_T0649</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">221</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT1_T0502</Property>
+</Properties>
+</Object>
+<Object name="R0503_0529.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT2_T0503-KCD_EE4C_T0649  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT2_T0503</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE4C_T0649</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">206</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT2_T0503</Property>
+</Properties>
+</Object>
+<Object name="R0506_0529.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT3_T0508-KCD_EE4C_T0649  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT3_T0508</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE4C_T0649</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">217</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT3_T0508</Property>
+</Properties>
+</Object>
+<Object name="R0507_0529.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT4_T0509-KCD_EE4C_T0649  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT4_T0509</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE4C_T0649</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">223</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT4_T0509</Property>
+</Properties>
+</Object>
+<Object name="R0502_0634.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT1_T0502-KCD_EE5B_T0645  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE5B_T0645</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">208</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT1_T0502</Property>
+</Properties>
+</Object>
+<Object name="R0503_0634.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT2_T0503-KCD_EE5B_T0645  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT2_T0503</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE5B_T0645</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">201</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT2_T0503</Property>
+</Properties>
+</Object>
+<Object name="R0506_0634.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT3_T0508-KCD_EE5B_T0645  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT3_T0508</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE5B_T0645</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">202</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT3_T0508</Property>
+</Properties>
+</Object>
+<Object name="R0507_0634.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT4_T0509-KCD_EE5B_T0645  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT4_T0509</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE5B_T0645</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">208</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT4_T0509</Property>
+</Properties>
+</Object>
+<Object name="R0502_0629.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT1_T0502-KCD_APP0637_R  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0637_R</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">179</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT1_T0502</Property>
+</Properties>
+</Object>
+<Object name="R0503_0629.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT2_T0503-KCD_APP0637_R  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT2_T0503</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0637_R</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">162</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT2_T0503</Property>
+</Properties>
+</Object>
+<Object name="R0506_0629.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT3_T0508-KCD_APP0637_R  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT3_T0508</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0637_R</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">173</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT3_T0508</Property>
+</Properties>
+</Object>
+<Object name="R0657_0625.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_APP0557-KCD_APP0637_L  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_APP0637_L</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0557</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">63</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_APP0557</Property>
+</Properties>
+</Object>
+<Object name="R0625_0526.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_APP0637_L-KCD_APP0611  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_APP0611</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0637_L</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">60</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_APP0637_L</Property>
+</Properties>
+</Object>
+<Object name="R0657_0624.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_APP0557-KCD_EE5A_T0636  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_EE5A_T0636</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0557</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">77</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_APP0557</Property>
+</Properties>
+</Object>
+<Object name="R0629_5432.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_APP0637_R-KCD_ETE_T0554  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_APP0637_R</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">179</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_APP0637_R</Property>
+</Properties>
+</Object>
+<Object name="R0623_0526.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_EE4A_T0635-KCD_APP0611  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_APP0611</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE4A_T0635</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">110</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_EE4A_T0635</Property>
+</Properties>
+</Object>
+<Object name="R0624_0526.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_EE5A_T0636-KCD_APP0611  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_APP0611</Property>
+<Property name="RightPoint" dt:dt="string">KCD_EE5A_T0636</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">110</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_EE5A_T0636</Property>
+</Properties>
+</Object>
+<Object name="R0529_5432.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_EE4C_T0649-KCD_ETE_T0554  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_EE4C_T0649</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">182</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_EE4C_T0649</Property>
+</Properties>
+</Object>
+<Object name="R0634_5432.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_EE5B_T0645-KCD_ETE_T0554  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_EE5B_T0645</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">195</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_EE5B_T0645</Property>
+</Properties>
+</Object>
+<Object name="R0524_0623.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_ETE_T0554-KCD_EE4A_T0635  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_EE4A_T0635</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">123</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_ETE_T0554</Property>
+</Properties>
+</Object>
+<Object name="R0507_0629.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT4_T0509-KCD_WE6A_T0637  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT4_T0509</Property>
+<Property name="RightPoint" dt:dt="string">KCD_WE6A_T0637</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">179</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT4_T0509</Property>
+</Properties>
+</Object>
+<Object name="R0657_0619.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_APP0557-KCD_WE7A_T0629  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_WE7A_T0629</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0557</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">100</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_APP0557</Property>
+</Properties>
+</Object>
+<Object name="R0631_5432.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_WE8B_T0639-KCD_ETE_T0554  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_WE8B_T0639</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">214</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_WE8B_T0639</Property>
+</Properties>
+</Object>
+<Object name="R0657_0620.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_APP0557-KCD_WE8A_T0630  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_WE8A_T0630</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0557</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">96</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_APP0557</Property>
+</Properties>
+</Object>
+<Object name="R0626_5432.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_WE9B_T0631-KCD_ETE_T0554  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_WE9B_T0631</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">231</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_WE9B_T0631</Property>
+</Properties>
+</Object>
+<Object name="R0657_0616.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_APP0557-KCD_WE9A_T0622  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_WE9A_T0622</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0557</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">114</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_APP0557</Property>
+</Properties>
+</Object>
+<Object name="R0627_5432.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_WE10B_T0632-KCD_ETE_T0554  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_WE10B_T0632</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">230</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_WE10B_T0632</Property>
+</Properties>
+</Object>
+<Object name="R0630_5432.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_WE7B_T0638-KCD_ETE_T0554  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_WE7B_T0638</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">214</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_WE7B_T0638</Property>
+</Properties>
+</Object>
+<Object name="R0628_5432.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_WE11B_T0633-KCD_ETE_T0554  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_WE11B_T0633</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">228</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_WE11B_T0633</Property>
+</Properties>
+</Object>
+<Object name="R0657_0617.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_APP0557-KCD_WE10A_T0623  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_WE10A_T0623</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0557</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">114</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_APP0557</Property>
+</Properties>
+</Object>
+<Object name="R0657_0618.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_APP0557-KCD_WE11A_T0624  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_WE11A_T0624</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0557</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">115</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_APP0557</Property>
+</Properties>
+</Object>
+<Object name="R0524_0622.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_ETE_T0554-KCD_EE3A_T0634  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_EE3A_T0634</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">119</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_ETE_T0554</Property>
+</Properties>
+</Object>
+<Object name="R0528_5432.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_EE3C_T0648-KCD_ETE_T0554  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_EE3C_T0648</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">185</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_EE3C_T0648</Property>
+</Properties>
+</Object>
+<Object name="R0520_5432.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S11D_T0543-KCD_ETE_T0554  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_S11D_T0543</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">197</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S11D_T0543</Property>
+</Properties>
+</Object>
+<Object name="R0524_0512.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_ETE_T0554-KCD_S9A_T0526  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_S9A_T0526</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">155</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_ETE_T0554</Property>
+</Properties>
+</Object>
+<Object name="R0502_0516.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_RT1_T0502-KCD_APP0531_R  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="RightPoint" dt:dt="string">KCD_APP0531_R</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">30</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_RT1_T0502</Property>
+</Properties>
+</Object>
+<Object name="R0521_5432.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S9E_T0544-KCD_ETE_T0554  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_S9E_T0544</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">181</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S9E_T0544</Property>
+</Properties>
+</Object>
+<Object name="R0522_5432.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S10E_T0545-KCD_ETE_T0554  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_S10E_T0545</Property>
+<Property name="RightPoint" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="EntryDirection" dt:dt="i4">2</Property>
+<Property name="ExitDirection" dt:dt="i4">2</Property>
+<Property name="NormalTime" dt:dt="i4">181</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S10E_T0545</Property>
+</Properties>
+</Object>
+<Object name="R0513_0505.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S10A_T0527-KCD_RT4_T0509  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT4_T0509</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S10A_T0527</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">129</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S10A_T0527</Property>
+</Properties>
+</Object>
+<Object name="R0513_0500.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S10A_T0527-KCD_RT1_T0502  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S10A_T0527</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">129</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S10A_T0527</Property>
+</Properties>
+</Object>
+<Object name="R0513_0501.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S10A_T0527-KCD_RT2_T0503  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT2_T0503</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S10A_T0527</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">112</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S10A_T0527</Property>
+</Properties>
+</Object>
+<Object name="R0513_0504.RouteSettingObject" rules="update_or_create" traces="error">
+<Properties>
+<!-- physicallink ****KCD_S10A_T0527-KCD_RT3_T0508  ** -->
+<Property name="MMGModuleID" dt:dt="string">MMGModuleKE</Property>
+<Property name="Type" dt:dt="string">0x0B000000</Property>
+<Property name="LeftPoint" dt:dt="string">KCD_RT3_T0508</Property>
+<Property name="RightPoint" dt:dt="string">KCD_S10A_T0527</Property>
+<Property name="EntryDirection" dt:dt="i4">1</Property>
+<Property name="ExitDirection" dt:dt="i4">1</Property>
+<Property name="NormalTime" dt:dt="i4">119</Property>
+<Property name="PhysicalPoints" dt:dt="string">KCD_S10A_T0527</Property>
+</Properties>
+</Object>
+
+
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

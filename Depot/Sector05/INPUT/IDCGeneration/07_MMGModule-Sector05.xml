@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="MMGModule" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="DATS" rules="update_or_create" traces="error">
+<Properties>
+
+<Property name="SharedOnIdentifier" dt:dt="string">MMGModule</Property>
+<Property name="SharedOnIdentifierdefinition" dt:dt="i4">-1</Property>
+<!-- <Property name="EnabledOPCCLient" dt:dt="i4">0</Property> -->
+<Property name="OPCClientID" dt:dt="string">SECTOR05_S2K</Property>
+<Property name="MsgInOPCTag" dt:dt="string">CKCD.ATSArea.MsgOut</Property>
+<Property name="MsgInHintOPCTag" dt:dt="string">CKCD.ATSArea.MsgOutHint</Property>
+<PropertyList name="bstrReferences" >
+<ListElem index="1" dt:dt="string">MainKernelExtended.ARSOperatorPointArea</ListElem>
+<!-- <ListElem index="2" dt:dt="string">Iconis.ARSOperatorJunctionArea</ListElem> -->
+<ListElem index="2" dt:dt="string">MainKernelExtended.ARSOperatorTrain</ListElem>
+</PropertyList>
+<PropertyList name="iReferences" >
+<ListElem index="1" dt:dt="string">MainKernelExtended.ARS</ListElem>
+<ListElem index="2" dt:dt="string">MainCCLLV2.JunctionAreaMode</ListElem>
+<ListElem index="3" dt:dt="string">MainKernelExtended.ARSPointArea</ListElem>
+<ListElem index="4" dt:dt="string">MainKernelExtended.ARSTrain</ListElem>
+<ListElem index="5" dt:dt="string">MainCCLLV2.ATR</ListElem>
+<ListElem index="6" dt:dt="string">MainCCLLV2.MDMDepot</ListElem>
+<ListElem index="7" dt:dt="string">MainCCLLV1.MRM</ListElem>
+<ListElem index="8" dt:dt="string">MainCCLLV2.OTM</ListElem>
+<ListElem index="9" dt:dt="string">MainCCLLV2.OTMTPC</ListElem>
+<ListElem index="10" dt:dt="string">MainCCLLV2.OTMTIX</ListElem>
+<ListElem index="11" dt:dt="string">MainCCLLV2.ScheduleRegulation</ListElem>
+<ListElem index="12" dt:dt="string">MainCCLLV2.SetRegulationOrders</ListElem>
+<ListElem index="13" dt:dt="string">ASCV05.SIGR</ListElem>
+<ListElem index="14" dt:dt="string">ATC05.ATCM</ListElem>
+<ListElem index="15" dt:dt="string">ATC05.U300PTI</ListElem>
+<ListElem index="16" dt:dt="string">ASCV06.SIGR</ListElem>
+<ListElem index="17" dt:dt="string">ATC06.ATCM</ListElem>
+<ListElem index="18" dt:dt="string">ATC06.U300PTI</ListElem>
+<ListElem index="19" dt:dt="string">TWMModule.iDepotATSMode</ListElem>
+<ListElem index="25" dt:dt="string">MainCCLLV2.ATRExtendedStrategy</ListElem>
+</PropertyList>
+<Property name="AlarmsEventsUser" dt:dt="string">MMGAlarmsEvents_User.xml</Property>
+<!-- <Property name="ServerNodeName1" dt:dt="String">KCD-SRV01</Property> -->
+<!-- <Property name="ServerNodeName2" dt:dt="String">KCD-SRV02</Property> -->
+<!-- <Property name="ServerProgID1" dt:dt="String">S2K.OpcServer.1</Property> -->
+<!-- <Property name="ServerProgID2" dt:dt="String">S2K.OpcServer.1</Property> -->
+<Property name="LineModeConfiguration" dt:dt="String">DMMG.xml</Property>
+<Property name="MmgType" dt:dt="String">DMMG</Property>
+<Property name="WithRequisite" dt:dt="i4">0</Property>
+<!-- <Property name="isRedundant" dt:dt="i4">1</Property> -->
+<Property name="forLocal" dt:dt="i4">0</Property>
+<Property name="IsNotDepot" dt:dt="i4">0</Property>
+<Property name="IsNotMain" dt:dt="i4">1</Property>
+<Property name="MMGAEName" dt:dt="MultiLingualProperty">CKCD/SIG/ATS/-</Property>
+<Property name="i_AreaGroup" dt:dt="string">Area</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/T</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+
+</Properties>
+</Object>
+
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

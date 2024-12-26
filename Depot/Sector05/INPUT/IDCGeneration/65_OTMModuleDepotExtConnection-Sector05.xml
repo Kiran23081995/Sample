@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+	<Classes>
+		<Class name="OTMModuleDepotExtConnection" rules="update_or_create" traces="error" >
+			<Objects>
+				<Object name="DepotAnnouncement1" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="OPCGroupSharedID" dt:dt="string">OCC_S2K_GROUP</Property>
+						<Property name="PV_AnnouncementSharedID" dt:dt="string">PV_Announcement1</Property>
+						<Property name="PV_TimetableSharedID" dt:dt="string">PV_Timetable1</Property>
+					</Properties>
+				</Object>
+				<Object name="DepotAnnouncement2" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="OPCGroupSharedID" dt:dt="string">SECTOR04_S2K_GROUP</Property>
+						<Property name="PV_AnnouncementSharedID" dt:dt="string">PV_Announcement2</Property>
+						<Property name="PV_TimetableSharedID" dt:dt="string">PV_Timetable2</Property>
+					</Properties>
+				</Object>
+				<Object name="DepotAnnouncement3" rules="update_or_create" traces="error">
+					<Properties>
+						<Property name="OPCGroupSharedID" dt:dt="string">SECTOR07_S2K_GROUP</Property>
+						<Property name="PV_AnnouncementSharedID" dt:dt="string">PV_Announcement3</Property>
+						<Property name="PV_TimetableSharedID" dt:dt="string">PV_Timetable3</Property>
+					</Properties>
+				</Object>
+			</Objects>
+		</Class>
+	</Classes>
+</ObjectPropertyModule>

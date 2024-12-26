@@ -1,0 +1,668 @@
+<ObjectPropertyModule xmlns:dt="urn:schemas-microsoft-com:datatypes" name="D:\01 CCL\01 DATA\02_IDC\01_DataPrepUI\Sector05\INPUT\Supervision\SUPVariables.xml" version="R3.5.9" date="" comment="">
+<Classes>
+<Class name="SUPVariable">
+<Objects>
+<Object name="SUPASCV_KCD_OPCSM_IXL_A" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/M</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">Systemsupervision;ATS_FEP_DEPOT_SystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-FEP</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUPASCV_KCD_OPCSM_IXL_B" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/M</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATS_FEP_DEPOT_SystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-FEP</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUPASCV2_KCD_OPCSM_IXL_A" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/M</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATS_FEP_DEPOT_SystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-FEP</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUPASCV2_KCD_OPCSM_IXL_B" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/M</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATS_FEP_DEPOT_SystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-FEP</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUPATC_KCD_OPCSM_ATC_A" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/M</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATS_FEP_DEPOT_SystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-FEP</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUPATC_KCD_OPCSM_ATC_B" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/M</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATS_FEP_DEPOT_SystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-FEP</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUPATC2_KCD_OPCSM_ATC_A" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/M</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATS_FEP_DEPOT_SystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-FEP</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUPATC2_KCD_OPCSM_ATC_B" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/M</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATS_FEP_DEPOT_SystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-FEP</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUPASCV_KCD_OPCSM_IXL" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATS_FEP_DEPOT_SystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-FEP</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUPASCV2_KCD_OPCSM_IXL" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATS_FEP_DEPOT_SystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-FEP</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUPATC_KCD_OPCSM_ATC" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATS_FEP_DEPOT_SystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-FEP</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUPATC2_KCD_OPCSM_ATC" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">Systemsupervision;ATS_FEP_DEPOT_SystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-FEP</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_LATS_Connected11_VAR" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">Systemsupervision;ATS_FEP_DEPOT_SystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-FEPA</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_LATS_Connected21_VAR" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">Systemsupervision;ATS_FEP_DEPOT_SystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-FEPA</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_LATS_Connected12_VAR" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">Systemsupervision;ATS_FEP_DEPOT_SystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-FEPB</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_LATS_Connected22_VAR" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">Systemsupervision;ATS_FEP_DEPOT_SystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-FEPB</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_KCD_FEP1STATUS" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/S</Property>
+<Property name="Mimic" dt:dt="String">Systemsupervision;ATS_FEP_DEPOT_SystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-FEPA</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_KCD_FEP2STATUS" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/S</Property>
+<Property name="Mimic" dt:dt="String">Systemsupervision;ATS_FEP_DEPOT_SystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-FEPB</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_KCD_FEPSTATUS" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">Systemsupervision;ATS_FEP_DEPOT_SystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-FEP</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_CATS_Connected11_alarm" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">0</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRVA</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_CATS_Connected12_alarm" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">0</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRVA</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_CATS_Connected21_alarm" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">0</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRVB</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_CATS_Connected22_alarm" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">0</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRVB</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_CATS_LATS_05_Connected_VAR" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRV</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_KCD_ADJ2_Connected11_alarm" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">0</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRVA</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_KCD_ADJ2_Connected12_alarm" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">0</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRVA</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_KCD_ADJ2_Connected21_alarm" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">0</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRVB</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_KCD_ADJ2_Connected22_alarm" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">0</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRVB</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_KCD_ADJ2_Connected_VAR" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRV</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_KCD_ADJ1_Connected11_alarm" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">0</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRVA</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_KCD_ADJ1_Connected12_alarm" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">0</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRVA</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_KCD_ADJ1_Connected21_alarm" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">0</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRVB</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_KCD_ADJ1_Connected22_alarm" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">0</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRVB</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_KCD_ADJ1_Connected_VAR" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRV</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_LATS_05_ServerState_Server1Running_alarm" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">0</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/S</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRVA</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_LATS_05_ServerState_Server2Running_alarm" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">0</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/S</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRVB</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_LATS_Connected_VAR" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">0</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/A</Property>
+<Property name="Mimic" dt:dt="String"></Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_POS_A" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">0</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/A</Property>
+<Property name="Mimic" dt:dt="String"></Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_POS_B" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">0</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/A</Property>
+<Property name="Mimic" dt:dt="String"></Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_SWITCH_POSITION" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">0</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String"></Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/LOC-FEP</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_05_ISCS_connected" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String"></Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRV</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_05_Printer_Connected1" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/M</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRVA</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_05_Printer_Connected2" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">1</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/M</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRVB</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="SUP_TWINMASTER" rules="update_or_create">
+<Properties>
+<Property name="withStates" dt:dt="i4">0</Property>
+<Property name="withStateAlarms" dt:dt="i4">1</Property>
+<Property name="withDifferedAlarms" dt:dt="i4"></Property>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/MT</Property>
+<Property name="UserGroup" dt:dt="String">User/-</Property>
+<Property name="Mimic" dt:dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+<Property name="MimicList" dt:dt="String"></Property>
+<MultiLingualProperty name="Name" dt:dt="String">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

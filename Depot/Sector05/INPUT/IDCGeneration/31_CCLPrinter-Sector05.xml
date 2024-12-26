@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="CCLPrinter" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="Printer" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotPrinter</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="MainPrinter" dt:dt="string">LQ-2090</Property>
+<Property name="EventType" dt:dt="string">ALL</Property>
+<Property name="EventSeverity" dt:dt="i4">5</Property>
+<Property name="InhibitedatStarting" dt:dt="string">False</Property>
+<Property name="PrinterInitString" dt:dt="string">1B28740300017F011B74011B581E1500</Property>
+<Property name="BufferLength" dt:dt="i4">1800</Property>
+<Property name="Latency" dt:dt="i4">60</Property>
+<Property name="RecoveryLength" dt:dt="i4">600</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

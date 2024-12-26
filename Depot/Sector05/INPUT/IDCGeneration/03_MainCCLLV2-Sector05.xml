@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="MainCCLLV2" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="MainCCLLV2" rules="update_or_create" traces="error">
+<Properties>
+<Property name="SharedOnIdentifier" dt:dt="string">MainCCLLV2</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+<PropertyList name="MDMTriggeringPoints" >
+<ListElem index="1" dt:dt="string">TSG_IT_T0409</ListElem>
+<ListElem index="2" dt:dt="string">TSG_OT_T0408</ListElem>
+<ListElem index="3" dt:dt="string">BLY_IT_T0715</ListElem>
+<ListElem index="4" dt:dt="string">BLY_OT_T0714</ListElem>
+</PropertyList>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

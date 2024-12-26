@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="Area" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="KCDA4001" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Area_Id" dt:dt="string">Sector 5</Property>
+<Property name="StationID" dt:dt="string">KCD</Property>
+<Property name="Location" dt:dt="string">1</Property>
+<Property name="TrackSection" dt:dt="string">TC0526</Property>
+</Properties>
+</Object>
+<Object name="KCD4001" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Area_Id" dt:dt="string">Depot</Property>
+<Property name="StationID" dt:dt="string">KCD</Property>
+<Property name="Location" dt:dt="string">1</Property>
+<Property name="TrackSection" dt:dt="string">TC0526</Property>
+</Properties>
+</Object>
+<Object name="KCDA4002" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Area_Id" dt:dt="string">Sector 6</Property>
+<Property name="StationID" dt:dt="string">KCD</Property>
+<Property name="Location" dt:dt="string">1</Property>
+<Property name="TrackSection" dt:dt="string">TC0643</Property>
+</Properties>
+</Object>
+<Object name="KCD4002" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Area_Id" dt:dt="string">Test Track</Property>
+<Property name="StationID" dt:dt="string">KCD</Property>
+<Property name="Location" dt:dt="string">1</Property>
+<Property name="TrackSection" dt:dt="string">TC0643</Property>
+</Properties>
+</Object>
+<Object name="TTA4801" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Area_Id" dt:dt="string">TTA_MT_T0524</Property>
+<Property name="StationID" dt:dt="string">TTA</Property>
+<Property name="Location" dt:dt="string">2</Property>
+<Property name="TrackSection" dt:dt="string">TC0524</Property>
+</Properties>
+</Object>
+<Object name="TTB4901" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Area_Id" dt:dt="string">TTB_MT_T0548</Property>
+<Property name="StationID" dt:dt="string">TTB</Property>
+<Property name="Location" dt:dt="string">2</Property>
+<Property name="TrackSection" dt:dt="string">TC0548</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

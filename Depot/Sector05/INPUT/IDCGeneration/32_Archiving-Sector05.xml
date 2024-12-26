@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="S2KGALBasicArchiveSample" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="ArchiveISCSlog" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotArchive</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="SourceDirectory" dt:dt="string">D:\CCL_log\ISCSCOM</Property>
+<Property name="StoreSubDirectory" dt:dt="string">ISCSCOM</Property>
+<Property name="ToBePurgedFileAge" dt="i4">7</Property>
+<Property name="EnablePurge" dt="boolean">0</Property>
+</Properties>
+</Object>
+<Object name="ArchiveMMSlog" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotArchive</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="SourceDirectory" dt:dt="string">D:\CCL_log\MMSCOM</Property>
+<Property name="StoreSubDirectory" dt:dt="string">MMSCOM</Property>
+<Property name="ToBePurgedFileAge" dt="i4">7</Property>
+<Property name="EnablePurge" dt="boolean">0</Property>
+</Properties>
+</Object>
+<Object name="ArchiveTDMlog" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotArchive</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="SourceDirectory" dt:dt="string">D:\CCL_log\TDMCOM</Property>
+<Property name="StoreSubDirectory" dt:dt="string">TDMCOM</Property>
+<Property name="ToBePurgedFileAge" dt="i4">7</Property>
+<Property name="EnablePurge" dt="boolean">0</Property>
+</Properties>
+</Object>
+<Object name="ArchiveHWMClog" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotArchive</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="SourceDirectory" dt:dt="string">D:\CCL_log\HWMC</Property>
+<Property name="StoreSubDirectory" dt:dt="string">HWMC</Property>
+<Property name="ToBePurgedFileAge" dt="i4">7</Property>
+<Property name="EnablePurge" dt="boolean">0</Property>
+</Properties>
+</Object>
+<!-- <Object name="ArchiveS2Klog" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotArchive</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="SourceDirectory" dt:dt="string">D:\CCL_log\ICONIS\Log</Property>
+<Property name="StoreSubDirectory" dt:dt="string">S2K</Property>
+<Property name="ToBePurgedFileAge" dt="i4">7</Property>
+<Property name="EnablePurge" dt="boolean">0</Property>
+</Properties>
+</Object> -->
+<!-- <Object name="ArchivePlayBack" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotArchive</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="SourceDirectory" dt:dt="string">D:\CCL_log\ICONIS\PlayBack</Property>
+<Property name="StoreSubDirectory" dt:dt="string">PlayBack</Property>
+<Property name="ToBePurgedFileAge" dt="i4">7</Property>
+<Property name="EnablePurge" dt="boolean">0</Property>
+</Properties>
+</Object> -->
+<Object name="ArchiveFEP1ATCSlog" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotArchive</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="SourceDirectory" dt:dt="string">\\KCD-FEP01\D$\CCL_LOG\ATCS</Property>
+<Property name="StoreSubDirectory" dt:dt="string">FEP1ATCSlog</Property>
+<Property name="ToBePurgedFileAge" dt="i4">7</Property>
+<Property name="EnablePurge" dt="boolean">0</Property>
+</Properties>
+</Object>
+<Object name="ArchiveFEP2ATCSlog" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotArchive</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="SourceDirectory" dt:dt="string">\\KCD-FEP02\D$\CCL_LOG\ATCS</Property>
+<Property name="StoreSubDirectory" dt:dt="string">FEP2ATCSlog</Property>
+<Property name="ToBePurgedFileAge" dt="i4">7</Property>
+<Property name="EnablePurge" dt="boolean">0</Property>
+</Properties>
+</Object>
+<Object name="ArchiveFEP1ASCVlog" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotArchive</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="SourceDirectory" dt:dt="string">\\KCD-FEP01\D$\CCL_LOG\ASCV</Property>
+<Property name="StoreSubDirectory" dt:dt="string">FEP1ASCVlog</Property>
+<Property name="ToBePurgedFileAge" dt="i4">7</Property>
+<Property name="EnablePurge" dt="boolean">0</Property>
+</Properties>
+</Object>
+<Object name="ArchiveFEP2ASCVlog" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotArchive</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="SourceDirectory" dt:dt="string">\\KCD-FEP02\D$\CCL_LOG\ASCV</Property>
+<Property name="StoreSubDirectory" dt:dt="string">FEP2ASCVlog</Property>
+<Property name="ToBePurgedFileAge" dt="i4">7</Property>
+<Property name="EnablePurge" dt="boolean">0</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

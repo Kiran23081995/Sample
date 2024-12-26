@@ -1,0 +1,1836 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="PVehicle" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="PV01" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">128</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV01.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.128.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.128.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.128.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV001</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV01</Property>
+</Properties>
+</Object>
+<Object name="PV02" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">130</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV02.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.130.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.130.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.130.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV002</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV02</Property>
+</Properties>
+</Object>
+<Object name="PV03" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">132</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV03.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.132.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.132.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.132.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV003</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV03</Property>
+</Properties>
+</Object>
+<Object name="PV04" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">134</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV04.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.134.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.134.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.134.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV004</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV04</Property>
+</Properties>
+</Object>
+<Object name="PV05" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">136</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV05.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.136.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.136.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.136.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV005</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV05</Property>
+</Properties>
+</Object>
+<Object name="PV06" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">138</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV06.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.138.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.138.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.138.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV006</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV06</Property>
+</Properties>
+</Object>
+<Object name="PV07" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">140</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV07.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.140.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.140.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.140.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV007</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV07</Property>
+</Properties>
+</Object>
+<Object name="PV08" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">142</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV08.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.142.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.142.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.142.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV008</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV08</Property>
+</Properties>
+</Object>
+<Object name="PV09" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">144</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV09.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.144.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.144.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.144.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV009</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV09</Property>
+</Properties>
+</Object>
+<Object name="PV10" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">146</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV10.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.146.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.146.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.146.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV010</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV10</Property>
+</Properties>
+</Object>
+<Object name="PV11" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">148</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV11.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.148.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.148.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.148.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV011</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV11</Property>
+</Properties>
+</Object>
+<Object name="PV12" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">150</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV12.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.150.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.150.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.150.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV012</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV12</Property>
+</Properties>
+</Object>
+<Object name="PV13" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">152</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV13.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.152.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.152.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.152.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV013</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV13</Property>
+</Properties>
+</Object>
+<Object name="PV14" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">154</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV14.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.154.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.154.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.154.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV014</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV14</Property>
+</Properties>
+</Object>
+<Object name="PV15" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">156</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV15.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.156.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.156.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.156.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV015</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV15</Property>
+</Properties>
+</Object>
+<Object name="PV16" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">158</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV16.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.158.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.158.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.158.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV016</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV16</Property>
+</Properties>
+</Object>
+<Object name="PV17" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">160</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV17.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.160.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.160.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.160.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV017</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV17</Property>
+</Properties>
+</Object>
+<Object name="PV18" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">162</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV18.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.162.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.162.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.162.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV018</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV18</Property>
+</Properties>
+</Object>
+<Object name="PV19" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">164</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV19.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.164.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.164.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.164.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV019</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV19</Property>
+</Properties>
+</Object>
+<Object name="PV20" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">166</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV20.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.166.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.166.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.166.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV020</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV20</Property>
+</Properties>
+</Object>
+<Object name="PV21" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">168</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV21.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.168.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.168.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.168.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV021</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV21</Property>
+</Properties>
+</Object>
+<Object name="PV22" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">170</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV22.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.170.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.170.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.170.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV022</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV22</Property>
+</Properties>
+</Object>
+<Object name="PV23" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">172</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV23.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.172.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.172.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.172.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV023</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV23</Property>
+</Properties>
+</Object>
+<Object name="PV24" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">174</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV24.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.174.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.174.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.174.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV024</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV24</Property>
+</Properties>
+</Object>
+<Object name="PV25" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">176</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV25.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.176.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.176.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.176.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV025</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV25</Property>
+</Properties>
+</Object>
+<Object name="PV26" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">178</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV26.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.178.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.178.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.178.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV026</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV26</Property>
+</Properties>
+</Object>
+<Object name="PV27" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">180</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV27.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.180.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.180.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.180.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV027</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV27</Property>
+</Properties>
+</Object>
+<Object name="PV28" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">182</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV28.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.182.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.182.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.182.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV028</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV28</Property>
+</Properties>
+</Object>
+<Object name="PV29" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">184</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV29.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.184.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.184.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.184.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV029</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV29</Property>
+</Properties>
+</Object>
+<Object name="PV30" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">186</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV30.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.186.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.186.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.186.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV030</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV30</Property>
+</Properties>
+</Object>
+<Object name="PV31" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">188</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV31.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.188.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.188.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.188.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV031</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV31</Property>
+</Properties>
+</Object>
+<Object name="PV32" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">190</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV32.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.190.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.190.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.190.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV032</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV32</Property>
+</Properties>
+</Object>
+<Object name="PV33" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">192</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV33.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.192.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.192.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.192.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV033</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV33</Property>
+</Properties>
+</Object>
+<Object name="PV34" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">194</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV34.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.194.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.194.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.194.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV034</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV34</Property>
+</Properties>
+</Object>
+<Object name="PV35" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">196</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV35.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.196.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.196.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.196.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV035</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV35</Property>
+</Properties>
+</Object>
+<Object name="PV36" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">198</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV36.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.198.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.198.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.198.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV036</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV36</Property>
+</Properties>
+</Object>
+<Object name="PV37" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">200</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV37.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.200.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.200.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.200.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV037</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV37</Property>
+</Properties>
+</Object>
+<Object name="PV38" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">202</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV38.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.202.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.202.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.202.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV038</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV38</Property>
+</Properties>
+</Object>
+<Object name="PV39" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">204</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV39.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.204.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.204.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.204.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV039</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV39</Property>
+</Properties>
+</Object>
+<Object name="PV40" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">206</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV40.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.206.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.206.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.206.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV040</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV40</Property>
+</Properties>
+</Object>
+<Object name="PV41" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">208</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV41.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.208.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.208.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.208.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV041</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV41</Property>
+</Properties>
+</Object>
+<Object name="PV42" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">210</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV42.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.210.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.210.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.210.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV042</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV42</Property>
+</Properties>
+</Object>
+<Object name="PV43" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">212</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV43.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.212.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.212.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.212.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV043</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV43</Property>
+</Properties>
+</Object>
+<Object name="PV44" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">214</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV44.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.214.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.214.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.214.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV044</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV44</Property>
+</Properties>
+</Object>
+<Object name="PV45" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">216</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV45.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.216.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.216.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.216.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV045</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV45</Property>
+</Properties>
+</Object>
+<Object name="PV46" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">218</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV46.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.218.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.218.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.218.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV046</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV46</Property>
+</Properties>
+</Object>
+<Object name="PV47" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">220</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV47.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.220.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.220.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.220.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV047</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV47</Property>
+</Properties>
+</Object>
+<Object name="PV48" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">222</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV48.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.222.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.222.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.222.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV048</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV48</Property>
+</Properties>
+</Object>
+<Object name="PV49" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">224</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV49.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.224.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.224.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.224.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV049</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV49</Property>
+</Properties>
+</Object>
+<Object name="PV50" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">226</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV50.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.226.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.226.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.226.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV050</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV50</Property>
+</Properties>
+</Object>
+<Object name="PV51" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">228</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV51.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.228.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.228.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.228.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV051</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV51</Property>
+</Properties>
+</Object>
+<Object name="PV52" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">230</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV52.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.230.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.230.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.230.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV052</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV52</Property>
+</Properties>
+</Object>
+<Object name="PV53" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">232</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV53.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.232.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.232.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.232.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV053</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV53</Property>
+</Properties>
+</Object>
+<Object name="PV54" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">234</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV54.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.234.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.234.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.234.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV054</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV54</Property>
+</Properties>
+</Object>
+<Object name="PV55" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">236</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV55.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.236.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.236.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.236.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV055</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV55</Property>
+</Properties>
+</Object>
+<Object name="PV56" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">238</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV56.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.238.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.238.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.238.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV056</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV56</Property>
+</Properties>
+</Object>
+<Object name="PV57" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">240</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV57.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.240.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.240.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.240.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV057</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV57</Property>
+</Properties>
+</Object>
+<Object name="PV58" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">242</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV58.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.242.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.242.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.242.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV058</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV58</Property>
+</Properties>
+</Object>
+<Object name="PV59" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">244</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV59.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.244.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.244.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.244.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV059</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV59</Property>
+</Properties>
+</Object>
+<Object name="PV60" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">246</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV60.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.246.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.246.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.246.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV060</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV60</Property>
+</Properties>
+</Object>
+<Object name="PV61" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">248</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV61.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.248.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.248.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.248.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV061</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV61</Property>
+</Properties>
+</Object>
+<Object name="PV62" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">250</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV62.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.250.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.250.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.250.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV062</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV62</Property>
+</Properties>
+</Object>
+<Object name="PV63" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">252</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV63.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.252.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.252.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.252.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV063</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV63</Property>
+</Properties>
+</Object>
+<Object name="PV64" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">254</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV64.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.254.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.254.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.254.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV064</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV64</Property>
+</Properties>
+</Object>
+<Object name="PV65" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">256</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV65.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.256.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.256.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.256.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV065</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV65</Property>
+</Properties>
+</Object>
+<Object name="PV66" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">258</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV66.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.258.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.258.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.258.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV066</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV66</Property>
+</Properties>
+</Object>
+<Object name="PV67" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">260</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV67.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.260.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.260.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.260.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV067</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV67</Property>
+</Properties>
+</Object>
+<Object name="PV68" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">262</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV68.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.262.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.262.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.262.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV068</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV68</Property>
+</Properties>
+</Object>
+<Object name="PV69" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">264</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV69.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.264.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.264.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.264.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV069</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV69</Property>
+</Properties>
+</Object>
+<Object name="PV70" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">266</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV70.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.266.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.266.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.266.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV070</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV70</Property>
+</Properties>
+</Object>
+<Object name="PV71" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">268</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV71.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.268.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.268.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.268.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV071</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV71</Property>
+</Properties>
+</Object>
+<Object name="PV72" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">270</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV72.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.270.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.270.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.270.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV072</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV72</Property>
+</Properties>
+</Object>
+<Object name="PV73" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">272</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV73.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.272.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.272.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.272.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV073</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV73</Property>
+</Properties>
+</Object>
+<Object name="PV74" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">274</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV74.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.274.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.274.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.274.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV074</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV74</Property>
+</Properties>
+</Object>
+<Object name="PV75" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">276</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV75.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.276.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.276.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.276.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV075</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV75</Property>
+</Properties>
+</Object>
+<Object name="PV76" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">278</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV76.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.278.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.278.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.278.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV076</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV76</Property>
+</Properties>
+</Object>
+<Object name="PV77" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">280</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV77.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.280.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.280.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.280.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV077</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV77</Property>
+</Properties>
+</Object>
+<Object name="PV78" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">282</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV78.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.282.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.282.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.282.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV078</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV78</Property>
+</Properties>
+</Object>
+<Object name="PV79" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">284</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV79.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.284.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.284.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.284.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV079</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV79</Property>
+</Properties>
+</Object>
+<Object name="PV80" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">286</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV80.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.286.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.286.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.286.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV080</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV80</Property>
+</Properties>
+</Object>
+<Object name="PV81" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">288</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV81.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.288.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.288.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.288.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV081</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV81</Property>
+</Properties>
+</Object>
+<Object name="PV82" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">290</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV82.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.290.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.290.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.290.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV082</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV82</Property>
+</Properties>
+</Object>
+<Object name="PV83" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">292</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV83.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.292.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.292.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.292.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV083</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV83</Property>
+</Properties>
+</Object>
+<Object name="PV84" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">294</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV84.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.294.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.294.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.294.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV084</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV84</Property>
+</Properties>
+</Object>
+<Object name="PV85" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">296</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV85.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.296.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.296.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.296.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV085</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV85</Property>
+</Properties>
+</Object>
+<Object name="PV86" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">298</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV86.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.298.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.298.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.298.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV086</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV86</Property>
+</Properties>
+</Object>
+<Object name="PV87" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCTrainNumber" dt:dt="i4">300</Property>
+<Property name="ATSRegulation_PVTag" dt:dt="string">PV87.AreaSeverity123.MainAlarmState</Property>
+<Property name="OA1Tag" dt:dt="string">TDMCom.300.OA1</Property>
+<Property name="OA2Tag" dt:dt="string">TDMCom.300.OA2</Property>
+<Property name="TrainStatusTag" dt:dt="string">TDMCom.300.TrainStatusReport</Property>
+<Property name="ATSID" dt:dt="string">MainCCLLV2</Property>
+<PropertyList name="ATCMID" dt:dt="string">
+<ListElem index="1" dt:dt="string">ATC05</ListElem>
+<ListElem index="2" dt:dt="string">ATC06</ListElem>
+</PropertyList>
+<Property name="MMS-DAT" dt:dt="string">MMS-DAT</Property>
+<PropertyList name="ISCS-DAT" dt:dt="string">
+<ListElem index="1" dt:dt="string">ISCS-DAT</ListElem>
+</PropertyList>
+<Property name="MDMID" dt:dt="string">PV087</Property>
+<Property name="EnabledMDMDEPOT" dt:dt="i4">1</Property>
+<Property name="AreaGroup" dt:dt="string">Area/TDM/PV87</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

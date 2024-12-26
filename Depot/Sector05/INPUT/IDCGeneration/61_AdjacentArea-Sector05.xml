@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="AdjacentArea_CCL" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="ATD_S05-ATL-S04_RT3.ATD" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">ATD_S05-ATL-S04_RT3</Property>
+<Property name="Direction" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="ATD_S05-ATL-S04_RT4.ATD" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">ATD_S05-ATL-S04_RT4</Property>
+<Property name="Direction" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="ATD_S05-ATL-S07_RT1.ATD" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">ATD_S05-ATL-S07_RT1</Property>
+<Property name="Direction" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="ATD_S05-ATL-S07_RT2.ATD" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">ATD_S05-ATL-S07_RT2</Property>
+<Property name="Direction" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

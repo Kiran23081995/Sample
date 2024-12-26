@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="AdjTrainListener" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="ATL_S05-ATD_LEFT_RT4_S04" rules="update_or_create" traces="error">
+<Properties>
+<Property name="U300TrackSection" dt:dt="string">TC0507</Property>
+<Property name="isOnLeftOfTC" dt:dt="string">YES</Property>
+<Property name="LocalATCID" dt:dt="string">ATC05</Property>
+<PropertyList name="bstrATD">
+<ListElem index="1" dt:dt="string">S2KPV_ATD_RIGHT_RT4_OCC</ListElem>
+<ListElem index="2" dt:dt="string">S2KPV_ATD_RIGHT_RT4_S04</ListElem>
+</PropertyList>
+<Property name="SourceATCID" dt:dt="string">ATC04</Property>
+</Properties>
+</Object>
+<Object name="ATL_S05-ATD_LEFT_RT3_S04" rules="update_or_create" traces="error">
+<Properties>
+<Property name="U300TrackSection" dt:dt="string">TC0506</Property>
+<Property name="isOnLeftOfTC" dt:dt="string">YES</Property>
+<Property name="LocalATCID" dt:dt="string">ATC05</Property>
+<PropertyList name="bstrATD">
+<ListElem index="1" dt:dt="string">S2KPV_ATD_RIGHT_RT3_OCC</ListElem>
+<ListElem index="2" dt:dt="string">S2KPV_ATD_RIGHT_RT3_S04</ListElem>
+</PropertyList>
+<Property name="SourceATCID" dt:dt="string">ATC04</Property>
+</Properties>
+</Object>
+<Object name="ATL_S05-ATD_LEFT_RT2_S07" rules="update_or_create" traces="error">
+<Properties>
+<Property name="U300TrackSection" dt:dt="string">TC0501</Property>
+<Property name="isOnLeftOfTC" dt:dt="string">YES</Property>
+<Property name="LocalATCID" dt:dt="string">ATC05</Property>
+<PropertyList name="bstrATD">
+<ListElem index="1" dt:dt="string">S2KPV_ATD_LEFT_RT2_OCC</ListElem>
+<ListElem index="2" dt:dt="string">S2KPV_ATD_LEFT_RT2_S07</ListElem>
+</PropertyList>
+<Property name="SourceATCID" dt:dt="string">ATC07</Property>
+</Properties>
+</Object>
+<Object name="ATL_S05-ATD_LEFT_RT1_S07" rules="update_or_create" traces="error">
+<Properties>
+<Property name="U300TrackSection" dt:dt="string">TC0500</Property>
+<Property name="isOnLeftOfTC" dt:dt="string">YES</Property>
+<Property name="LocalATCID" dt:dt="string">ATC05</Property>
+<PropertyList name="bstrATD">
+<ListElem index="1" dt:dt="string">S2KPV_ATD_LEFT_RT1_OCC</ListElem>
+<ListElem index="2" dt:dt="string">S2KPV_ATD_LEFT_RT1_S07</ListElem>
+</PropertyList>
+<Property name="SourceATCID" dt:dt="string">ATC07</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

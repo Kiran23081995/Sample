@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="FunctionGroup.XML" version="R3.2" date="2009-10-01" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="ARSTrackSectionAlarm" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="TC0600.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0600</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0601.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0601</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0602.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0602</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0603.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0603</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0604.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0604</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0605.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0605</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0606.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0606</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0607.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0607</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0608.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0608</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0609.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0609</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0610.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0610</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0611.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0611</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0612.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0612</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0613.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0613</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0614.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0614</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0615.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0615</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0616.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0616</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0617.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0617</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0618.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0618</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0619.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0619</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0620.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0620</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0621.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0621</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0622.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0622</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0623.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0623</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0624.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0624</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0625.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0625</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0626.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0626</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0627.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0627</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0628.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0628</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0629.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0629</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0630.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0630</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0631.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0631</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0632.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0632</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0633.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0633</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0634.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0634</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0635.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0635</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0636.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0636</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0637.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0637</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0638.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0638</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0639.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0639</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0640.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0640</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0641.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0641</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0642.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0642</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0643.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0643</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0644.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0644</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0645.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0645</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0646.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0646</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0647.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0647</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0648.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0648</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0649.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0649</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0650.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0650</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0651.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0651</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0652.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0652</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0654.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0654</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0655.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0655</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0656.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0656</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+<Object name="TC0657.ARSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TrackSectionID" dt:dt="string">TC0657</Property>
+<Property name="ARSAEName" dt:dt="string">CKCD/SIG/ATS/-</Property>
+<Property name="Mimic" dt:dt="string">Traffic;TC_MainPage.fvm</Property>
+<Property name="MimicList" dt:dt="string">IP;JR;Traffic</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

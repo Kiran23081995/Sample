@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="Equipment.xml" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="U300TrackPortion" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="TI_0600" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0601_POINT_0603_Nh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0601_POINT_0603_Rh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0601_POINT_0603_Tip" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0602_POINT_0609_Nh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0602_POINT_0609_Rh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0602_POINT_0609_Tip" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0603_POINT_0604_Nh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0603_POINT_0604_Rh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0603_POINT_0604_Tip" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0611_POINT_0608_Nh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0611_POINT_0608_Rh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0611_POINT_0608_Tip" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0612_POINT_0611_Nh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0612_POINT_0611_Rh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0612_POINT_0611_Tip" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0616_POINT_0614_Nh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0616_POINT_0614_Rh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0616_POINT_0614_Tip" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0619_POINT_0616_Nh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0619_POINT_0616_Rh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0619_POINT_0616_Tip" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0622" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0623" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0624" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0625_POINT_0619_Nh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0625_POINT_0619_Rh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0625_POINT_0619_Tip" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0626_POINT_0620_Nh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0626_POINT_0620_Rh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0626_POINT_0620_Tip" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0627_POINT_0622_Nh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0627_POINT_0622_Rh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0627_POINT_0622_Tip" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0628_POINT_0623_Nh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0628_POINT_0623_Rh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0628_POINT_0623_Tip" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0629" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0630" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0631" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0632" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0633" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0634" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0635" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0636" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0637" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0638" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0639" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0640_POINT_0624_Nh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0640_POINT_0624_Rh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0640_POINT_0624_Tip" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0641" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0642" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0643" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0644_POINT_0625_Nh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0644_POINT_0625_Rh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0644_POINT_0625_Tip" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0645" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0646_POINT_0627_Nh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0646_POINT_0627_Rh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0646_POINT_0627_Tip" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0647_POINT_0626_Nh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0647_POINT_0626_Rh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0647_POINT_0626_Tip" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0648" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0649" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0650_POINT_0628_Nh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0650_POINT_0628_Rh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0650_POINT_0628_Tip" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0651_POINT_0631_Nh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0651_POINT_0631_Rh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0651_POINT_0631_Tip" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0652_POINT_0630_Nh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0652_POINT_0630_Rh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0652_POINT_0630_Tip" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0656" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0657_POINT_0635_Nh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0657_POINT_0635_Rh" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0657_POINT_0635_Tip" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="TASModuleCCL" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="TAS_KCD_M" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/TAS_KCD_M</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+<Property name="i_AreaGroup" dt:dt="string">Area/KCD</Property>
+<Property name="FunctionalGroup" dt:dt="string">Function/M</Property>
+<Property name="i_FunctionalGroup" dt:dt="string">Function/M</Property>
+<Property name="ExcludeMode" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="TAS_KCD_T" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/TAS_KCD_T</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+<Property name="i_AreaGroup" dt:dt="string">Area/KCD</Property>
+<Property name="FunctionalGroup" dt:dt="string">Function/T</Property>
+<Property name="i_FunctionalGroup" dt:dt="string">Function/T</Property>
+<Property name="ExcludeMode" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="TAS_KCD_MT" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/TAS_KCD_MT</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+<Property name="i_AreaGroup" dt:dt="string">Area/KCD</Property>
+<Property name="FunctionalGroup" dt:dt="string">Function/MT</Property>
+<Property name="i_FunctionalGroup" dt:dt="string">Function/MT</Property>
+<Property name="ExcludeMode" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

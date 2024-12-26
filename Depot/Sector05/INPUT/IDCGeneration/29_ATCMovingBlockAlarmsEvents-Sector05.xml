@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="ATCMovingBlockAlarmsEvents" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="ATC_05" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCMID" dt:dt="string">ATC05</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATC</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/M</Property>
+<Property name="UserGroup" dt:dt="String">User/A</Property>
+</Properties>
+</Object>
+<Object name="ATC_06" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCMID" dt:dt="string">ATC06</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATC</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="AreaGroup" dt:dt="String">Area/KCD</Property>
+<Property name="FunctionGroup" dt:dt="String">Function/M</Property>
+<Property name="UserGroup" dt:dt="String">User/A</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

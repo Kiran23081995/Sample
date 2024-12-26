@@ -1,0 +1,334 @@
+<?xml version="1.0"?>
+<ObjectPropertyModule name="FunctionGroup.XML" version="R3.2" date="2009-10-01" comment="" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+	<Classes>
+	<Class name="ARSTrackSectionAlarm" rules="update_or_create" traces="error">
+	<Objects>
+		<Object name="TC0500.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0501.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0502.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0503.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0504.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0505.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0506.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0507.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0508.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0509.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0510.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0511.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0512.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0513.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0514.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0515A.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0515B.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0516.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0517.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0518.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0519.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0520.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0521.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0522.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0523.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0524.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0525.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0526.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0527.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0528.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0529.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0530.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0531.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0532.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0533.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0534.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0535.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0536.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0537.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0538.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0539.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0540.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0541.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0542.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0543.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0544.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0545.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0546.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0547.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0548.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0549.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0550.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0551.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0552.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0553.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0554.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0555.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0556.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0557.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0558.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC0559.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC5432.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC5499.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC5479.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+		<Object name="TC5480.ARSAlarm" rules="update_or_create" traces="error">
+			<Properties>
+				<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+			</Properties>
+		</Object>
+	</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

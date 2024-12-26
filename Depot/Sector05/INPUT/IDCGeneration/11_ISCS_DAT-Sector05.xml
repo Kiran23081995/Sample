@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="ISCS_DAT" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="ISCS-DAT" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DPT-SRV</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="OPCISCSClientID" dt:dt="string">MTE</Property>
+<Property name="OPCTDMClientID" dt:dt="string">TDMCOM</Property>
+<Property name="OPCDOOClientID" dt:dt="string">DOO</Property>
+<Property name="EnableInstance_PlatformTable" dt:dt="string">0</Property>
+<Property name="EnableInstance_ElecTable" dt:dt="string">0</Property>
+<Property name="ParameterFile" dt:dt="string">ISCS_DEP.xml</Property>
+<Property name="OA1Subset" dt:dt="string">TDMCom.SubOA1</Property>
+<Property name="OA2Subset" dt:dt="string">TDMCom.SubOA2</Property>
+<Property name="PSDData" dt:dt="string">ATS_PSD_Platform</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

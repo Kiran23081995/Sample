@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="TDM_DAT" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="TDM-DAT" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/TDM-DAT</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="UpdateRate" dt:dt="i4">0</Property>
+<Property name="OPCTDMClientID" dt:dt="string">TDMCOM</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">TDM-DAT</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

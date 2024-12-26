@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ObjectPropertyModule name="Interlocking_InterSector.xml" version="R3.3" date="2009-02-09" comment ="" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="Variable">
+<Objects>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

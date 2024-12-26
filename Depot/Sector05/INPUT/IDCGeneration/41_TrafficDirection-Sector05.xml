@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="TrafficDirection" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="TDIR0526_0544_BA" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0544_0526_AB" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0527_0545_BA" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0545_0527_AB" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0528_0543_BA" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0543_0528_AB" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0656_0641_BA" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0641_0656_AB" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0634_0648_BA" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0648_0634_AB" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0635_0649_BA" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0649_0635_AB" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0636_0645_BA" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0645_0636_AB" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0629_0638_BA" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0638_0629_AB" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0630_0639_BA" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0639_0630_AB" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0622_0631_BA" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0631_0622_AB" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0623_0632_BA" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0632_0623_AB" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0624_0633_BA" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+<Object name="TDIR0633_0624_AB" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Detection_Enabled" dt:dt="i4">1</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

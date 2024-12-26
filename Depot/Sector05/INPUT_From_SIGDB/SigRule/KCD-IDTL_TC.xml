@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<SignallingRules name="SigRules.xml" version="R3.3" date="2009-09-03" comment="">
+<Equipment name="TC5432" type="U300TrackSection" flavor="HMI" CommandTimeOut="" AlarmTimeout="">
+<States> 
+<Equation>3 :: (T5432 == 1)</Equation>
+<Equation>2 :: (DTL_ETE_U == 1) &amp;&amp; (T5432 == 0)</Equation>
+<Equation>1 :: (DTL_ETE_U == 0) &amp;&amp; (T5432 == 0)</Equation>
+<Equation>0 :: (1 == 1)</Equation> 
+</States>
+<StateAlarms>
+</StateAlarms>
+<Requisites>
+</Requisites>
+<DifferedAlarms>
+</DifferedAlarms>
+<CommandResults>
+</CommandResults>
+</Equipment>
+<Equipment name="TC5499" type="U300TrackSection" flavor="HMI" CommandTimeOut="" AlarmTimeout="">
+<States>
+<Equation>3 :: (T5499 == 1)</Equation>
+<Equation>2 :: (DTL_TT_U == 1) &amp;&amp; (T5499 == 0)</Equation>
+<Equation>1 :: (DTL_TT_U == 0) &amp;&amp; (T5499 == 0)</Equation>
+<Equation>0 :: (1 == 1)</Equation> 
+</States>
+<StateAlarms>
+</StateAlarms>
+<Requisites>
+</Requisites>
+<DifferedAlarms>
+</DifferedAlarms>
+<CommandResults>
+</CommandResults>
+</Equipment>
+<Equipment name="TC5479" type="U300TrackSection" flavor="HMI" CommandTimeOut="" AlarmTimeout="">
+<States> 
+<Equation>3 :: (T5479 == 1)</Equation>
+<Equation>2 :: (R5479_S1_S7_U == 1) &amp;&amp; (T5479 == 0)</Equation>
+<Equation>1 :: (R5479_S1_S7_U == 0) &amp;&amp; (T5479 == 0)</Equation>
+<Equation>0 :: (1 == 1)</Equation> 
+</States>
+<StateAlarms>
+</StateAlarms>
+<Requisites>
+</Requisites>
+<DifferedAlarms>
+</DifferedAlarms>
+<CommandResults>
+</CommandResults>
+</Equipment>
+<Equipment name="TC5480" type="U300TrackSection" flavor="HMI" CommandTimeOut="" AlarmTimeout="">
+<States>
+<Equation>3 :: (T5480 == 1)</Equation>
+<Equation>2 :: (R5480_S1_S7_U == 1) &amp;&amp; (T5480 == 0)</Equation>
+<Equation>1 :: (R5480_S1_S7_U == 0) &amp;&amp; (T5480 == 0)</Equation>
+<Equation>0 :: (1 == 1)</Equation> 
+</States>
+<StateAlarms>
+</StateAlarms>
+<Requisites>
+</Requisites>
+<DifferedAlarms>
+</DifferedAlarms>
+<CommandResults>
+</CommandResults>
+</Equipment>
+</SignallingRules>
+
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="" version="R3.5.9" date="" comment="" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="S2KGALServerState">
+<Objects>
+<Object name="IconisS2KServerState" rules="update_or_create">
+<Properties>
+			<Property name="SharedOnIdentifierDefinition" dt:dt="i4">0</Property>
+<Property name="SharedOnIdentifier" dt:dt="String">S2KGALServerState</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

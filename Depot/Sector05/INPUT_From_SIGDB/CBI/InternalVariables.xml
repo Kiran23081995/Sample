@@ -1,0 +1,1357 @@
+<?xml version="1.0"?>
+<ObjectPropertyModule name="InternalVariables.xml" version="R3.3" date="2009-02-09" comment="" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="Variable">
+<Objects>
+<Object name="HHTE0500" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0501" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0502" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0503" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0504" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0505" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0506" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0507" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0508" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0509" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0510" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0511" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0512" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0513" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0514" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0515" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0516" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0517" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0518" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0519" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0520" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0521" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="HHTE0522" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0500" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0501" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0502" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0503" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0504" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0505" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0506" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0507" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0508" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0509" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0510" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0511" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0512" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0513" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0514" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0515" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0516" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0517" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0518" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0519" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0520" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0521" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LDP0522" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="LT0500" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0500</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0501" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0501</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0502" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0502</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0503" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0503</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0504" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0504_POINT_0500_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0505" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0505_POINT_0501_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0506" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0506</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0507" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0507</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0508" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0508</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0509" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0509</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0510" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0510</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0511" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0511_POINT_0520_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0512" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0512_POINT_0502_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0513" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0513_POINT_0504_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0514" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0514_POINT_0505_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0515A" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0515A_POINT_0503_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0515B" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0515B_POINT_0522_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0516" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0516_POINT_0506_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0517" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0517_POINT_0507_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0518" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0518_POINT_0508_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0519" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0519_POINT_0509_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0520" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0520_POINT_0510_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0521" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0521_POINT_0518_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0522" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0522</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0523" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0523_POINT_0511_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0524" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0524</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0525" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0525</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0526" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0526</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0527" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0527</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0528" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0528</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0529" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0529</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0530" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0530</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0531" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0531</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0532" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0532</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0533" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0533</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0534" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0534</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0535" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0535</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0536" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0536</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0537" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0537</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0538" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0538</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0539" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0539</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0540" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0540</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0541" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0541</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0542" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0542</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0543" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0543</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0544" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0544</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0545" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0545</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0546" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0546_POINT_0513_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0547" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0547_POINT_0519_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0548" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0548</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0549" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0549_POINT_0512_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0550" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0550_POINT_0514_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0551" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0551_POINT_0515_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0552" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0552_POINT_0516_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0553" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0553_POINT_0517_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0554" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0554</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0555" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0555</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0556" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0556</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0557" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0557_POINT_0521_Nh</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0558" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0558</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="LT0559" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+<Property name="ClassName" dt:dt="string">FixedBlock</Property>
+<Property name="ObjectName" dt:dt="string">FB_0559</Property>
+<Property name="PlugName" dt:dt="string">LT</Property>
+</Properties>
+</Object>
+<Object name="P0500_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0501_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0502_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0503_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0504_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0505_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0506_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0507_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0508_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0509_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0510_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0511_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0512_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0513_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0514_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0515_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0516_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0517_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0518_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0519_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0520_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0521_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="P0522_CounterReset" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0500" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0501" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0502" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0503" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0504" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0505" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0506" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0507" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0508" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0509" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0510" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0511" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0512" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0513" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0514" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0515" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0516" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0518" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0519" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0520" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0521" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0522" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0523" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0524" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0525" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0526" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0527" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0528" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0529" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0530" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0531" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0532" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0533" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0534" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_REL0535" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0500" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0501" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0502" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0503" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0504" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0505" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0506" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0507" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0508" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0509" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0510" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0511" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0512" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0513" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0514" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0515" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0516" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0518" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0519" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0520" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0521" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0522" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0523" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0524" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0525" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0526" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0527" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0528" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0529" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0530" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0531" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0532" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0533" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0534" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SEL0535" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0500" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0501" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0502" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0503" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0504" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0505" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0506" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0507" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0508" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0509" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0510" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0511" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0512" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0513" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0514" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0515" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0516" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0518" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0519" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0520" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0521" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0522" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0523" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0524" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0525" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0526" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0527" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0528" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0529" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0530" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0531" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0532" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+<Object name="S_SET0533" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">LM</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

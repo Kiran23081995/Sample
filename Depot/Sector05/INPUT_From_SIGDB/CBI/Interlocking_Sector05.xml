@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ObjectPropertyModule name="Interlocking_Sector05.xml" version="R3.2" date="2009-02-09" comment="" xmlns:dt="urn:schemas-microsoft-com:datatypes">	
+<Classes>
+<Class name="Interlocking" rules="update_or_create" traces="error">
+<Objects>
+<Object name="ASCV05" rules="update_or_create" traces="error">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+<Property name="OPCClientID" dt:dt="string">RDD_ASCV_05</Property>
+<MultiLingualProperty name="Name">
+<MultiLingualValue roleId="-1" localeId="1033">CKCD/SIG/CBI/5ASCV</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

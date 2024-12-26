@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="S2KIOOPCServerMonitor" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="OCC_S2K" rules="update_or_create" traces="error">
+<Properties>
+<Property name="DoubleLinks" dt:dt="i4">1</Property>
+<Property name="MultiActive" dt:dt="i4">1</Property>
+<Property name="ServerNodeName1" dt:dt="String">OCC-SRV01</Property>
+<Property name="ServerNodeName2" dt:dt="String">OCC-SRV02</Property>
+<Property name="ServerProgID1" dt:dt="String">S2K.OpcServer.1</Property>
+<Property name="ServerProgID2" dt:dt="String">S2K.OpcServer.1</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">OCC_S2K</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+<Object name="SECTOR04_S2K" rules="update_or_create" traces="error">
+<Properties>
+<Property name="DoubleLinks" dt:dt="i4">1</Property>
+<Property name="MultiActive" dt:dt="i4">1</Property>
+<Property name="ServerNodeName1" dt:dt="String">TSG-SRV01</Property>
+<Property name="ServerNodeName2" dt:dt="String">TSG-SRV02</Property>
+<Property name="ServerProgID1" dt:dt="String">S2K.OpcServer.1</Property>
+<Property name="ServerProgID2" dt:dt="String">S2K.OpcServer.1</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">SECTOR04_S2K</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+<Object name="SECTOR05_S2K" rules="update_or_create" traces="error">
+<Properties>
+<Property name="DoubleLinks" dt:dt="i4">1</Property>
+<Property name="MultiActive" dt:dt="i4">1</Property>
+<Property name="ServerNodeName1" dt:dt="String">KCD-SRV01</Property>
+<Property name="ServerNodeName2" dt:dt="String">KCD-SRV02</Property>
+<Property name="ServerProgID1" dt:dt="String">S2K.OpcServer.1</Property>
+<Property name="ServerProgID2" dt:dt="String">S2K.OpcServer.1</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">SECTOR05_S2K</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+<Object name="SECTOR07_S2K" rules="update_or_create" traces="error">
+<Properties>
+<Property name="DoubleLinks" dt:dt="i4">1</Property>
+<Property name="MultiActive" dt:dt="i4">1</Property>
+<Property name="ServerNodeName1" dt:dt="String">SER-SRV01</Property>
+<Property name="ServerNodeName2" dt:dt="String">SER-SRV02</Property>
+<Property name="ServerProgID1" dt:dt="String">S2K.OpcServer.1</Property>
+<Property name="ServerProgID2" dt:dt="String">S2K.OpcServer.1</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">SECTOR07_S2K</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+<Object name="RDD_ASCV_04" rules="update_or_create" traces="error">
+<Properties>
+<Property name="DoubleLinks" dt:dt="i4">0</Property>
+<Property name="MultiActive" dt:dt="i4">1</Property>
+<Property name="ServerNodeName1" dt:dt="String">localhost</Property>
+<Property name="ServerNodeName2" dt:dt="String">localhost</Property>
+<Property name="ServerProgID1" dt:dt="String">RDD.1.ASCV04</Property>
+<Property name="ServerProgID2" dt:dt="String">RDD.1.ASCV04</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">RDD_ASCV_04</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+<Object name="RDD_ASCV_05" rules="update_or_create" traces="error">
+<Properties>
+<Property name="DoubleLinks" dt:dt="i4">0</Property>
+<Property name="MultiActive" dt:dt="i4">1</Property>
+<Property name="ServerNodeName1" dt:dt="String">localhost</Property>
+<Property name="ServerNodeName2" dt:dt="String">localhost</Property>
+<Property name="ServerProgID1" dt:dt="String">RDD.1.ASCV05</Property>
+<Property name="ServerProgID2" dt:dt="String">RDD.1.ASCV05</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">RDD_ASCV_05</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+<Object name="RDD_ASCV_06" rules="update_or_create" traces="error">
+<Properties>
+<Property name="DoubleLinks" dt:dt="i4">0</Property>
+<Property name="MultiActive" dt:dt="i4">1</Property>
+<Property name="ServerNodeName1" dt:dt="String">localhost</Property>
+<Property name="ServerNodeName2" dt:dt="String">localhost</Property>
+<Property name="ServerProgID1" dt:dt="String">RDD.1.ASCV06</Property>
+<Property name="ServerProgID2" dt:dt="String">RDD.1.ASCV06</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">RDD_ASCV_06</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+<Object name="RDD_ASCV_07" rules="update_or_create" traces="error">
+<Properties>
+<Property name="DoubleLinks" dt:dt="i4">0</Property>
+<Property name="MultiActive" dt:dt="i4">1</Property>
+<Property name="ServerNodeName1" dt:dt="String">localhost</Property>
+<Property name="ServerNodeName2" dt:dt="String">localhost</Property>
+<Property name="ServerProgID1" dt:dt="String">RDD.1.ASCV07</Property>
+<Property name="ServerProgID2" dt:dt="String">RDD.1.ASCV07</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">RDD_ASCV_07</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+<Object name="RDD_ATC_05" rules="update_or_create" traces="error">
+<Properties>
+<Property name="DoubleLinks" dt:dt="i4">0</Property>
+<Property name="MultiActive" dt:dt="i4">1</Property>
+<Property name="ServerNodeName1" dt:dt="String">localhost</Property>
+<Property name="ServerNodeName2" dt:dt="String">localhost</Property>
+<Property name="ServerProgID1" dt:dt="String">RDD.1.ATC05</Property>
+<Property name="ServerProgID2" dt:dt="String">RDD.1.ATC05</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">RDD_ATC_05</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+<Object name="RDD_ATC_06" rules="update_or_create" traces="error">
+<Properties>
+<Property name="DoubleLinks" dt:dt="i4">0</Property>
+<Property name="MultiActive" dt:dt="i4">1</Property>
+<Property name="ServerNodeName1" dt:dt="String">localhost</Property>
+<Property name="ServerNodeName2" dt:dt="String">localhost</Property>
+<Property name="ServerProgID1" dt:dt="String">RDD.1.ATC06</Property>
+<Property name="ServerProgID2" dt:dt="String">RDD.1.ATC06</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">RDD_ATC_06</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+<Object name="SECTOR05_HWMC" rules="update_or_create" traces="error">
+<Properties>
+<Property name="DoubleLinks" dt:dt="i4">0</Property>
+<Property name="MultiActive" dt:dt="i4">1</Property>
+<Property name="ServerNodeName1" dt:dt="String">localhost</Property>
+<Property name="ServerNodeName2" dt:dt="String">localhost</Property>
+<Property name="ServerProgID1" dt:dt="String">RDD.1.HWMC05</Property>
+<Property name="ServerProgID2" dt:dt="String">RDD.1.HWMC05</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">SECTOR05_HWMC</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+<Object name="SECTOR05_REDUNDANCY" rules="update_or_create" traces="error">
+<Properties>
+<Property name="DoubleLinks" dt:dt="i4">0</Property>
+<Property name="MultiActive" dt:dt="i4">1</Property>
+<Property name="ServerNodeName1" dt:dt="String">localhost</Property>
+<Property name="ServerNodeName2" dt:dt="String">localhost</Property>
+<Property name="ServerProgID1" dt:dt="String">RDD.1.REDUNDANCY05</Property>
+<Property name="ServerProgID2" dt:dt="String">RDD.1.REDUNDANCY05</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">SECTOR05_REDUNDANCY</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+<Object name="SECTOR05_HWMC_NO_RDD" rules="update_or_create" traces="error">
+<Properties>
+<Property name="DoubleLinks" dt:dt="i4">1</Property>
+<Property name="MultiActive" dt:dt="i4">1</Property>
+<Property name="ServerNodeName1" dt:dt="String">KCD-FEP01</Property>
+<Property name="ServerNodeName2" dt:dt="String">KCD-FEP02</Property>
+<Property name="ServerProgID1" dt:dt="String">HWMC.1.SWITCH1</Property>
+<Property name="ServerProgID2" dt:dt="String">HWMC.1.SWITCH1</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">SECTOR05_HWMC_NO_RDD</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+<Object name="ISCS" rules="update_or_create" traces="error">
+<Properties>
+<Property name="DoubleLinks" dt:dt="i4">1</Property>
+<Property name="MultiActive" dt:dt="i4">0</Property>
+<Property name="ServerNodeName1" dt:dt="String">localhost</Property>
+<Property name="ServerNodeName2" dt:dt="String">localhost</Property>
+<Property name="ServerProgID1" dt:dt="String">RDD.1.ISCS</Property>
+<Property name="ServerProgID2" dt:dt="String">RDD.1.ISCS</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">ISCS</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+<Object name="MTE" rules="update_or_create" traces="error">
+<Properties>
+<Property name="DoubleLinks" dt:dt="i4">1</Property>
+<Property name="MultiActive" dt:dt="i4">0</Property>
+<Property name="ServerNodeName1" dt:dt="String">KCD-SRV01</Property>
+<Property name="ServerNodeName2" dt:dt="String">KCD-SRV02</Property>
+<Property name="ServerProgID1" dt:dt="String">ModbusSlave.1.MTE</Property>
+<Property name="ServerProgID2" dt:dt="String">ModbusSlave.1.MTE</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">MTE</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+<Object name="DOO" rules="update_or_create" traces="error">
+<Properties>
+<Property name="DoubleLinks" dt:dt="i4">0</Property>
+<Property name="MultiActive" dt:dt="i4">0</Property>
+<Property name="ServerNodeName1" dt:dt="String">localhost</Property>
+<Property name="ServerNodeName2" dt:dt="String">localhost</Property>
+<Property name="ServerProgID1" dt:dt="String">RDD.1.DOO</Property>
+<Property name="ServerProgID2" dt:dt="String">RDD.1.DOO</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">DOO</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+<Object name="TDMCOM" rules="update_or_create" traces="error">
+<Properties>
+<Property name="DoubleLinks" dt:dt="i4">0</Property>
+<Property name="MultiActive" dt:dt="i4">0</Property>
+<Property name="ServerNodeName1" dt:dt="String">localhost</Property>
+<Property name="ServerNodeName2" dt:dt="String">localhost</Property>
+<Property name="ServerProgID1" dt:dt="String">ALSTOM.TDMCOM.1</Property>
+<Property name="ServerProgID2" dt:dt="String">ALSTOM.TDMCOM.1</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">TDMCOM</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+<Object name="MMS" rules="update_or_create" traces="error">
+<Properties>
+<Property name="DoubleLinks" dt:dt="i4">0</Property>
+<Property name="MultiActive" dt:dt="i4">0</Property>
+<Property name="ServerNodeName1" dt:dt="String">localhost</Property>
+<Property name="ServerNodeName2" dt:dt="String">localhost</Property>
+<Property name="ServerProgID1" dt:dt="String">RDD.1.MMSCOM</Property>
+<Property name="ServerProgID2" dt:dt="String">RDD.1.MMSCOM</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">MMS</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+<Object name="TTCU" rules="update_or_create" traces="error">
+<Properties>
+<Property name="DoubleLinks" dt:dt="i4">1</Property>
+<Property name="MultiActive" dt:dt="i4">1</Property>
+<Property name="ServerNodeName1" dt:dt="String">KCD-ATSTT</Property>
+<Property name="ServerNodeName2" dt:dt="String">KCD-ATSTT</Property>
+<Property name="ServerProgID1" dt:dt="String">S2K.OpcServer.1</Property>
+<Property name="ServerProgID2" dt:dt="String">S2K.OpcServer.1</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">TTCU</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

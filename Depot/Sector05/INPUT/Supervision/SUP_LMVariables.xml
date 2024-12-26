@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="C:\01 CCL\01 DATA\02_IDC\01_DataPrepUI\Sector05\INPUT\Supervision\SUP_LMVariables.xml" version="R3.5.9" date="" comment="" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="Variable">
+<Objects>
+<Object name="SUPASCV2_06_Connected11" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">RDD_ASCV_06</Property>
+<Property name="PlugName" dt:dt="String">Connected11</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV2_06_Connected12" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">RDD_ASCV_06</Property>
+<Property name="PlugName" dt:dt="String">Connected12</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV2_06_Connected21" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">RDD_ASCV_06</Property>
+<Property name="PlugName" dt:dt="String">Connected21</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV2_06_Connected22" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">RDD_ASCV_06</Property>
+<Property name="PlugName" dt:dt="String">Connected22</Property>
+</Properties>
+</Object>
+<Object name="SUPATC2_06_Connected11" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">RDD_ATC_06</Property>
+<Property name="PlugName" dt:dt="String">Connected11</Property>
+</Properties>
+</Object>
+<Object name="SUPATC2_06_Connected12" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">RDD_ATC_06</Property>
+<Property name="PlugName" dt:dt="String">Connected12</Property>
+</Properties>
+</Object>
+<Object name="SUPATC2_06_Connected21" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">RDD_ATC_06</Property>
+<Property name="PlugName" dt:dt="String">Connected21</Property>
+</Properties>
+</Object>
+<Object name="SUPATC2_06_Connected22" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">RDD_ATC_06</Property>
+<Property name="PlugName" dt:dt="String">Connected22</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV_05_Connected11" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">RDD_ASCV_05</Property>
+<Property name="PlugName" dt:dt="String">Connected11</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV_05_Connected12" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">RDD_ASCV_05</Property>
+<Property name="PlugName" dt:dt="String">Connected12</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV_05_Connected21" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">RDD_ASCV_05</Property>
+<Property name="PlugName" dt:dt="String">Connected21</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV_05_Connected22" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">RDD_ASCV_05</Property>
+<Property name="PlugName" dt:dt="String">Connected22</Property>
+</Properties>
+</Object>
+<Object name="SUPATC_05_Connected11" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">RDD_ATC_05</Property>
+<Property name="PlugName" dt:dt="String">Connected11</Property>
+</Properties>
+</Object>
+<Object name="SUPATC_05_Connected12" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">RDD_ATC_05</Property>
+<Property name="PlugName" dt:dt="String">Connected12</Property>
+</Properties>
+</Object>
+<Object name="SUPATC_05_Connected21" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">RDD_ATC_05</Property>
+<Property name="PlugName" dt:dt="String">Connected21</Property>
+</Properties>
+</Object>
+<Object name="SUPATC_05_Connected22" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">RDD_ATC_05</Property>
+<Property name="PlugName" dt:dt="String">Connected22</Property>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_LATS_FEP_Connected" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">SECTOR05_HWMC_NO_RDD</Property>
+<Property name="PlugName" dt:dt="String">Connected</Property>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_LATS_Connected" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">SUPVariable</Property>
+<Property name="ObjectName" dt:dt="String">SUPSWC_05_LATS_Connected_VAR</Property>
+<Property name="PlugName" dt:dt="String">Value</Property>
+</Properties>
+</Object>
+<Object name="SUPREDUNDANCY_05_Connected11" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">SECTOR05_REDUNDANCY</Property>
+<Property name="PlugName" dt:dt="String">Connected11</Property>
+</Properties>
+</Object>
+<Object name="SUPREDUNDANCY_05_Connected12" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">SECTOR05_REDUNDANCY</Property>
+<Property name="PlugName" dt:dt="String">Connected12</Property>
+</Properties>
+</Object>
+<Object name="SUPREDUNDANCY_05_Connected21" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">SECTOR05_REDUNDANCY</Property>
+<Property name="PlugName" dt:dt="String">Connected21</Property>
+</Properties>
+</Object>
+<Object name="SUPREDUNDANCY_05_Connected22" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">SECTOR05_REDUNDANCY</Property>
+<Property name="PlugName" dt:dt="String">Connected22</Property>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_POSITION_A" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">SUPVariable</Property>
+<Property name="ObjectName" dt:dt="String">SUPSWC_05_POS_A</Property>
+<Property name="PlugName" dt:dt="String">Value</Property>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_POSITION_B" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">SUPVariable</Property>
+<Property name="ObjectName" dt:dt="String">SUPSWC_05_POS_B</Property>
+<Property name="PlugName" dt:dt="String">Value</Property>
+</Properties>
+</Object>
+<Object name="SUP_CATS_LATS_05_Connected" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">SUPVariable</Property>
+<Property name="ObjectName" dt:dt="String">SUP_CATS_LATS_05_Connected_VAR</Property>
+<Property name="PlugName" dt:dt="String">Value</Property>
+</Properties>
+</Object>
+<Object name="SUP_CATS_LATS_05_Connected11" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">OCC_S2K</Property>
+<Property name="PlugName" dt:dt="String">Connected11</Property>
+</Properties>
+</Object>
+<Object name="SUP_CATS_LATS_05_Connected12" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">OCC_S2K</Property>
+<Property name="PlugName" dt:dt="String">Connected12</Property>
+</Properties>
+</Object>
+<Object name="SUP_CATS_LATS_05_Connected21" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">OCC_S2K</Property>
+<Property name="PlugName" dt:dt="String">Connected21</Property>
+</Properties>
+</Object>
+<Object name="SUP_CATS_LATS_05_Connected22" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">OCC_S2K</Property>
+<Property name="PlugName" dt:dt="String">Connected22</Property>
+</Properties>
+</Object>
+<Object name="SUP_from_CATS_to_LATS_05_Connected" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">OCC_S2K</Property>
+<Property name="PlugName" dt:dt="String">Connected</Property>
+</Properties>
+</Object>
+<Object name="SUP_LATS_05_ServerState_Server1Running" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KGALServerState</Property>
+<Property name="ObjectName" dt:dt="String">IconisS2KServerState</Property>
+<Property name="PlugName" dt:dt="String">Server1RunningState</Property>
+</Properties>
+</Object>
+<Object name="SUP_LATS_05_ServerState_Server2Running" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KGALServerState</Property>
+<Property name="ObjectName" dt:dt="String">IconisS2KServerState</Property>
+<Property name="PlugName" dt:dt="String">Server2RunningState</Property>
+</Properties>
+</Object>
+ <Object name="SUP_LATS_from_05_to_04_ADJ1_Connected" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">SECTOR04_S2K</Property>
+<Property name="PlugName" dt:dt="String">Connected</Property>
+</Properties>
+</Object>
+<Object name="SUP_LATS_05_ADJ1_Connected11" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">SECTOR04_S2K</Property>
+<Property name="PlugName" dt:dt="String">Connected11</Property>
+</Properties>
+</Object>
+<Object name="SUP_LATS_05_ADJ1_Connected12" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">SECTOR04_S2K</Property>
+<Property name="PlugName" dt:dt="String">Connected12</Property>
+</Properties>
+</Object>
+<Object name="SUP_LATS_05_ADJ1_Connected21" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">SECTOR04_S2K</Property>
+<Property name="PlugName" dt:dt="String">Connected21</Property>
+</Properties>
+</Object>
+<Object name="SUP_LATS_05_ADJ1_Connected22" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">SECTOR04_S2K</Property>
+<Property name="PlugName" dt:dt="String">Connected22</Property>
+</Properties>
+</Object>
+<Object name="SUP_LATS_from_05_to_07_ADJ2_Connected" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">SECTOR07_S2K</Property>
+<Property name="PlugName" dt:dt="String">Connected</Property>
+</Properties>
+</Object>
+<Object name="SUP_LATS_05_ADJ2_Connected11" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">SECTOR07_S2K</Property>
+<Property name="PlugName" dt:dt="String">Connected11</Property>
+</Properties>
+</Object>
+<Object name="SUP_LATS_05_ADJ2_Connected12" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">SECTOR07_S2K</Property>
+<Property name="PlugName" dt:dt="String">Connected12</Property>
+</Properties>
+</Object>
+<Object name="SUP_LATS_05_ADJ2_Connected21" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">SECTOR07_S2K</Property>
+<Property name="PlugName" dt:dt="String">Connected21</Property>
+</Properties>
+</Object>
+<Object name="SUP_LATS_05_ADJ2_Connected22" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">SECTOR07_S2K</Property>
+<Property name="PlugName" dt:dt="String">Connected22</Property>
+</Properties>
+</Object>
+<Object name="SUP_StateDatabase1" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KGALEventHistorySite</Property>
+<Property name="ObjectName" dt:dt="String">HistEvent</Property>
+<Property name="PlugName" dt:dt="String">Server1LoggingAlarmState</Property>
+</Properties>
+</Object>
+<Object name="SUP_StateDatabase2" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KGALEventHistorySite</Property>
+<Property name="ObjectName" dt:dt="String">HistEvent</Property>
+<Property name="PlugName" dt:dt="String">Server2LoggingAlarmState</Property>
+</Properties>
+</Object>
+<Object name="SUP_TWINMASTER_value" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KGALServerState</Property>
+<Property name="ObjectName" dt:dt="String">IconisS2KServerState</Property>
+<Property name="PlugName" dt:dt="String">TwinMasterRunningState</Property>
+</Properties>
+</Object>
+<Object name="SUP_05_ISCSConnection" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">AlarmScript</Property>
+<Property name="ObjectName" dt:dt="String">ISCSAlarm</Property>
+<Property name="PlugName" dt:dt="String">BoolOutputPlug_1</Property>
+</Properties>
+</Object>
+<Object name="SUP_05_PrinterStatusServer1" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">CCLPrinter</Property>
+<Property name="ObjectName" dt:dt="String">Printer</Property>
+<Property name="PlugName" dt:dt="String">MainPrinterStatusServer1</Property>
+</Properties>
+</Object>
+<Object name="SUP_05_PrinterStatusServer2" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">CCLPrinter</Property>
+<Property name="ObjectName" dt:dt="String">Printer</Property>
+<Property name="PlugName" dt:dt="String">MainPrinterStatusServer2</Property>
+</Properties>
+</Object>
+<Object name="SUP_KCD_ADJ2_Connected" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">SUPVariable</Property>
+<Property name="ObjectName" dt:dt="String">SUP_KCD_ADJ2_Connected_VAR</Property>
+<Property name="PlugName" dt:dt="String">Value</Property>
+</Properties>
+</Object>
+<Object name="SUP_KCD_ADJ1_Connected" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">SUPVariable</Property>
+<Property name="ObjectName" dt:dt="String">SUP_KCD_ADJ1_Connected_VAR</Property>
+<Property name="PlugName" dt:dt="String">Value</Property>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_LATS_Connected11" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">SECTOR05_HWMC_NO_RDD</Property>
+<Property name="PlugName" dt:dt="String">Connected11</Property>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_LATS_Connected12" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">SECTOR05_HWMC_NO_RDD</Property>
+<Property name="PlugName" dt:dt="String">Connected12</Property>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_LATS_Connected21" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">SECTOR05_HWMC_NO_RDD</Property>
+<Property name="PlugName" dt:dt="String">Connected21</Property>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_LATS_Connected22" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">LM</Property>
+<Property name="ClassName" dt:dt="String">S2KIOOPCServerMonitor</Property>
+<Property name="ObjectName" dt:dt="String">SECTOR05_HWMC_NO_RDD</Property>
+<Property name="PlugName" dt:dt="String">Connected22</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

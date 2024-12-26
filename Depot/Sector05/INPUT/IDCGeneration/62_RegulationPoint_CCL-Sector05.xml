@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="RegulationPoint_CCL" rules="update_or_create" traces="error">
+<Objects>
+<Object name="KCD_EE1_T0559.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_EE1_T0559</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE1_T0559</Property>
+<Property name="Station_Ref" dt:dt="string">EE1.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">40</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">240</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">30</Property>
+</Properties>
+</Object>
+<Object name="KCD_EE2A_T0656.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_EE2A_T0656</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE2A_T0656</Property>
+<Property name="Station_Ref" dt:dt="string">EE2.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_EE2B_T0641.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_EE2B_T0641</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE2B_T0641</Property>
+<Property name="Station_Ref" dt:dt="string">EE2.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_EE3A_T0634.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_EE3A_T0634</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE3A_T0634</Property>
+<Property name="Station_Ref" dt:dt="string">EE3.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_EE3B_T0642.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_EE3B_T0642</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE3B_T0642</Property>
+<Property name="Station_Ref" dt:dt="string">EE3.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_EE3C_T0648.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_EE3C_T0648</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE3C_T0648</Property>
+<Property name="Station_Ref" dt:dt="string">EE3.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_EE4A_T0635.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_EE4A_T0635</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE4A_T0635</Property>
+<Property name="Station_Ref" dt:dt="string">EE4.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_EE4B_T0643.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_EE4B_T0643</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE4B_T0643</Property>
+<Property name="Station_Ref" dt:dt="string">EE4.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_EE4C_T0649.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_EE4C_T0649</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE4C_T0649</Property>
+<Property name="Station_Ref" dt:dt="string">EE4.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_EE5A_T0636.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_EE5A_T0636</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE5A_T0636</Property>
+<Property name="Station_Ref" dt:dt="string">EE5.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_EE5B_T0645.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_EE5B_T0645</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE5B_T0645</Property>
+<Property name="Station_Ref" dt:dt="string">EE5.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+
+<Object name="KCD_S10A_T0527.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S10A_T0527</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S10A_T0527</Property>
+<Property name="Station_Ref" dt:dt="string">S10.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_S10B_T0530.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S10B_T0530</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S10B_T0530</Property>
+<Property name="Station_Ref" dt:dt="string">S10.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_S10C_T0535.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S10C_T0535</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S10C_T0535</Property>
+<Property name="Station_Ref" dt:dt="string">S10.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_S10D_T0539.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S10D_T0539</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S10D_T0539</Property>
+<Property name="Station_Ref" dt:dt="string">S10.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_S10E_T0545.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S10E_T0545</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S10E_T0545</Property>
+<Property name="Station_Ref" dt:dt="string">S10.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_S11A_T0528.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S11A_T0528</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S11A_T0528</Property>
+<Property name="Station_Ref" dt:dt="string">S11.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_S11B_T0533.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S11B_T0533</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S11B_T0533</Property>
+<Property name="Station_Ref" dt:dt="string">S11.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_S11C_T0540.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S11C_T0540</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S11C_T0540</Property>
+<Property name="Station_Ref" dt:dt="string">S11.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_S11D_T0543.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S11D_T0543</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S11D_T0543</Property>
+<Property name="Station_Ref" dt:dt="string">S11.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_S8A_T0556.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S8A_T0556</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S8A_T0556</Property>
+<Property name="Station_Ref" dt:dt="string">S8.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_S8B_T0522.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S8B_T0522</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S8B_T0522</Property>
+<Property name="Station_Ref" dt:dt="string">S8.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_S8C_T0525.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S8C_T0525</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S8C_T0525</Property>
+<Property name="Station_Ref" dt:dt="string">S8.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_S8D_T0532.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S8D_T0532</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S8D_T0532</Property>
+<Property name="Station_Ref" dt:dt="string">S8.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_S8E_T0537.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S8E_T0537</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S8E_T0537</Property>
+<Property name="Station_Ref" dt:dt="string">S8.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_S8F_T0542.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S8F_T0542</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S8F_T0542</Property>
+<Property name="Station_Ref" dt:dt="string">S8.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_S9A_T0526.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S9A_T0526</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S9A_T0526</Property>
+<Property name="Station_Ref" dt:dt="string">S9.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_S9B_T0529.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S9B_T0529</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S9B_T0529</Property>
+<Property name="Station_Ref" dt:dt="string">S9.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_S9C_T0534.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S9C_T0534</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S9C_T0534</Property>
+<Property name="Station_Ref" dt:dt="string">S9.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_S9D_T0538.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S9D_T0538</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S9D_T0538</Property>
+<Property name="Station_Ref" dt:dt="string">S9.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_S9E_T0544.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_S9E_T0544</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_S9E_T0544</Property>
+<Property name="Station_Ref" dt:dt="string">S9.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_WE10A_T0623.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_WE10A_T0623</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE10A_T0623</Property>
+<Property name="Station_Ref" dt:dt="string">WE10.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_WE10B_T0632.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_WE10B_T0632</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE10B_T0632</Property>
+<Property name="Station_Ref" dt:dt="string">WE10.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_WE11A_T0624.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_WE11A_T0624</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE11A_T0624</Property>
+<Property name="Station_Ref" dt:dt="string">WE11.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_WE11B_T0633.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_WE11B_T0633</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE11B_T0633</Property>
+<Property name="Station_Ref" dt:dt="string">WE11.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_WE6A_T0637.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_WE6A_T0637</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE6A_T0637</Property>
+<Property name="Station_Ref" dt:dt="string">WE6.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_WE7A_T0629.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_WE7A_T0629</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE7A_T0629</Property>
+<Property name="Station_Ref" dt:dt="string">WE7.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_WE7B_T0638.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_WE7B_T0638</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE7B_T0638</Property>
+<Property name="Station_Ref" dt:dt="string">WE7.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_WE8A_T0630.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_WE8A_T0630</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE8A_T0630</Property>
+<Property name="Station_Ref" dt:dt="string">WE8.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_WE8B_T0639.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_WE8B_T0639</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE8B_T0639</Property>
+<Property name="Station_Ref" dt:dt="string">WE8.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_WE9A_T0622.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_WE9A_T0622</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE9A_T0622</Property>
+<Property name="Station_Ref" dt:dt="string">WE9.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_WE9B_T0631.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_WE9B_T0631</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE9B_T0631</Property>
+<Property name="Station_Ref" dt:dt="string">WE9.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">3600</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="TTA_MT_T0524.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/TTA_MT_T0524</Property>
+<Property name="GenericAreaID" dt:dt="string">TTA_MT_T0524</Property>
+<Property name="Station_Ref" dt:dt="string">TTA.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">40</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">240</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">30</Property>
+</Properties>
+</Object>
+<Object name="TTB_MT_T0548.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/TTB_MT_T0548</Property>
+<Property name="GenericAreaID" dt:dt="string">TTB_MT_T0548</Property>
+<Property name="Station_Ref" dt:dt="string">TTB.Station</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">40</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">240</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">30</Property>
+</Properties>
+</Object>
+<Object name="BLY_IT_T0715.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/BLY_IT_T0715</Property>
+<Property name="GenericAreaID" dt:dt="string">BLY_IT_T0715</Property>
+<Property name="Station_Ref" dt:dt="string">BLY.Station</Property>
+</Properties>
+</Object>
+<Object name="BLY_OT_T0714.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/BLY_OT_T0714</Property>
+<Property name="GenericAreaID" dt:dt="string">BLY_OT_T0714</Property>
+<Property name="Station_Ref" dt:dt="string">BLY.Station</Property>
+</Properties>
+</Object>
+<Object name="TSG_IT_T0409.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/TSG_IT_T0409</Property>
+<Property name="GenericAreaID" dt:dt="string">TSG_IT_T0409</Property>
+<Property name="Station_Ref" dt:dt="string">TSG.Station</Property>
+</Properties>
+</Object>
+<Object name="TSG_OT_T0408.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/TSG_OT_T0408</Property>
+<Property name="GenericAreaID" dt:dt="string">TSG_OT_T0408</Property>
+<Property name="Station_Ref" dt:dt="string">TSG.Station</Property>
+</Properties>
+</Object>
+
+<!-- NO PLATFORM Ref -->
+<Object name="KCD_W1A_T0600.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_W1A_T0600</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_W1A_T0600</Property>
+<!-- <Property name=" Station_Ref " dt:dt="string">KCD_W1A_T0600</Property> -->
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">360</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_W2A_T0601.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_W2A_T0601</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_W2A_T0601</Property>
+<!-- <Property name="Station_Ref" dt:dt="string">KCD_W2A_T0601</Property> -->
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">360</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_W3A_T0601.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_W3A_T0601</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_W3A_T0601</Property>
+<!-- <Property name="Station_Ref" dt:dt="string">KCD_W3A_T0601</Property> -->
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">360</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_W4A_T0602.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_W4A_T0602</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_W4A_T0602</Property>
+<!-- <Property name="Station_Ref" dt:dt="string">KCD_W4A_T0602</Property> -->
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">360</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_W5A_T0603.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_W5A_T0603</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_W5A_T0603</Property>
+<!-- <Property name="Station_Ref" dt:dt="string">KCD_W5A_T0603</Property> -->
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">360</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_W6A_T0603.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_W6A_T0603</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_W6A_T0603</Property>
+<!-- <Property name="Station_Ref" dt:dt="string">KCD_W6A_T0603</Property> -->
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">360</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_IPTT_T0510.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_IPTT_T0510</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_IPTT_T0510</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">35</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">60</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">25</Property>
+</Properties>
+</Object>
+<Object name="KCD_ETE_T0554.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_ETE_T0554</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_ETE_T0554</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">30</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">240</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">30</Property>
+</Properties>
+</Object>
+<Object name="KCD_RT1_T0502.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_RT1_T0502</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_RT1_T0502</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">360</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_RT2_T0503.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_RT2_T0503</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_RT2_T0503</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">360</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_RT3_T0508.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_RT3_T0508</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_RT3_T0508</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">360</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_RT4_T0509.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_RT4_T0509</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_RT4_T0509</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">360</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_TWM_WZ.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_TWM_WZ</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_TWM_WZ</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="KCD_TWP_T0523.ATR" rules="update_or_create" traces="error">
+<Properties>
+<Property name="NameAlarmEvent" dt:dt="string">CKCD/SIG/ATS/KCD_TWP_T0523</Property>
+<Property name="GenericAreaID" dt:dt="string">KCD_TWP_T0523</Property>
+<Property name="DefaultDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMaximumDwellTime" dt:dt="i4">0</Property>
+<Property name="DefaultMinimumDwellTime" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

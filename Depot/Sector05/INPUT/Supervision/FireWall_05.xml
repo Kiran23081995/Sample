@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectPropertyModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Project="CCL"
+                      Generation_Date="XXXX-XX-XX"
+                      xsi:noNamespaceSchemaLocation="Area.xsd">
+   <Versions>
+         <Version Name="ICONIS_IDP#SyAD_Configuration-CCL" Value="830F-ATS-0402 v2F and Gap 3C"/>
+         <Version Name="ICONIS_IDP#Product_Version" Value="SW_IDP_CCL_1.5.0"/>
+         <Version Name="Project#System_Database_Version" Value="1.0.0"/>
+         <Version Name="Project#ATS_Parameter_Version" Value=""/>
+      </Versions>
+   <Classes>
+      <Class name="Connect_SNMP">
+		   <Objects>
+				<Object name="Firewall_KCD" rules="update_or_create" traces="error">
+					<Properties>
+					<Property name="AgentAddress" dt="string">175.60.2.10</Property>
+					<Property name="AgentCommunity" dt="string">URBALIS</Property>
+					<Property name="SharedOnIdentifer" dt="string">Firewall_KCD</Property>
+					<Property name="SharedOnIdentifierDefinition" dt="Boolean">1</Property>
+					<Property name="EnableInstance" dt="Boolean">0</Property>
+				</Properties>
+			</Object>
+		</Objects>			
+      </Class>
+      <Class name="External_Switch_StackNum">
+		   <Objects>
+					<Object name="Firewall_KCD_Status" rules="update_or_create" traces="error">
+					<Properties>
+					<Property name="AddressInLevel1_String" dt="string">SNMP_HH3C_STACK_MIB_hh3cStackGlobalConfig 1 hh3cStackMemberNum</Property>
+					<Property name="SOI_SNMPClient" dt="string">Firewall_KCD</Property>
+					<Property name="EnableInstance" dt="Boolean">0</Property>
+				</Properties>
+			</Object>
+		</Objects>
+      </Class>
+	  <Class name="Variable">
+			<Objects>
+				<Object name="SUP_KCD_FirewallConnection" rules="update_or_create">
+				<Properties>
+				<Property name="Type" dt="String">LM</Property>
+				<Property name="ClassName" dt="String">External_Switch_StackNum</Property>
+				<Property name="ObjectName" dt="String">Firewall_KCD_Status</Property>
+				<Property name="PlugName" dt="String">Value</Property>
+				</Properties>
+			</Object>
+		</Objects>
+		</Class>
+		<Class name="SUPVariable">
+			<Objects>
+				<Object name="SUP_KCD_Firewall_Connected" rules="update_or_create">
+               <Properties>
+                  <Property name="ID" dt="String">SUP_KCD_Firewall_Connected</Property>
+                  <Property name="Mimic" dt="String">SystemSupervision;ATSSystemSupervision.fvm</Property>
+                  <Property name="withStateAlarms" dt="Boolean">True</Property>
+                  <Property name="withStates" dt="Boolean">True</Property>
+				  <Property name="FunctionGroup" dt="string">Function/MT</Property>
+                  <Property name="UserGroup" dt="string">User/S</Property>
+                  <Property name="AreaGroup" dt="string">Area/KCD</Property>
+		  <Property name="EnableInstance" dt="Boolean">0</Property>
+               <MultiLingualProperty name="Name">
+                  <MultiLingualValue roleId="-1" localeId="1033">CKCD/SIG/ATS/DPT-FW</MultiLingualValue>
+               </MultiLingualProperty>
+               </Properties>
+			</Object>
+		</Objects>
+		</Class>
+   </Classes>
+</ObjectPropertyModule>

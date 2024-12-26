@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="ATCMovingBlock" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="ATC05" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCSectorID" dt:dt="string">5</Property>
+<Property name="ATCtoATSFile" dt:dt="string">ATCtoATS05.xml</Property>
+<Property name="OPCClientID" dt:dt="string">RDD_ATC_05</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">ATC05</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+<!-- <Property name="ServerNodeName1" dt:dt="string">localhost</Property> -->
+<!-- <Property name="ServerNodeName2" dt:dt="string">localhost</Property> -->
+<!-- <Property name="ServerProgID1" dt:dt="string">RDD.1.ATC05</Property> -->
+<!-- <Property name="ServerProgID2" dt:dt="string">RDD.1.ATC05</Property> -->
+<!-- <Property name="EnabledOPCCLient" dt:dt="i4">0</Property> -->
+<!-- <Property name="bEnableInternalTrainAlarms" dt:dt="i4">0</Property> -->
+<!-- <Property name="OpcServerIsRedundant" dt:dt="i4">0</Property> -->
+
+</Properties>
+</Object>
+ <Object name="ATC06" rules="update_or_create" traces="error">
+<Properties>
+<Property name="ATCSectorID" dt:dt="string">6</Property>
+<Property name="ATCtoATSFile" dt:dt="string">ATCtoATS06.xml</Property>
+<Property name="OPCClientID" dt:dt="string">RDD_ATC_06</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">ATC06</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+<!-- <Property name="ServerNodeName1" dt:dt="string">localhost</Property> -->
+<!-- <Property name="ServerNodeName2" dt:dt="string">localhost</Property> -->
+<!-- <Property name="ServerProgID1" dt:dt="string">RDD.1.ATC06</Property> -->
+<!-- <Property name="ServerProgID2" dt:dt="string">RDD.1.ATC06</Property> -->
+<!-- <Property name="EnabledOPCCLient" dt:dt="i4">0</Property> -->
+<!-- <Property name="bEnableInternalTrainAlarms" dt:dt="i4">0</Property> -->
+<!-- <Property name="OpcServerIsRedundant" dt:dt="i4">0</Property> -->
+
+</Properties>
+</Object> 
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

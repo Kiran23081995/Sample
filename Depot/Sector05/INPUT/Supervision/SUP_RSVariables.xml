@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="C:\01 CCL\01 DATA\02_IDC\01_DataPrepUI\Sector05\INPUT\Supervision\SUP_RSVariables.xml" version="R3.5.9" date="" comment="" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="Variable">
+<Objects>
+<Object name="SUPASCV2_06_Diagnostics1Master" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BSTR</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV2_06</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.Master</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV2_06_Diagnostics1Slave" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BSTR</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV2_06</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.Slave</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV2_06_Diagnostics1LinkA" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV2_06</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.LinkA</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV2_06_Diagnostics1LinkB" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV2_06</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.LinkB</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV2_06_Diagnostics1RedundantMode" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV2_06</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.RedundantMode</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV2_06_Diagnostics2Master" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BSTR</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV2_06</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics2.Master</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV2_06_Diagnostics2Slave" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BSTR</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV2_06</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics2.Slave</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV2_06_Diagnostics2LinkA" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV2_06</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics2.LinkA</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV2_06_Diagnostics2LinkB" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV2_06</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics2.LinkB</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV2_06_Diagnostics2RedundantMode" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV2_06</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics2.RedundantMode</Property>
+</Properties>
+</Object>
+<Object name="SUPATC2_06_Diagnostics1Master" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BSTR</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPATC2_06</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.Master</Property>
+</Properties>
+</Object>
+<Object name="SUPATC2_06_Diagnostics1Slave" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BSTR</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPATC2_06</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.Slave</Property>
+</Properties>
+</Object>
+<Object name="SUPATC2_06_Diagnostics1LinkA" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPATC2_06</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.LinkA</Property>
+</Properties>
+</Object>
+<Object name="SUPATC2_06_Diagnostics1LinkB" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPATC2_06</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.LinkB</Property>
+</Properties>
+</Object>
+<Object name="SUPATC2_06_Diagnostics1Redundant" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPATC2_06</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.Redundant</Property>
+</Properties>
+</Object>
+<Object name="SUPATC2_06_Diagnostics2Master" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BSTR</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPATC2_06</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics2.Master</Property>
+</Properties>
+</Object>
+<Object name="SUPATC2_06_Diagnostics2Slave" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BSTR</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPATC2_06</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics2.Slave</Property>
+</Properties>
+</Object>
+<Object name="SUPATC2_06_Diagnostics2LinkA" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPATC2_06</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics2.LinkA</Property>
+</Properties>
+</Object>
+<Object name="SUPATC2_06_Diagnostics2LinkB" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPATC2_06</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics2.LinkB</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV_05_Diagnostics1Master" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BSTR</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.Master</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV_05_Diagnostics1Slave" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BSTR</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.Slave</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV_05_Diagnostics1LinkA" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.LinkA</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV_05_Diagnostics1LinkB" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.LinkB</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV_05_Diagnostics1RedundantMode" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.RedundantMode</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV_05_Diagnostics2Master" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BSTR</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics2.Master</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV_05_Diagnostics2Slave" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BSTR</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics2.Slave</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV_05_Diagnostics2LinkA" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics2.LinkA</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV_05_Diagnostics2LinkB" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics2.LinkB</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV_05_Diagnostics2RedundantMode" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPASCV_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics2.RedundantMode</Property>
+</Properties>
+</Object>
+<Object name="SUPATC_05_Diagnostics1Master" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BSTR</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPATC_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.Master</Property>
+</Properties>
+</Object>
+<Object name="SUPATC_05_Diagnostics1Slave" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BSTR</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPATC_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.Slave</Property>
+</Properties>
+</Object>
+<Object name="SUPATC_05_Diagnostics1LinkA" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPATC_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.LinkA</Property>
+</Properties>
+</Object>
+<Object name="SUPATC_05_Diagnostics1LinkB" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPATC_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.LinkB</Property>
+</Properties>
+</Object>
+<Object name="SUPATC_05_Diagnostics1Redundant" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPATC_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics1.Redundant</Property>
+</Properties>
+</Object>
+<Object name="SUPATC_05_Diagnostics2Master" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BSTR</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPATC_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics2.Master</Property>
+</Properties>
+</Object>
+<Object name="SUPATC_05_Diagnostics2Slave" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BSTR</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPATC_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics2.Slave</Property>
+</Properties>
+</Object>
+<Object name="SUPATC_05_Diagnostics2LinkA" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPATC_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics2.LinkA</Property>
+</Properties>
+</Object>
+<Object name="SUPATC_05_Diagnostics2LinkB" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPATC_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics2.LinkB</Property>
+</Properties>
+</Object>
+<Object name="SUPATC_05_Diagnostics2Redundant" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPATC_05</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostics2.Redundant</Property>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_Diagnostics1Data1" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_I4</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPSWC_05</Property>
+<Property name="PlugName" dt:dt="String">OPCS1</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostic1.Data1</Property>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_Diagnostics1Data2" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_I4</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPSWC_05</Property>
+<Property name="PlugName" dt:dt="String">OPCS1</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostic1.Data2</Property>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_Diagnostics1Activate" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPSWC_05</Property>
+<Property name="PlugName" dt:dt="String">OPCS1</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostic1.Activate</Property>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_Diagnostics2Data1" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_I4</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPSWC_05</Property>
+<Property name="PlugName" dt:dt="String">OPCS2</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostic2.Data1</Property>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_Diagnostics2Data2" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_I4</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPSWC_05</Property>
+<Property name="PlugName" dt:dt="String">OPCS2</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostic2.Data2</Property>
+</Properties>
+</Object>
+<Object name="SUPSWC_05_Diagnostics2Activate" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPSWC_05</Property>
+<Property name="PlugName" dt:dt="String">OPCS2</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostic2.Activate</Property>
+</Properties>
+</Object>
+<Object name="SUPREDUNDANCY_05_Diagnostics1State" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_I4</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPREDUNDANCY_05</Property>
+<Property name="PlugName" dt:dt="String">OPCS1</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostic1.State</Property>
+</Properties>
+</Object>
+<Object name="SUPREDUNDANCY_05_Diagnostics2State" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_I4</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPREDUNDANCY_05</Property>
+<Property name="PlugName" dt:dt="String">OPCS2</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostic2.State</Property>
+</Properties>
+</Object>
+<Object name="SUP_CATS_ServerState_Server1Running" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUP_CATS</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">SUP_CATS_ServerState_Server1Running</Property>
+</Properties>
+</Object>
+<Object name="SUP_CATS_ServerState_Server2Running" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUP_CATS</Property>
+<Property name="PlugName" dt:dt="String">Main</Property>
+<Property name="OPCTag" dt:dt="String">SUP_CATS_ServerState_Server2Running</Property>
+</Properties>
+</Object>
+<Object name="SUPREDUNDANCY_05_PowerFailureFault1State" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPREDUNDANCY_05</Property>
+<Property name="PlugName" dt:dt="String">OPCS1</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostic1.Power_Supply_Fault</Property>
+</Properties>
+</Object>
+<Object name="SUPREDUNDANCY_05_PowerFailureFault2State" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="String">RS</Property>
+<Property name="OPCType" dt:dt="String">VT_BOOL</Property>
+<Property name="ClassName" dt:dt="String">SUPOPCClient</Property>
+<Property name="ObjectName" dt:dt="String">SUPREDUNDANCY_05</Property>
+<Property name="PlugName" dt:dt="String">OPCS2</Property>
+<Property name="OPCTag" dt:dt="String">Diagnostic2.Power_Supply_Fault</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

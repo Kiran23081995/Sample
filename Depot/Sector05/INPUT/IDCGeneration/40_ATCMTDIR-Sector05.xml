@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="ATCMTDIR" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="TDIR_S8" rules="update_or_create" traces="error">
+<Properties>
+<PropertyList name="LeftEquipment">
+<ListElem index="1"  dt:dt="string">TDIR0542_0556_AB</ListElem>
+</PropertyList>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATC/-</MultiLingualValue>
+</MultiLingualProperty>
+<PropertyList name="RightEquipment">
+<ListElem index="1" dt:dt="string">TDIR0556_0542_BA</ListElem>
+</PropertyList>
+<PropertyList name="ListPoint">
+<ListElem index="1" dt:dt="string">KCD_S8A_T0556.ATR</ListElem>
+<ListElem index="2" dt:dt="string">KCD_S8B_T0522.ATR</ListElem>
+<ListElem index="3" dt:dt="string">KCD_S8C_T0525.ATR</ListElem>
+<ListElem index="4" dt:dt="string">KCD_S8D_T0532.ATR</ListElem>
+<ListElem index="5" dt:dt="string">KCD_S9E_T0537.ATR</ListElem>
+<ListElem index="6" dt:dt="string">KCD_S9F_T0542.ATR</ListElem>
+</PropertyList>
+</Properties>
+</Object>
+<Object name="TDIR_S9" rules="update_or_create" traces="error">
+<Properties>
+<PropertyList name="LeftEquipment" >
+<ListElem index="1" dt:dt="string">TDIR0544_0526_AB</ListElem>
+</PropertyList>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATC/-</MultiLingualValue>
+</MultiLingualProperty>
+<PropertyList name="RightEquipment">
+<ListElem index="1"  dt:dt="string">TDIR0526_0544_BA</ListElem>
+</PropertyList>
+<PropertyList name="ListPoint">
+<ListElem index="1" dt:dt="string">KCD_S9A_T0526.ATR</ListElem>
+<ListElem index="2" dt:dt="string">KCD_S9B_T0529.ATR</ListElem>
+<ListElem index="3" dt:dt="string">KCD_S9C_T0534.ATR</ListElem>
+<ListElem index="4" dt:dt="string">KCD_S9D_T0538.ATR</ListElem>
+<ListElem index="5" dt:dt="string">KCD_S9E_T0544.ATR</ListElem>
+</PropertyList>
+</Properties>
+</Object>
+<Object name="TDIR_S10" rules="update_or_create" traces="error">
+<Properties>
+<PropertyList name="LeftEquipment">
+<ListElem index="1" dt:dt="string">TDIR0545_0527_AB</ListElem>
+</PropertyList>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATC/-</MultiLingualValue>
+</MultiLingualProperty>
+<PropertyList name="RightEquipment" >
+<ListElem index="1" dt:dt="string">TDIR0527_0545_BA</ListElem>
+</PropertyList>
+<PropertyList name="ListPoint" dt:dt="string">
+<ListElem index="1" dt:dt="string">KCD_S10A_T0527.ATR</ListElem>
+<ListElem index="2" dt:dt="string">KCD_S10B_T0530.ATR</ListElem>
+<ListElem index="3" dt:dt="string">KCD_S10C_T0535.ATR</ListElem>
+<ListElem index="4" dt:dt="string">KCD_S10D_T0539.ATR</ListElem>
+<ListElem index="5" dt:dt="string">KCD_S10E_T0545.ATR</ListElem>
+</PropertyList>
+</Properties>
+</Object>
+<Object name="TDIR_S11" rules="update_or_create" traces="error">
+<Properties>
+<PropertyList name="LeftEquipment">
+<ListElem index="1"  dt:dt="string">TDIR0543_0528_AB</ListElem>
+</PropertyList>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATC/-</MultiLingualValue>
+</MultiLingualProperty>
+<PropertyList name="RightEquipment" >
+<ListElem index="1"  dt:dt="string">TDIR0528_0543_BA</ListElem>
+</PropertyList>
+<PropertyList name="ListPoint">
+<ListElem index="1" dt:dt="string">KCD_S11A_T0528.ATR</ListElem>
+<ListElem index="2" dt:dt="string">KCD_S11B_T0533.ATR</ListElem>
+<ListElem index="3" dt:dt="string">KCD_S11C_T0540.ATR</ListElem>
+<ListElem index="4" dt:dt="string">KCD_S11D_T0543.ATR</ListElem>
+</PropertyList>
+</Properties>
+</Object>
+<Object name="TDIR_EE2" rules="update_or_create" traces="error">
+<Properties>
+<PropertyList name="LeftEquipment">
+<ListElem index="1" dt:dt="string">TDIR0641_0656_AB</ListElem>
+</PropertyList>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATC/-</MultiLingualValue>
+</MultiLingualProperty>
+<PropertyList name="RightEquipment">
+<ListElem index="1" dt:dt="string">TDIR0656_0641_BA</ListElem>
+</PropertyList>
+<PropertyList name="ListPoint">
+<ListElem index="1" dt:dt="string">KCD_EE2A_T0656.ATR</ListElem>
+<ListElem index="2" dt:dt="string">KCD_EE2B_T0641.ATR</ListElem>
+</PropertyList>
+</Properties>
+</Object>
+<Object name="TDIR_EE3" rules="update_or_create" traces="error">
+<Properties>
+<PropertyList name="LeftEquipment">
+<ListElem index="1"  dt:dt="string">TDIR0648_0634_AB</ListElem>
+</PropertyList>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATC/-</MultiLingualValue>
+</MultiLingualProperty>
+<PropertyList name="RightEquipment">
+<ListElem index="1"  dt:dt="string">TDIR0634_0648_BA</ListElem>
+</PropertyList>
+<PropertyList name="ListPoint">
+<ListElem index="1" dt:dt="string">KCD_EE3A_T0634.ATR</ListElem>
+<ListElem index="2" dt:dt="string">KCD_EE3B_T0642.ATR</ListElem>
+<ListElem index="3" dt:dt="string">KCD_EE3C_T0648.ATR</ListElem>
+</PropertyList>
+</Properties>
+</Object>
+<Object name="TDIR_EE4" rules="update_or_create" traces="error">
+<Properties>
+<PropertyList name="LeftEquipment">
+<ListElem index="1"  dt:dt="string">TDIR0649_0635_AB</ListElem>
+</PropertyList>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATC/-</MultiLingualValue>
+</MultiLingualProperty>
+<PropertyList name="RightEquipment">
+<ListElem index="1"  dt:dt="string">>TDIR0635_0649_BA</ListElem>
+</PropertyList>
+<PropertyList name="ListPoint">
+<ListElem index="1" dt:dt="string">KCD_EE4A_T0635.ATR</ListElem>
+<ListElem index="2" dt:dt="string">KCD_EE4B_T0643.ATR</ListElem>
+<ListElem index="3" dt:dt="string">KCD_EE4C_T0649.ATR</ListElem>
+</PropertyList>
+</Properties>
+</Object>
+<Object name="TDIR_EE5" rules="update_or_create" traces="error">
+<Properties>
+<PropertyList name="LeftEquipment">
+<ListElem index="1" dt:dt="string">TDIR0645_0636_AB</ListElem>
+</PropertyList>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATC/-</MultiLingualValue>
+</MultiLingualProperty>
+<PropertyList name="RightEquipment">
+<ListElem index="1" dt:dt="string">TDIR0636_0645_BA</ListElem>
+</PropertyList>
+<PropertyList name="ListPoint">
+<ListElem index="1" dt:dt="string">KCD_EE5A_T0636.ATR</ListElem>
+<ListElem index="2" dt:dt="string">KCD_EE5B_T0645.ATR</ListElem>
+</PropertyList>
+</Properties>
+</Object>
+<Object name="TDIR_WE7" rules="update_or_create" traces="error">
+<Properties>
+<PropertyList name="LeftEquipment">
+<ListElem index="1" dt:dt="string">TDIR0638_0629_AB</ListElem>
+</PropertyList>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATC/-</MultiLingualValue>
+</MultiLingualProperty>
+<PropertyList name="RightEquipment">
+<ListElem index="1" dt:dt="string">TDIR0629_0638_BA</ListElem>
+</PropertyList>
+<PropertyList name="ListPoint">
+<ListElem index="1" dt:dt="string">KCD_WE7A_T0629.ATR</ListElem>
+<ListElem index="2" dt:dt="string">KCD_WE7B_T0638.ATR</ListElem>
+</PropertyList>
+</Properties>
+</Object>
+<Object name="TDIR_WE8" rules="update_or_create" traces="error">
+<Properties>
+<PropertyList name="LeftEquipment">
+<ListElem index="1" dt:dt="string">TDIR0639_0630_AB</ListElem>
+</PropertyList>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATC/-</MultiLingualValue>
+</MultiLingualProperty>
+<PropertyList name="RightEquipment">
+<ListElem index="1" dt:dt="string">TDIR0630_0639_BA</ListElem>
+</PropertyList>
+<PropertyList name="ListPoint">
+<ListElem index="1" dt:dt="string">KCD_WE8A_T0630.ATR</ListElem>
+<ListElem index="2" dt:dt="string">KCD_WE8B_T0639.ATR</ListElem>
+</PropertyList>
+</Properties>
+</Object>
+<Object name="TDIR_WE9" rules="update_or_create" traces="error">
+<Properties>
+<PropertyList name="LeftEquipment">
+<ListElem index="1" dt:dt="string">TDIR0631_0622_AB</ListElem>
+</PropertyList>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATC/-</MultiLingualValue>
+</MultiLingualProperty>
+<PropertyList name="RightEquipment">
+<ListElem index="1" dt:dt="string">TDIR0622_0631_BA</ListElem>
+</PropertyList>
+<PropertyList name="ListPoint">
+<ListElem index="1"  dt:dt="string">KCD_WE9A_T0622.ATR</ListElem>
+<ListElem index="2"  dt:dt="string">KCD_WE9B_T0631.ATR</ListElem>
+</PropertyList>
+</Properties>
+</Object>
+<Object name="TDIR_WE10" rules="update_or_create" traces="error">
+<Properties>
+<PropertyList name="LeftEquipment">
+<ListElem index="1" dt:dt="string">TDIR0632_0623_AB</ListElem>
+</PropertyList>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATC/-</MultiLingualValue>
+</MultiLingualProperty>
+<PropertyList name="RightEquipment">
+<ListElem index="1" dt:dt="string">TDIR0623_0632_BA</ListElem>
+</PropertyList>
+<PropertyList name="ListPoint">
+<ListElem index="1" dt:dt="string">KCD_WE10A_T0623.ATR</ListElem>
+<ListElem index="2" dt:dt="string">KCD_WE10B_T0632.ATR</ListElem>
+</PropertyList>
+</Properties>
+</Object>
+<Object name="TDIR_WE11" rules="update_or_create" traces="error">
+<Properties>
+<PropertyList name="LeftEquipment">
+<ListElem index="1" dt:dt="string">TDIR0633_0624_AB</ListElem>
+</PropertyList>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATC/-</MultiLingualValue>
+</MultiLingualProperty>
+<PropertyList name="RightEquipment">
+<ListElem index="1" dt:dt="string">TDIR0624_0633_BA</ListElem>
+</PropertyList>
+<PropertyList name="ListPoint">
+<ListElem index="1" dt:dt="string">KCD_WE11A_T0624.ATR</ListElem>
+<ListElem index="2" dt:dt="string">KCD_WE11B_T0633.ATR</ListElem>
+</PropertyList>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<ObjectPropertyModule name="Interlocking_InterSector.xml" version="R3.3" date="2009-02-09" comment ="" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="Variable">
+<Objects>
+<Object name="U0500_0704_AB" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV07</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">ASCV07.U.U0500_0704_AB</Property>
+<Property name="Address" dt:dt="string">438</Property>
+</Properties>
+</Object>
+<Object name="U0501_0705_AB" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV07</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">ASCV07.U.U0501_0705_AB</Property>
+<Property name="Address" dt:dt="string">439</Property>
+</Properties>
+</Object>
+<Object name="U0506_0427_AB" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV04</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">ASCV04.U.U0506_0427_AB</Property>
+<Property name="Address" dt:dt="string">361</Property>
+</Properties>
+</Object>
+<Object name="U0507_0428_AB" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV04</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">ASCV04.U.U0507_0428_AB</Property>
+<Property name="Address" dt:dt="string">362</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

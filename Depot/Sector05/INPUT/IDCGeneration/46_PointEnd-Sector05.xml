@@ -1,0 +1,902 @@
+<ObjectPropertyModule xmlns:dt="urn:schemas-microsoft-com:datatypes" name="ICONIS" version="3.6" date="" comment="no comment">
+<Classes>
+<Class name="PointEnd" rules="update_or_create" traces="error">
+<Objects>
+<Object name="P0500" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0504_POINT_0500_Tip</Property>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">4</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0504_POINT_0500_Tip</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0504_POINT_0500_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0500</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0504_POINT_0500_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0504_POINT_0500_Rh</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0504</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0501" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0505_POINT_0501_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">1</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0505_POINT_0501_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0505_POINT_0501_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0501</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0505_POINT_0501_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0505_POINT_0501_Tip</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0505</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0502" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0512_POINT_0502_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">3</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0512_POINT_0502_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0512_POINT_0502_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0502</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0512_POINT_0502_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0512_POINT_0502_Tip</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0512</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0503" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0515A_POINT_0503_Tip</Property>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">4</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0515A_POINT_0503_Tip</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0515A_POINT_0503_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0503</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0515A_POINT_0503_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0515A_POINT_0503_Rh</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0515A</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0504" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0513_POINT_0504_Tip</Property>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">2</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0513_POINT_0504_Tip</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0513_POINT_0504_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0504</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0513_POINT_0504_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0513_POINT_0504_Rh</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0513</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0505" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0514_POINT_0505_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">1</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0514_POINT_0505_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0514_POINT_0505_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0505</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0514_POINT_0505_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0514_POINT_0505_Tip</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0514</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0506" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0516_POINT_0506_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">3</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0516_POINT_0506_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0516_POINT_0506_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0506</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0516_POINT_0506_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0516_POINT_0506_Tip</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0516</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0507" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0517_POINT_0507_Tip</Property>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">2</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0517_POINT_0507_Tip</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0517_POINT_0507_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0507</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0517_POINT_0507_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0517_POINT_0507_Rh</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0517</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0508" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0518_POINT_0508_Tip</Property>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">4</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0518_POINT_0508_Tip</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0518_POINT_0508_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0508</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0518_POINT_0508_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0518_POINT_0508_Rh</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0518</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0509" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0519_POINT_0509_Tip</Property>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">4</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0519_POINT_0509_Tip</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0519_POINT_0509_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0509</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0519_POINT_0509_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0519_POINT_0509_Rh</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0519</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0510" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0520_POINT_0510_Tip</Property>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">4</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0520_POINT_0510_Tip</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0520_POINT_0510_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0510</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0520_POINT_0510_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0520_POINT_0510_Rh</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0520</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0511" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0523_POINT_0511_Tip</Property>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">2</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0523_POINT_0511_Tip</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0523_POINT_0511_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0511</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0523_POINT_0511_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0523_POINT_0511_Rh</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0523</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0512" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0549_POINT_0512_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">3</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0549_POINT_0512_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0549_POINT_0512_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0512</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0549_POINT_0512_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0549_POINT_0512_Tip</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0549</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0513" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0546_POINT_0513_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">3</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0546_POINT_0513_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0546_POINT_0513_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0513</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0546_POINT_0513_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0546_POINT_0513_Tip</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0546</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0514" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0550_POINT_0514_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">3</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0550_POINT_0514_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0550_POINT_0514_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0514</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0550_POINT_0514_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0550_POINT_0514_Tip</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0550</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0515" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0551_POINT_0515_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">3</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0551_POINT_0515_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0551_POINT_0515_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0515</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0551_POINT_0515_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0551_POINT_0515_Tip</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0551</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0516" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0552_POINT_0516_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">3</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0552_POINT_0516_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0552_POINT_0516_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0516</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0552_POINT_0516_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0552_POINT_0516_Tip</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0552</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0517" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0553_POINT_0517_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">3</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0553_POINT_0517_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0553_POINT_0517_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0517</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0553_POINT_0517_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0553_POINT_0517_Tip</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0553</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0518" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0521_POINT_0518_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">1</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0521_POINT_0518_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0521_POINT_0518_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0518</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0521_POINT_0518_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0521_POINT_0518_Tip</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0521</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0519" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0547_POINT_0519_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">1</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0547_POINT_0519_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0547_POINT_0519_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0519</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0547_POINT_0519_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0547_POINT_0519_Tip</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0547</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0520" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0511_POINT_0520_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">3</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0511_POINT_0520_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0511_POINT_0520_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0520</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0511_POINT_0520_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0511_POINT_0520_Tip</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0511</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0521" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0557_POINT_0521_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">3</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0557_POINT_0521_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0557_POINT_0521_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0521</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0557_POINT_0521_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0557_POINT_0521_Tip</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0557</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0522" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0515B_POINT_0522_Tip</Property>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV05</Property>
+<Property name="Layout" dt:dt="i4">4</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0515B_POINT_0522_Tip</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0515B_POINT_0522_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0522</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0515B_POINT_0522_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0515B_POINT_0522_Rh</Property>
+<Property name="Station" dt:dt="string">KCD</Property>
+<Property name="TrackSection" dt:dt="string">TC0515B</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0600" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">2</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0600</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0604</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0601" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">2</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0601</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0607</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0602" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">2</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0602</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0608</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0603" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0601_POINT_0603_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">3</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0601_POINT_0603_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0601_POINT_0603_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0603</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0601_POINT_0603_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0601_POINT_0603_Tip</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0601</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0604" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0603_POINT_0604_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">3</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0603_POINT_0604_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0603_POINT_0604_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0604</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0603_POINT_0604_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0603_POINT_0604_Tip</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0603</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0605" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">2</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0605</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0610</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0606" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">3</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0606</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0606</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0607" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">1</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0607</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0605</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0608" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0611_POINT_0608_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">1</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0611_POINT_0608_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0611_POINT_0608_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0608</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0611_POINT_0608_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0611_POINT_0608_Tip</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0611</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0609" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0602_POINT_0609_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">1</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0602_POINT_0609_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0602_POINT_0609_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0609</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0602_POINT_0609_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0602_POINT_0609_Tip</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0602</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0610" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">4</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0610</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0615</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0611" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0612_POINT_0611_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">1</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0612_POINT_0611_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0612_POINT_0611_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0611</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0612_POINT_0611_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0612_POINT_0611_Tip</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0612</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0612" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">1</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0612</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0613</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0613" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">4</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0613</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0655</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0614" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0616_POINT_0614_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">3</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0616_POINT_0614_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0616_POINT_0614_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0614</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0616_POINT_0614_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0616_POINT_0614_Tip</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0616</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0615" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">2</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0615</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0618</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0616" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0619_POINT_0616_Tip</Property>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">2</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0619_POINT_0616_Tip</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0619_POINT_0616_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0616</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0619_POINT_0616_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0619_POINT_0616_Rh</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0619</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0617" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">3</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0617</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0617</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0618" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">4</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0618</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0621</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0619" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0625_POINT_0619_Tip</Property>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">4</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0625_POINT_0619_Tip</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0625_POINT_0619_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0619</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0625_POINT_0619_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0625_POINT_0619_Rh</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0625</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0620" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0626_POINT_0620_Tip</Property>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">4</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0626_POINT_0620_Tip</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0626_POINT_0620_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0620</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0626_POINT_0620_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0626_POINT_0620_Rh</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0626</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0621" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">3</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0621</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0620</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0622" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0627_POINT_0622_Tip</Property>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">4</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0627_POINT_0622_Tip</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0627_POINT_0622_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0622</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0627_POINT_0622_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0627_POINT_0622_Rh</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0627</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0623" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0628_POINT_0623_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">1</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0628_POINT_0623_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0628_POINT_0623_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0623</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0628_POINT_0623_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0628_POINT_0623_Tip</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0628</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0624" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0640_POINT_0624_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">1</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0640_POINT_0624_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0640_POINT_0624_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0624</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0640_POINT_0624_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0640_POINT_0624_Tip</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0640</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0625" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0644_POINT_0625_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">3</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0644_POINT_0625_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0644_POINT_0625_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0625</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0644_POINT_0625_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0644_POINT_0625_Tip</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0644</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0626" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0647_POINT_0626_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">3</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0647_POINT_0626_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0647_POINT_0626_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0626</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0647_POINT_0626_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0647_POINT_0626_Tip</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0647</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0627" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0646_POINT_0627_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">1</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0646_POINT_0627_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0646_POINT_0627_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0627</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0646_POINT_0627_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0646_POINT_0627_Tip</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0646</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0628" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0650_POINT_0628_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">1</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0650_POINT_0628_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0650_POINT_0628_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0628</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0650_POINT_0628_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0650_POINT_0628_Tip</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0650</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0630" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0652_POINT_0630_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">1</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0652_POINT_0630_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0652_POINT_0630_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0630</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0652_POINT_0630_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0652_POINT_0630_Tip</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0652</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0631" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0651_POINT_0631_Tip</Property>
+<Property name="Facing" dt:dt="i4">2</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">1</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0651_POINT_0631_Rh</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0651_POINT_0631_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0631</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0651_POINT_0631_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0651_POINT_0631_Tip</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0651</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0633" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">2</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0633</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0609</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0634" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">4</Property>
+<Property name="NormalPosition" dt:dt="i4">1</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0634</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0654</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+<Object name="P0635" rules="update_or_create" traces="error">
+<Properties>
+<Property name="CommonFixedBlock" dt:dt="string">FB_0657_POINT_0635_Tip</Property>
+<Property name="Facing" dt:dt="i4">1</Property>
+<Property name="Interlocking" dt:dt="string">ASCV06</Property>
+<Property name="Layout" dt:dt="i4">2</Property>
+<Property name="LeftTrackPortion" dt:dt="string">TI_0657_POINT_0635_Tip</Property>
+<Property name="NormalFixedBlock" dt:dt="string">FB_0657_POINT_0635_Nh</Property>
+<Property name="NormalPosition" dt:dt="i4">2</Property>
+<Property name="ObjectsToNotLink" dt:dt="string">LDP0635</Property>
+<Property name="ReverseFixedBlock" dt:dt="string">FB_0657_POINT_0635_Rh</Property>
+<Property name="RightTrackPortion" dt:dt="string">TI_0657_POINT_0635_Rh</Property>
+<Property name="Station" dt:dt="string">TTA</Property>
+<Property name="TrackSection" dt:dt="string">TC0657</Property>
+<Property name="Type" dt:dt="i4">0</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

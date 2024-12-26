@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="Station_CCL" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="S8.Station" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">S8</Property>
+</Properties>
+</Object>
+<Object name="S9.Station" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">S9</Property>
+</Properties>
+</Object>
+<Object name="S10.Station" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">S10</Property>
+</Properties>
+</Object>
+<Object name="S11.Station" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">S11</Property>
+</Properties>
+</Object>
+<Object name="EE1.Station" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">EE1</Property>
+</Properties>
+</Object>
+<Object name="EE2.Station" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">EE2</Property>
+</Properties>
+</Object>
+<Object name="EE3.Station" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">EE3</Property>
+</Properties>
+</Object>
+<Object name="EE4.Station" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">EE4</Property>
+</Properties>
+</Object>
+<Object name="EE5.Station" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">EE5</Property>
+</Properties>
+</Object>
+<Object name="WE6.Station" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">WE6</Property>
+</Properties>
+</Object>
+<Object name="WE7.Station" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">WE7</Property>
+</Properties>
+</Object>
+<Object name="WE8.Station" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">WE8</Property>
+</Properties>
+</Object>
+<Object name="WE9.Station" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">WE9</Property>
+</Properties>
+</Object>
+<Object name="WE10.Station" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">WE10</Property>
+</Properties>
+</Object>
+<Object name="WE11.Station" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">WE11</Property>
+</Properties>
+</Object>
+<Object name="TTA.Station" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">TTA</Property>
+</Properties>
+</Object>
+<Object name="TTB.Station" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">TTB</Property>
+</Properties>
+</Object>
+<Object name="TSG.Station" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">TSG</Property>
+</Properties>
+</Object>
+<Object name="BLY.Station" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">BLY</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

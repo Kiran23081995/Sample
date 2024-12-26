@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<ObjectPropertyModule name="Interlocking.xml" version="R3.3" date="2009-02-09" comment ="" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="Variable">
+<Objects>
+<Object name="D54_ESS200" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV05</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">ASCV05.ESB.D54_ESS200</Property>
+<Property name="Address" dt:dt="string">856</Property>
+</Properties>
+</Object>
+<Object name="D54_ESS100" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV05</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">ASCV05.ESB.D54_ESS100</Property>
+<Property name="Address" dt:dt="string">857</Property>
+</Properties>
+</Object>
+<Object name="DS5432_OFF" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV05</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">ASCV05.S.DS5432_OFF</Property>
+<Property name="Address" dt:dt="string">850</Property>
+</Properties>
+</Object>
+<Object name="DS5479_OFF" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV05</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">ASCV05.S.DS5479_OFF</Property>
+<Property name="Address" dt:dt="string">851</Property>
+</Properties>
+</Object>
+<Object name="DS5480_OFF" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV05</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">ASCV05.S.DS5480_OFF</Property>
+<Property name="Address" dt:dt="string">852</Property>
+</Properties>
+</Object>
+<Object name="DS5499_OFF" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV05</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">ASCV05.S.DS5499_OFF</Property>
+<Property name="Address" dt:dt="string">853</Property>
+</Properties>
+</Object>
+<Object name="T5432" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV05</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">ASCV05.T.T5432</Property>
+<Property name="Address" dt:dt="string">862</Property>
+</Properties>
+</Object>
+<Object name="T5499" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV05</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">ASCV05.T.T5499</Property>
+<Property name="Address" dt:dt="string">863</Property>
+</Properties>
+</Object>
+<Object name="T5479" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV05</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">ASCV05.T.T5479</Property>
+<Property name="Address" dt:dt="string">864</Property>
+</Properties>
+</Object>
+<Object name="T5480" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV05</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">ASCV05.T.T5480</Property>
+<Property name="Address" dt:dt="string">865</Property>
+</Properties>
+</Object>
+<Object name="DTL_ETE_U" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV05</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">ASCV05.U.DTL_ETE_U</Property>
+<Property name="Address" dt:dt="string">866</Property>
+</Properties>
+</Object>
+<Object name="DTL_TT_U" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV05</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">ASCV05.U.DTL_TT_U</Property>
+<Property name="Address" dt:dt="string">867</Property>
+</Properties>
+</Object>
+<Object name="R5479_S1_S7_U" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV05</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">ASCV05.U.R5479_S1_S7_U</Property>
+<Property name="Address" dt:dt="string">868</Property>
+</Properties>
+</Object>
+<Object name="R5480_S1_S7_U" rules="update_or_create">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BOOL</Property>
+<Property name="InterlockingID" dt:dt="string">ASCV05</Property>
+<Property name="OPCGroup" dt:dt="string">ASCV_Group</Property>
+<Property name="OPCTag" dt:dt="string">ASCV05.U.R5480_S1_S7_U</Property>
+<Property name="Address" dt:dt="string">869</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

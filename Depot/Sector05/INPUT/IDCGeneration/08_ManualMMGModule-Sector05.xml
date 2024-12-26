@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="ManualMMGModule" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="MTT" rules="update_or_create" traces="error">
+<Properties>
+<Property name="EnabledOPCCLient" dt:dt="i4">0</Property>
+<Property name="OPCClientID" dt:dt="string">TTCU</Property>
+<Property name="ServerNodeName1" dt:dt="string">KCD-ATSTT</Property>
+<Property name="ServerNodeName2" dt:dt="string">KCD-ATSTT</Property>
+<Property name="ServerProgID1" dt:dt="string">S2K.OpcServer.1</Property>
+<Property name="ServerProgID2" dt:dt="string">S2K.OpcServer.1</Property>
+<Property name="LineModeConfiguration" dt:dt="string">DMMGTTCU.xml</Property>
+<PropertyList name="iReferences" >
+<ListElem index="1" dt:dt="string">ATC05.bPTIInitInhibitAllowed</ListElem>
+</PropertyList>
+<Property name="AlarmsEventsUser" dt:dt="string">TTCUMMGAlarmsEvents_User.xml</Property>
+<Property name="MmgType" dt:dt="string">CMMG</Property>
+<Property name="isMain" dt:dt="i4">0</Property>
+<Property name="WithRequisite" dt:dt="i4">0</Property>
+<Property name="isRedundant" dt:dt="i4">1</Property>
+<Property name="isNotDepot" dt:dt="i4">0</Property>
+<Property name="MsgInOPCTag" dt:dt="string">TTMMG.ATSArea.MsgOut</Property>
+<Property name="MsgInHintOPCTag" dt:dt="string">TTMMG.ATSArea.MsgOutHint</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

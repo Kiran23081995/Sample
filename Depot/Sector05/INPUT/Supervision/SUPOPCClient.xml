@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="C:\01 CCL\01 DATA\02_IDC\01_DataPrepUI\Sector05\INPUT\Supervision\SUPOPCClient.xml" version="R3.5.9" date="" comment="" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="SUPOPCClient">
+<Objects>
+<Object name="SUPASCV_05" rules="update_or_create">
+<Properties>
+<Property name="EnableOPCClient" dt:dt="i4">0</Property>
+<Property name="MainOPCServerIsRedundant" dt:dt="i4">1</Property>
+<Property name="OPCMainClientID" dt:dt="String">RDD_ASCV_05</Property>
+<Property name="OPCS1ClientID" dt:dt="String">RDD_ASCV_05</Property>
+<Property name="OPCS2ClientID" dt:dt="String">RDD_ASCV_05</Property>
+</Properties>
+</Object>
+<Object name="SUPATC_05" rules="update_or_create">
+<Properties>
+<Property name="EnableOPCClient" dt:dt="i4">0</Property>
+<Property name="MainOPCServerIsRedundant" dt:dt="i4">1</Property>
+<Property name="OPCMainClientID" dt:dt="String">RDD_ATC_05</Property>
+<Property name="OPCS1ClientID" dt:dt="String">RDD_ATC_05</Property>
+<Property name="OPCS2ClientID" dt:dt="String">RDD_ATC_05</Property>
+</Properties>
+</Object>
+<Object name="SUPASCV2_06" rules="update_or_create">
+<Properties>
+<Property name="EnableOPCClient" dt:dt="i4">0</Property>
+<Property name="MainOPCServerIsRedundant" dt:dt="i4">1</Property>
+<Property name="OPCMainClientID" dt:dt="String">RDD_ASCV_06</Property>
+<Property name="OPCS1ClientID" dt:dt="String">RDD_ASCV_06</Property>
+<Property name="OPCS2ClientID" dt:dt="String">RDD_ASCV_06</Property>
+</Properties>
+</Object>
+<Object name="SUPATC2_06" rules="update_or_create">
+<Properties>
+<Property name="EnableOPCClient" dt:dt="i4">0</Property>
+<Property name="MainOPCServerIsRedundant" dt:dt="i4">1</Property>
+<Property name="OPCMainClientID" dt:dt="String">RDD_ATC_06</Property>
+<Property name="OPCS1ClientID" dt:dt="String">RDD_ATC_06</Property>
+<Property name="OPCS2ClientID" dt:dt="String">RDD_ATC_06</Property>
+</Properties>
+</Object>
+<Object name="SUP_CATS" rules="update_or_create">
+<Properties>
+<Property name="EnableOPCClient" dt:dt="i4">0</Property>
+<Property name="MainOPCServerIsRedundant" dt:dt="i4">1</Property>
+<Property name="OPCMainClientID" dt:dt="String">OCC_S2K</Property>
+<Property name="OPCS1ClientID" dt:dt="String">OCC_S2K</Property>
+<Property name="OPCS2ClientID" dt:dt="String">OCC_S2K</Property>
+</Properties>
+</Object>
+<Object name="SUPSWC_05" rules="update_or_create">
+<Properties>
+<Property name="EnableOPCClient" dt:dt="i4">0</Property>
+<Property name="MainOPCServerIsRedundant" dt:dt="i4">1</Property>
+<Property name="OPCMainClientID" dt:dt="String">SECTOR05_HWMC</Property>
+<Property name="OPCS1ClientID" dt:dt="String">SECTOR05_HWMC</Property>
+<Property name="OPCS2ClientID" dt:dt="String">SECTOR05_HWMC</Property>
+</Properties>
+</Object>
+<Object name="SUPREDUNDANCY_05" rules="update_or_create">
+<Properties>
+<Property name="EnableOPCClient" dt:dt="i4">0</Property>
+<Property name="MainOPCServerIsRedundant" dt:dt="i4">1</Property>
+<Property name="OPCMainClientID" dt:dt="String">SECTOR05_REDUNDANCY</Property>
+<Property name="OPCS1ClientID" dt:dt="String">SECTOR05_REDUNDANCY</Property>
+<Property name="OPCS2ClientID" dt:dt="String">SECTOR05_REDUNDANCY</Property>
+</Properties>
+</Object>
+<Object name="SUP_LATS_05" rules="update_or_create">
+<Properties>
+<Property name="EnableOPCClient" dt:dt="i4">0</Property>
+<Property name="MainOPCServerIsRedundant" dt:dt="i4">1</Property>
+<Property name="OPCMainClientID" dt:dt="String">SECTOR05_S2K</Property>
+<Property name="OPCS1ClientID" dt:dt="String">SECTOR05_S2K</Property>
+<Property name="OPCS2ClientID" dt:dt="String">SECTOR05_S2K</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="MainU300Basic" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="MainU300Basic" rules="update_or_create" traces="error">
+<Properties>
+<Property name="TDSU300_EnableInstance" dt:dt="i4">-1</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">MainU300Basic</Property>
+<Property name="SharedOnIdentifierDefinition" dt:dt="i4">-1</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="TWMModule" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="TWMModule" rules="update_or_create" traces="error">
+<Properties>
+<Property name="OPCMMSClientID" dt:dt="string">MMS</Property>
+<Property name="AreaGroup" dt:dt="string">Area/KCD/TWM</Property>
+<Property name="i_AreaGroup" dt:dt="string">Area/KCD/TWM</Property>
+<MultiLingualProperty name="Name_INHIBITION" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/RSC/TWP/-</MultiLingualValue>
+</MultiLingualProperty>
+<PropertyList name="RecepTrackRoutes">
+<ListElem index="1" dt:dt="string">R0502_0516</ListElem>
+<ListElem index="2" dt:dt="string">R0503_0516</ListElem>
+<ListElem index="3" dt:dt="string">R0506_0516</ListElem>
+<ListElem index="4" dt:dt="string">R0507_0516</ListElem>
+</PropertyList>
+<Property name="ETE_TWP_Route" dt:dt="string">R0524_0514</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="PurgeFileCCL" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="PurgeLogFiles_FEP1ATCS" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotPurge_FEP1ATCS</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="age" dt:dt="i4">1</Property>
+<Property name="Expiryfilter" dt:dt="string">*/*/* 03:32:00</Property>
+<Property name="IncludeSubdirs" dt:dt="i4">1</Property>
+<Property name="RemoveSubdirWhenEmpty" dt:dt="i4">0</Property>
+<Property name="Pathname" dt:dt="string">\\KCD-FEP01\D$\CCL_LOG\ATCS</Property>
+<Property name="Filename" dt:dt="string">*</Property>
+</Properties>
+</Object>
+<Object name="PurgeLogFiles_FEP2ATCS" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotPurge_FEP2ATCS</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="age" dt:dt="i4">1</Property>
+<Property name="Expiryfilter" dt:dt="string">*/*/* 03:34:00</Property>
+<Property name="IncludeSubdirs" dt:dt="i4">1</Property>
+<Property name="RemoveSubdirWhenEmpty" dt:dt="i4">0</Property>
+<Property name="Pathname" dt:dt="string">\\KCD-FEP02\D$\CCL_LOG\ATCS</Property>
+<Property name="Filename" dt:dt="string">*</Property>
+</Properties>
+</Object>
+<Object name="PurgeLogFiles_FEP1ASCV" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotPurge_FEP1ASCV</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="age" dt:dt="i4">1</Property>
+<Property name="Expiryfilter" dt:dt="string">*/*/* 03:36:00</Property>
+<Property name="IncludeSubdirs" dt:dt="i4">1</Property>
+<Property name="RemoveSubdirWhenEmpty" dt:dt="i4">0</Property>
+<Property name="Pathname" dt:dt="string">\\KCD-FEP01\D$\CCL_LOG\ASCV</Property>
+<Property name="Filename" dt:dt="string">*</Property>
+</Properties>
+</Object>
+<Object name="PurgeLogFiles_FEP2ASCV" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotPurge_FEP2ASCV</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="age" dt:dt="i4">1</Property>
+<Property name="Expiryfilter" dt:dt="string">*/*/* 03:38:00</Property>
+<Property name="IncludeSubdirs" dt:dt="i4">1</Property>
+<Property name="RemoveSubdirWhenEmpty" dt:dt="i4">0</Property>
+<Property name="Pathname" dt:dt="string">\\KCD-FEP02\D$\CCL_LOG\ASCV</Property>
+<Property name="Filename" dt:dt="string">*</Property>
+</Properties>
+</Object>
+<Object name="PurgeLogFiles_ISCSlog" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotPurge_ISCSLog</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="age" dt:dt="i4">1</Property>
+<Property name="Expiryfilter" dt:dt="string">*/*/* 03:10:00</Property>
+<Property name="IncludeSubdirs" dt:dt="i4">1</Property>
+<Property name="RemoveSubdirWhenEmpty" dt:dt="i4">0</Property>
+<Property name="Pathname" dt:dt="string">D:\CCL_log\ISCSCOM</Property>
+<Property name="Filename" dt:dt="string">*</Property>
+</Properties>
+</Object>
+<Object name="PurgeLogFiles_MMSlog" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotPurge_MMSLog</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="age" dt:dt="i4">1</Property>
+<Property name="Expiryfilter" dt:dt="string">*/*/* 03:12:00</Property>
+<Property name="IncludeSubdirs" dt:dt="i4">1</Property>
+<Property name="RemoveSubdirWhenEmpty" dt:dt="i4">0</Property>
+<Property name="Pathname" dt:dt="string">D:\CCL_log\MMSCOM</Property>
+<Property name="Filename" dt:dt="string">*</Property>
+</Properties>
+</Object>
+<Object name="PurgeLogFiles_TDMlog" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotPurge_TDMLog</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="age" dt:dt="i4">1</Property>
+<Property name="Expiryfilter" dt:dt="string">*/*/* 03:14:00</Property>
+<Property name="IncludeSubdirs" dt:dt="i4">1</Property>
+<Property name="RemoveSubdirWhenEmpty" dt:dt="i4">0</Property>
+<Property name="Pathname" dt:dt="string">D:\CCL_log\TDMCOM</Property>
+<Property name="Filename" dt:dt="string">*</Property>
+</Properties>
+</Object>
+<Object name="PurgeLogFiles_HWMClog" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotPurge_HWMCLog</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="age" dt:dt="i4">1</Property>
+<Property name="Expiryfilter" dt:dt="string">*/*/* 03:16:00</Property>
+<Property name="IncludeSubdirs" dt:dt="i4">1</Property>
+<Property name="RemoveSubdirWhenEmpty" dt:dt="i4">0</Property>
+<Property name="Pathname" dt:dt="string">D:\CCL_log\HWMC</Property>
+<Property name="Filename" dt:dt="string">*</Property>
+</Properties>
+</Object>
+<Object name="PurgeLogFiles_S2Klog" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotPurge_S2KLog</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="age" dt:dt="i4">1</Property>
+<Property name="Expiryfilter" dt:dt="string">*/*/* 03:18:00</Property>
+<Property name="IncludeSubdirs" dt:dt="i4">1</Property>
+<Property name="RemoveSubdirWhenEmpty" dt:dt="i4">0</Property>
+<Property name="Pathname" dt:dt="string">D:\CCL_log\ICONIS\Log</Property>
+<Property name="Filename" dt:dt="string">*</Property>
+</Properties>
+</Object>
+<Object name="PurgeLogFiles_PlayBack" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotPurge_PlayBack</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="age" dt:dt="i4">1</Property>
+<Property name="Expiryfilter" dt:dt="string">*/*/* 03:24:00</Property>
+<Property name="IncludeSubdirs" dt:dt="i4">1</Property>
+<Property name="RemoveSubdirWhenEmpty" dt:dt="i4">0</Property>
+<Property name="Pathname" dt:dt="string">D:\CCL_LOG\ICONIS\Playback</Property>
+<Property name="Filename" dt:dt="string">*</Property>
+</Properties>
+</Object>
+<Object name="PurgeArchiveFiles" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotPurge_ArchiveFiles</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="age" dt:dt="i4">7</Property>
+<Property name="Expiryfilter" dt:dt="string">*/*/* 03:26:00</Property>
+<Property name="IncludeSubdirs" dt:dt="i4">1</Property>
+<Property name="RemoveSubdirWhenEmpty" dt:dt="i4">0</Property>
+<Property name="Pathname" dt:dt="string">D:\CCL_ATS\Archives</Property>
+<Property name="Filename" dt:dt="string">*</Property>
+</Properties>
+</Object>
+<Object name="PurgeLogFiles_S2KRpt" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotPurge_S2KRpt</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="age" dt:dt="i4">1</Property>
+<Property name="Expiryfilter" dt:dt="string">*/*/* 03:28:00</Property>
+<Property name="IncludeSubdirs" dt:dt="i4">1</Property>
+<Property name="RemoveSubdirWhenEmpty" dt:dt="i4">0</Property>
+<Property name="Pathname" dt:dt="string">C:\ProgramData\Alstom\ICONIS\S2K\Server\Data\Reports\Exported</Property>
+<Property name="Filename" dt:dt="string">*.rpt</Property>
+</Properties>
+</Object>
+<Object name="PurgeLogFiles_S2KDmp" rules="update_or_create" traces="error">
+<Properties>
+<MultiLingualProperty name="Name" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/DepotPurge_S2KDmp</MultiLingualValue>
+</MultiLingualProperty>
+<Property name="age" dt:dt="i4">1</Property>
+<Property name="Expiryfilter" dt:dt="string">*/*/* 03:30:00</Property>
+<Property name="IncludeSubdirs" dt:dt="i4">1</Property>
+<Property name="RemoveSubdirWhenEmpty" dt:dt="i4">0</Property>
+<Property name="Pathname" dt:dt="string">C:\ProgramData\Alstom\ICONIS\S2K\Server\Instrumentation\Post Mortem</Property>
+<Property name="Filename" dt:dt="string">*.dmp</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>
+

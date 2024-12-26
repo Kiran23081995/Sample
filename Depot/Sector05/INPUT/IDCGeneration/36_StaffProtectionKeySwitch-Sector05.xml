@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="StaffProtectionKeySwitch" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="SPKS4001" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Plateform_ID" dt:dt="string">SP4001 At Platform Depot</Property>
+</Properties>
+</Object>
+<Object name="SPKS4002" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Plateform_ID" dt:dt="string">SP4002 At Platform Depot</Property>
+</Properties>
+</Object>
+<Object name="SPKS4003" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Plateform_ID" dt:dt="string">SP4003 At Platform Depot</Property>
+</Properties>
+</Object>
+<Object name="SPKS4004" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Plateform_ID" dt:dt="string">SP4004 At Platform Depot</Property>
+</Properties>
+</Object>
+<Object name="SPKS4005" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Plateform_ID" dt:dt="string">SP4005 At Platform Depot</Property>
+</Properties>
+</Object>
+<Object name="SPKS4006" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Plateform_ID" dt:dt="string">SP4006 At Platform Depot</Property>
+</Properties>
+</Object>
+<Object name="SPKS4007" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Plateform_ID" dt:dt="string">SP4007 At Platform Depot</Property>
+</Properties>
+</Object>
+<Object name="SPKS4008" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Plateform_ID" dt:dt="string">SP4008 At Platform Depot</Property>
+</Properties>
+</Object>
+<Object name="SPKS4009" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Plateform_ID" dt:dt="string">SP4009 At Platform Depot</Property>
+</Properties>
+</Object>
+<Object name="SPKS4010" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Plateform_ID" dt:dt="string">SP4010 At Platform Depot</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

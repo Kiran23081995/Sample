@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SignallingRules name="SigRules.xml" version="B" date="juil 22 2003  2:58PM" comment="">
+<Equipment name="SUP_KCD_Firewall_Connected" type="SUPVariable" flavor="SUP">
+	<States>
+	  <Equation>2 :: (??SUP_KCD_FirewallConnection &amp;&amp; SUP_KCD_FirewallConnection == 2)</Equation>
+	  <Equation>1 :: (??SUP_KCD_FirewallConnection &amp;&amp; SUP_KCD_FirewallConnection == 1)</Equation>
+	  <Equation>0 :: 1</Equation>
+	</States>
+	<StateAlarms>
+	<Equation>MSG_DEPOT_SUP_ONE_FIREWALL_FAILED[1] :: ((?? SUP_KCD_FirewallConnection) &amp;&amp; (SUP_KCD_FirewallConnection == 1))</Equation>
+	<Equation>MSG_DEPOT_SUP_BOTH_FIREWALL_FAILED[0] :: (!(?? SUP_KCD_FirewallConnection) || ((?? SUP_KCD_FirewallConnection) &amp;&amp; !(SUP_KCD_FirewallConnection == 1) &amp;&amp; !(SUP_KCD_FirewallConnection == 2)))</Equation>
+	</StateAlarms>
+</Equipment>
+</SignallingRules>

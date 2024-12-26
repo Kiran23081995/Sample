@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="OPCGroup">
+<Objects>
+<Object name="OCC_S2K_GROUP" rules="update_or_create">
+<Properties>
+<Property name="OPCClientRef" dt:dt="string">OCC_S2K</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">OCC_S2K_GROUP</Property>
+</Properties>
+</Object>
+<Object name="SECTOR04_S2K_GROUP" rules="update_or_create">
+<Properties>
+<Property name="OPCClientRef" dt:dt="string">SECTOR04_S2K</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">SECTOR04_S2K_GROUP</Property>
+</Properties>
+</Object>
+<Object name="SECTOR07_S2K_GROUP" rules="update_or_create">
+<Properties>
+<Property name="OPCClientRef" dt:dt="string">SECTOR07_S2K</Property>
+<Property name="SharedOnIdentifier" dt:dt="string">SECTOR07_S2K_GROUP</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+<Class name="S2KDPO.S2KStringProcessVariable" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="S2KPV_ATD_RIGHT_RT3_S04" rules="update_or_create" traces="error"/>
+<Object name="S2KPV_ATD_RIGHT_RT4_S04" rules="update_or_create" traces="error"/>
+<Object name="S2KPV_ATD_LEFT_RT2_S07" rules="update_or_create" traces="error"/>
+<Object name="S2KPV_ATD_LEFT_RT1_S07" rules="update_or_create" traces="error"/>
+<Object name="S2KPV_ATD_RIGHT_RT3_OCC" rules="update_or_create" traces="error"/>
+<Object name="S2KPV_ATD_RIGHT_RT4_OCC" rules="update_or_create" traces="error"/>
+<Object name="S2KPV_ATD_LEFT_RT2_OCC" rules="update_or_create" traces="error"/>
+<Object name="S2KPV_ATD_LEFT_RT1_OCC" rules="update_or_create" traces="error"/>
+</Objects>
+</Class> 
+<Class name="Variable" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="S2KPV_ATD_RIGHT_RT3_S04" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BSTR</Property>
+<Property name="OPCGroupID" dt:dt="string">SECTOR04_S2K_GROUP</Property>
+<Property name="OPCGroup" dt:dt="string">Self</Property>
+<Property name="OPCTag" dt:dt="string">ATD_S04-ATL-S05_RT3.ATD.ATD.bstrXML</Property>
+</Properties>
+</Object>
+<Object name="S2KPV_ATD_RIGHT_RT4_S04" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BSTR</Property>
+<Property name="OPCGroupID" dt:dt="string">SECTOR04_S2K_GROUP</Property>
+<Property name="OPCGroup" dt:dt="string">Self</Property>
+<Property name="OPCTag" dt:dt="string">ATD_S04-ATL-S05_RT4.ATD.ATD.bstrXML</Property>
+</Properties>
+</Object>
+<Object name="S2KPV_ATD_LEFT_RT2_S07" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BSTR</Property>
+<Property name="OPCGroupID" dt:dt="string">SECTOR07_S2K_GROUP</Property>
+<Property name="OPCGroup" dt:dt="string">Self</Property>
+<Property name="OPCTag" dt:dt="string">ATD_S07-ATL-S05_RT2.ATD.ATD.bstrXML</Property>
+</Properties>
+</Object>
+<Object name="S2KPV_ATD_LEFT_RT1_S07" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BSTR</Property>
+<Property name="OPCGroupID" dt:dt="string">SECTOR07_S2K_GROUP</Property>
+<Property name="OPCGroup" dt:dt="string">Self</Property>
+<Property name="OPCTag" dt:dt="string">ATD_S07-ATL-S05_RT1.ATD.ATD.bstrXML</Property>
+</Properties>
+</Object>
+<Object name="S2KPV_ATD_RIGHT_RT3_OCC" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BSTR</Property>
+<Property name="OPCGroupID" dt:dt="string">OCC_S2K_GROUP</Property>
+<Property name="OPCGroup" dt:dt="string">Self</Property>
+<Property name="OPCTag" dt:dt="string">ATD_RIGHT_RT3_OCC.ATD.ATD.bstrXML</Property>
+</Properties>
+</Object>
+<Object name="S2KPV_ATD_RIGHT_RT4_OCC" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BSTR</Property>
+<Property name="OPCGroupID" dt:dt="string">OCC_S2K_GROUP</Property>
+<Property name="OPCGroup" dt:dt="string">Self</Property>
+<Property name="OPCTag" dt:dt="string">ATD_RIGHT_RT4_OCC.ATD.ATD.bstrXML</Property>
+</Properties>
+</Object>
+<Object name="S2KPV_ATD_LEFT_RT2_OCC" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BSTR</Property>
+<Property name="OPCGroupID" dt:dt="string">OCC_S2K_GROUP</Property>
+<Property name="OPCGroup" dt:dt="string">Self</Property>
+<Property name="OPCTag" dt:dt="string">ATD_LEFT_RT2_OCC.ATD.ATD.bstrXML</Property>
+</Properties>
+</Object>
+<Object name="S2KPV_ATD_LEFT_RT1_OCC" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Type" dt:dt="string">RM</Property>
+<Property name="OPCType" dt:dt="string">VT_BSTR</Property>
+<Property name="OPCGroupID" dt:dt="string">OCC_S2K_GROUP</Property>
+<Property name="OPCGroup" dt:dt="string">Self</Property>
+<Property name="OPCTag" dt:dt="string">ATD_LEFT_RT1_OCC.ATD.ATD.bstrXML</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="Equipment.xml" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="TPU300Blinking" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="TI_0600.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0601_POINT_0603_Nh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0601_POINT_0603_Rh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0601_POINT_0603_Tip.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0602_POINT_0609_Nh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0602_POINT_0609_Rh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0602_POINT_0609_Tip.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0603_POINT_0604_Nh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0603_POINT_0604_Rh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0603_POINT_0604_Tip.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0611_POINT_0608_Nh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0611_POINT_0608_Rh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0611_POINT_0608_Tip.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0612_POINT_0611_Nh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0612_POINT_0611_Rh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0612_POINT_0611_Tip.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0616_POINT_0614_Nh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0616_POINT_0614_Rh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0616_POINT_0614_Tip.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0619_POINT_0616_Nh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0619_POINT_0616_Rh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0619_POINT_0616_Tip.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0622.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0623.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0624.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0625_POINT_0619_Nh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0625_POINT_0619_Rh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0625_POINT_0619_Tip.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0626_POINT_0620_Nh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0626_POINT_0620_Rh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0626_POINT_0620_Tip.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0627_POINT_0622_Nh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0627_POINT_0622_Rh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0627_POINT_0622_Tip.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0628_POINT_0623_Nh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0628_POINT_0623_Rh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0628_POINT_0623_Tip.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0629.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0630.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0631.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0632.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0633.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0634.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0635.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0636.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0637.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0638.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0639.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0640_POINT_0624_Nh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0640_POINT_0624_Rh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0640_POINT_0624_Tip.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0641.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0642.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0643.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0644_POINT_0625_Nh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0644_POINT_0625_Rh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0644_POINT_0625_Tip.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0645.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0646_POINT_0627_Nh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0646_POINT_0627_Rh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0646_POINT_0627_Tip.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0647_POINT_0626_Nh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0647_POINT_0626_Rh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0647_POINT_0626_Tip.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0648.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0649.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0650_POINT_0628_Nh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0650_POINT_0628_Rh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0650_POINT_0628_Tip.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0651_POINT_0631_Nh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0651_POINT_0631_Rh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0651_POINT_0631_Tip.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0652_POINT_0630_Nh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0652_POINT_0630_Rh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0652_POINT_0630_Tip.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0656.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0657_POINT_0635_Nh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0657_POINT_0635_Rh.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+<Object name="TI_0657_POINT_0635_Tip.Blink" rules="update_or_create">
+<Properties>
+<Property name="AreaGroup" dt:dt="string">Area/KCD</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

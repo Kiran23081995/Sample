@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="AlarmScript" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="ISCSAlarm" rules="update_or_create" traces="error">
+<Properties>
+<Property name="OPCMTEClientID" dt:dt="string">ISCS</Property>
+<Property name="AdressInLevel1" dt:dt="string">ISCS_TrainTable</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

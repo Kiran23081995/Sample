@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2015 sp1 (x64) (http://www.altova.com) by adminlocal (ALSTOM transport sa) -->
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="HSMPlatform" rules="update_or_create" traces="error">
+<Objects>
+<Object name="TTA_MT_T0524.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">TTA_MT_T0524</Property>
+<Property name="Name" dt:dt="string">TTA_MT_T0524.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="TTB_MT_T0548.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">TTB_MT_T0548</Property>
+<Property name="Name" dt:dt="string">TTB_MT_T0548.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S8A_T0556.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S8A_T0556</Property>
+<Property name="Name" dt:dt="string">KCD_S8A_T0556.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S8B_T0522.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S8B_T0522</Property>
+<Property name="Name" dt:dt="string">KCD_S8B_T0522.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S8C_T0525.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S8C_T0525</Property>
+<Property name="Name" dt:dt="string">KCD_S8C_T0525.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S8D_T0532.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S8D_T0532</Property>
+<Property name="Name" dt:dt="string">KCD_S8D_T0532.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S8E_T0537.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S8E_T0537</Property>
+<Property name="Name" dt:dt="string">KCD_S8E_T0537.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S8F_T0542.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S8F_T0542</Property>
+<Property name="Name" dt:dt="string">KCD_S8F_T0542.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S9A_T0526.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S9A_T0526</Property>
+<Property name="Name" dt:dt="string">KCD_S9A_T0526.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S9B_T0529.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S9B_T0529</Property>
+<Property name="Name" dt:dt="string">KCD_S9B_T0529.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S9C_T0534.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S9C_T0534</Property>
+<Property name="Name" dt:dt="string">KCD_S9C_T0534.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S9D_T0538.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S9D_T0538</Property>
+<Property name="Name" dt:dt="string">KCD_S9D_T0538.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S9E_T0544.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S9E_T0544</Property>
+<Property name="Name" dt:dt="string">KCD_S9E_T0544.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S10A_T0527.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S10A_T0527</Property>
+<Property name="Name" dt:dt="string">KCD_S10A_T0527.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S10B_T0530.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S10B_T0530</Property>
+<Property name="Name" dt:dt="string">KCD_S10B_T0530.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S10C_T0535.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S10C_T0535</Property>
+<Property name="Name" dt:dt="string">KCD_S10C_T0535.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S10D_T0539.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S10D_T0539</Property>
+<Property name="Name" dt:dt="string">KCD_S10D_T0539.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S10E_T0545.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S10E_T0545</Property>
+<Property name="Name" dt:dt="string">KCD_S10E_T0545.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S11A_T0528.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S11A_T0528</Property>
+<Property name="Name" dt:dt="string">KCD_S11A_T0528.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S11B_T0533.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S11B_T0533</Property>
+<Property name="Name" dt:dt="string">KCD_S11B_T0533.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S11C_T0540.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S11C_T0540</Property>
+<Property name="Name" dt:dt="string">KCD_S11C_T0540.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_S11D_T0543.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_S11D_T0543</Property>
+<Property name="Name" dt:dt="string">KCD_S11D_T0543.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_IPTT_T0510.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_IPTT_T0510</Property>
+<Property name="Name" dt:dt="string">KCD_IPTT_T0510.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_EE2A_T0656.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE2A_T0656</Property>
+<Property name="Name" dt:dt="string">KCD_EE2A_T0656.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_EE2B_T0641.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE2B_T0641</Property>
+<Property name="Name" dt:dt="string">KCD_EE2B_T0641.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_EE3A_T0634.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE3A_T0634</Property>
+<Property name="Name" dt:dt="string">KCD_EE3A_T0634.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_EE3B_T0642.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE3B_T0642</Property>
+<Property name="Name" dt:dt="string">KCD_EE3B_T0642.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_EE3C_T0648.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE3C_T0648</Property>
+<Property name="Name" dt:dt="string">KCD_EE3C_T0648.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_EE4A_T0635.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE4A_T0635</Property>
+<Property name="Name" dt:dt="string">KCD_EE4A_T0635.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_EE4B_T0643.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE4B_T0643</Property>
+<Property name="Name" dt:dt="string">KCD_EE4B_T0643.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_EE4C_T0649.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE4C_T0649</Property>
+<Property name="Name" dt:dt="string">KCD_EE4C_T0649.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_EE5A_T0636.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE5A_T0636</Property>
+<Property name="Name" dt:dt="string">KCD_EE5A_T0636.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_EE5B_T0645.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_EE5B_T0645</Property>
+<Property name="Name" dt:dt="string">KCD_EE5B_T0645.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_WE7A_T0629.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE7A_T0629</Property>
+<Property name="Name" dt:dt="string">KCD_WE7A_T0629.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_WE7B_T0638.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE7B_T0638</Property>
+<Property name="Name" dt:dt="string">KCD_WE7B_T0638.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_WE8A_T0630.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE8A_T0630</Property>
+<Property name="Name" dt:dt="string">KCD_WE8A_T0630.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_WE8B_T0639.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE8B_T0639</Property>
+<Property name="Name" dt:dt="string">KCD_WE8B_T0639.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_WE9A_T0622.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE9A_T0622</Property>
+<Property name="Name" dt:dt="string">KCD_WE9A_T0622.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_WE9B_T0631.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE9B_T0631</Property>
+<Property name="Name" dt:dt="string">KCD_WE9B_T0631.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_WE10A_T0623.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE10A_T0623</Property>
+<Property name="Name" dt:dt="string">KCD_WE10A_T0623.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_WE10B_T0632.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE10B_T0632</Property>
+<Property name="Name" dt:dt="string">KCD_WE10B_T0632.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_WE11A_T0624.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE11A_T0624</Property>
+<Property name="Name" dt:dt="string">KCD_WE11A_T0624.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_WE11B_T0633.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE11B_T0633</Property>
+<Property name="Name" dt:dt="string">KCD_WE11B_T0633.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+<Object name="KCD_WE6A_T0637.HSMPlatform" rules="update_or_create" traces="error">
+<Properties>
+<Property name="GenericAreaID" dt:dt="string">KCD_WE6A_T0637</Property>
+<Property name="Name" dt:dt="string">KCD_WE6A_T0637.HSMPlatform</Property>
+<MultiLingualProperty name="NameAlarmEvent" dt:dt="string">
+<MultiLingualValue localeId="1033" roleId="-1">CKCD/SIG/ATS/-</MultiLingualValue>
+</MultiLingualProperty>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>

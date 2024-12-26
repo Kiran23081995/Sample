@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPropertyModule name="ICONIS" version="3.6" date="" comment="no comment" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<Classes>
+<Class name="ArsPointArea" rules="update_or_create" traces="error" >
+<Objects>
+<Object name="ARSArea04" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Name" dt:dt="string">SIGArea04</Property>
+</Properties>
+</Object>
+<Object name="ARSArea05" rules="update_or_create" traces="error">
+<Properties>
+<Property name="SigPointMode" dt:dt="string">SIGArea05</Property>
+<Property name="Name" dt:dt="string">SIGArea05</Property>
+</Properties>
+</Object>
+<Object name="ARSArea06" rules="update_or_create" traces="error">
+<Properties>
+<Property name="SigPointMode" dt:dt="string">SIGArea06</Property>
+<Property name="Name" dt:dt="string">SIGArea06</Property>
+</Properties>
+</Object>
+<Object name="ARSArea07" rules="update_or_create" traces="error">
+<Properties>
+<Property name="Name" dt:dt="string">SIGArea07</Property>
+</Properties>
+</Object>
+</Objects>
+</Class>
+</Classes>
+</ObjectPropertyModule>
